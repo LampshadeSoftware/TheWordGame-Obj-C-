@@ -185,7 +185,7 @@
         <!--Launch-->
         <scene sceneID="AI1-Mk-bbv">
             <objects>
-                <viewController title="Launch" id="sAn-Nl-tCN" customClass="SWRevealViewControler" sceneMemberID="viewController">
+                <viewController title="Launch" id="sAn-Nl-tCN" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WGk-h2-6aW"/>
                         <viewControllerLayoutGuide type="bottom" id="6LZ-N0-6oi"/>
@@ -1268,10 +1268,10 @@
         <image name="Trophy.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uGg-2Q-8Mn"/>
+        <segue reference="sd7-5M-TBb"/>
         <segue reference="Ivm-th-M9Q"/>
-        <segue reference="M60-Be-VlI"/>
         <segue reference="DMv-x8-Whq"/>
+        <segue reference="M60-Be-VlI"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
