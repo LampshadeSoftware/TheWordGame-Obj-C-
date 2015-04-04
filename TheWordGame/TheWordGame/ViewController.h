@@ -10,14 +10,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import <CoreAudioKit/CoreAudioKit.h>
 
-@interface ViewController : UIViewController <UITextFieldDelegate>
+@interface ViewController : UIViewController 
 
-
-@property (weak, nonatomic) IBOutlet UITextField *textBoxValue;
-@property (weak, nonatomic) IBOutlet UILabel *currentWordValue;
-@property (weak, nonatomic) IBOutlet UILabel *invalidWordLog;
-@property (weak, nonatomic) IBOutlet UILabel *lastWord0;
-@property (weak, nonatomic) IBOutlet UILabel *lastWord1;
-@property (weak, nonatomic) IBOutlet UILabel *lastWord2;
 
 @end
