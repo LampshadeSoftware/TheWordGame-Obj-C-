@@ -23,10 +23,11 @@
 		BA34988B1AD06A51001BDBB8 /* Trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = BA34987D1AD06A51001BDBB8 /* Trophy.png */; };
 		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
 		BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5181AD03E21005A9B54 /* QuartzCore.framework */; };
+		CC77B23C1AD0779F00BABE6B /* Dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC77B23B1AD0779F00BABE6B /* Dictionary.txt */; };
+		CC77B23F1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */; };
 		CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD51ACC3AF0006E93B3 /* main.m */; };
 		CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */; };
 		CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */; };
-		CCA90BDF1ACC3AF0006E93B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BDE1ACC3AF0006E93B3 /* ViewController.m */; };
 		CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */; };
 		CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */; };
 		CCA90BF31ACC3AF0006E93B3 /* TheWordGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */; };
@@ -60,14 +61,15 @@
 		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
 		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC77B23B1AD0779F00BABE6B /* Dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dictionary.txt; sourceTree = "<group>"; };
+		CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePlayerFreePlayViewController.h; sourceTree = "<group>"; };
+		CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerFreePlayViewController.m; sourceTree = "<group>"; };
 		CCA90BD01ACC3AF0006E93B3 /* TheWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA90BD41ACC3AF0006E93B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA90BD51ACC3AF0006E93B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCA90BD71ACC3AF0006E93B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CCA90BDB1ACC3AF0006E93B3 /* TheWordGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheWordGame.xcdatamodel; sourceTree = "<group>"; };
-		CCA90BDD1ACC3AF0006E93B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CCA90BDE1ACC3AF0006E93B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CCA90BE11ACC3AF0006E93B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,16 +141,17 @@
 		CCA90BD21ACC3AF0006E93B3 /* TheWordGame */ = {
 			isa = PBXGroup;
 			children = (
+				CC77B23B1AD0779F00BABE6B /* Dictionary.txt */,
 				CC03E9E71AD069C50068B980 /* Images */,
 				CCA90BD71ACC3AF0006E93B3 /* AppDelegate.h */,
 				CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */,
-				CCA90BDD1ACC3AF0006E93B3 /* ViewController.h */,
-				CCA90BDE1ACC3AF0006E93B3 /* ViewController.m */,
 				CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */,
 				CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */,
 				CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */,
 				CCA90BD31ACC3AF0006E93B3 /* Supporting Files */,
 				BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */,
+				CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */,
+				CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */,
 			);
 			path = TheWordGame;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				BA3498821AD06A51001BDBB8 /* House White.png in Resources */,
 				BA34987F1AD06A51001BDBB8 /* Dots.png in Resources */,
 				BA3498801AD06A51001BDBB8 /* Home.png in Resources */,
+				CC77B23C1AD0779F00BABE6B /* Dictionary.txt in Resources */,
 				BA3498881AD06A51001BDBB8 /* Right.png in Resources */,
 				BA34987E1AD06A51001BDBB8 /* Close.png in Resources */,
 				BA3498861AD06A51001BDBB8 /* Market.png in Resources */,
@@ -294,7 +298,7 @@
 			files = (
 				CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */,
 				CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */,
-				CCA90BDF1ACC3AF0006E93B3 /* ViewController.m in Sources */,
+				CC77B23F1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m in Sources */,
 				CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
