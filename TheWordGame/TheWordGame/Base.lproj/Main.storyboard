@@ -480,7 +480,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1566" y="343.5"/>
+            <point key="canvasLocation" x="1470" y="343.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1B5-qG-5Tb">
@@ -643,7 +643,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VhX-YC-sOe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2185.5" y="343.5"/>
+            <point key="canvasLocation" x="2383.5" y="343.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gWc-x3-XN1">
@@ -1268,8 +1268,13 @@
         <image name="Trophy.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
+<<<<<<< Updated upstream
         <segue reference="Snp-Jh-6kj"/>
         <segue reference="sd7-5M-TBb"/>
+=======
+        <segue reference="sd7-5M-TBb"/>
+        <segue reference="Ivm-th-M9Q"/>
+>>>>>>> Stashed changes
         <segue reference="M60-Be-VlI"/>
         <segue reference="DMv-x8-Whq"/>
     </inferredMetricsTieBreakers>
