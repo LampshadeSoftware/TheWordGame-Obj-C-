@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA34987E1AD06A51001BDBB8 /* Close.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498701AD06A51001BDBB8 /* Close.png */; };
+		BA34987F1AD06A51001BDBB8 /* Dots.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498711AD06A51001BDBB8 /* Dots.png */; };
+		BA3498801AD06A51001BDBB8 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498721AD06A51001BDBB8 /* Home.png */; };
+		BA3498811AD06A51001BDBB8 /* House Black.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498731AD06A51001BDBB8 /* House Black.png */; };
+		BA3498821AD06A51001BDBB8 /* House White.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498741AD06A51001BDBB8 /* House White.png */; };
+		BA3498831AD06A51001BDBB8 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498751AD06A51001BDBB8 /* Info.png */; };
+		BA3498841AD06A51001BDBB8 /* Instructions Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498761AD06A51001BDBB8 /* Instructions Icon.png */; };
+		BA3498851AD06A51001BDBB8 /* Left.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498771AD06A51001BDBB8 /* Left.png */; };
+		BA3498861AD06A51001BDBB8 /* Market.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498781AD06A51001BDBB8 /* Market.png */; };
+		BA3498871AD06A51001BDBB8 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498791AD06A51001BDBB8 /* Menu.png */; };
+		BA3498881AD06A51001BDBB8 /* Right.png in Resources */ = {isa = PBXBuildFile; fileRef = BA34987A1AD06A51001BDBB8 /* Right.png */; };
+		BA3498891AD06A51001BDBB8 /* Single player.png in Resources */ = {isa = PBXBuildFile; fileRef = BA34987B1AD06A51001BDBB8 /* Single player.png */; };
+		BA34988A1AD06A51001BDBB8 /* Stats.png in Resources */ = {isa = PBXBuildFile; fileRef = BA34987C1AD06A51001BDBB8 /* Stats.png */; };
+		BA34988B1AD06A51001BDBB8 /* Trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = BA34987D1AD06A51001BDBB8 /* Trophy.png */; };
 		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
 		BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5181AD03E21005A9B54 /* QuartzCore.framework */; };
 		CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD51ACC3AF0006E93B3 /* main.m */; };
@@ -29,6 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA3498701AD06A51001BDBB8 /* Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Close.png; path = Images/Close.png; sourceTree = SOURCE_ROOT; };
+		BA3498711AD06A51001BDBB8 /* Dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dots.png; path = Images/Dots.png; sourceTree = SOURCE_ROOT; };
+		BA3498721AD06A51001BDBB8 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = Images/Home.png; sourceTree = SOURCE_ROOT; };
+		BA3498731AD06A51001BDBB8 /* House Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House Black.png"; path = "Images/House Black.png"; sourceTree = SOURCE_ROOT; };
+		BA3498741AD06A51001BDBB8 /* House White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House White.png"; path = "Images/House White.png"; sourceTree = SOURCE_ROOT; };
+		BA3498751AD06A51001BDBB8 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Info.png; path = Images/Info.png; sourceTree = SOURCE_ROOT; };
+		BA3498761AD06A51001BDBB8 /* Instructions Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Instructions Icon.png"; path = "Images/Instructions Icon.png"; sourceTree = SOURCE_ROOT; };
+		BA3498771AD06A51001BDBB8 /* Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Left.png; path = Images/Left.png; sourceTree = SOURCE_ROOT; };
+		BA3498781AD06A51001BDBB8 /* Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Market.png; path = Images/Market.png; sourceTree = SOURCE_ROOT; };
+		BA3498791AD06A51001BDBB8 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Menu.png; path = Images/Menu.png; sourceTree = SOURCE_ROOT; };
+		BA34987A1AD06A51001BDBB8 /* Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Right.png; path = Images/Right.png; sourceTree = SOURCE_ROOT; };
+		BA34987B1AD06A51001BDBB8 /* Single player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Single player.png"; path = "Images/Single player.png"; sourceTree = SOURCE_ROOT; };
+		BA34987C1AD06A51001BDBB8 /* Stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stats.png; path = Images/Stats.png; sourceTree = SOURCE_ROOT; };
+		BA34987D1AD06A51001BDBB8 /* Trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trophy.png; path = Images/Trophy.png; sourceTree = SOURCE_ROOT; };
 		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
 		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -70,6 +98,20 @@
 		CC03E9E71AD069C50068B980 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BA3498701AD06A51001BDBB8 /* Close.png */,
+				BA3498711AD06A51001BDBB8 /* Dots.png */,
+				BA3498721AD06A51001BDBB8 /* Home.png */,
+				BA3498731AD06A51001BDBB8 /* House Black.png */,
+				BA3498741AD06A51001BDBB8 /* House White.png */,
+				BA3498751AD06A51001BDBB8 /* Info.png */,
+				BA3498761AD06A51001BDBB8 /* Instructions Icon.png */,
+				BA3498771AD06A51001BDBB8 /* Left.png */,
+				BA3498781AD06A51001BDBB8 /* Market.png */,
+				BA3498791AD06A51001BDBB8 /* Menu.png */,
+				BA34987A1AD06A51001BDBB8 /* Right.png */,
+				BA34987B1AD06A51001BDBB8 /* Single player.png */,
+				BA34987C1AD06A51001BDBB8 /* Stats.png */,
+				BA34987D1AD06A51001BDBB8 /* Trophy.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -217,8 +259,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3498871AD06A51001BDBB8 /* Menu.png in Resources */,
 				CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */,
+				BA3498811AD06A51001BDBB8 /* House Black.png in Resources */,
+				BA34988B1AD06A51001BDBB8 /* Trophy.png in Resources */,
+				BA3498851AD06A51001BDBB8 /* Left.png in Resources */,
+				BA3498821AD06A51001BDBB8 /* House White.png in Resources */,
+				BA34987F1AD06A51001BDBB8 /* Dots.png in Resources */,
+				BA3498801AD06A51001BDBB8 /* Home.png in Resources */,
+				BA3498881AD06A51001BDBB8 /* Right.png in Resources */,
+				BA34987E1AD06A51001BDBB8 /* Close.png in Resources */,
+				BA3498861AD06A51001BDBB8 /* Market.png in Resources */,
 				CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */,
+				BA34988A1AD06A51001BDBB8 /* Stats.png in Resources */,
+				BA3498891AD06A51001BDBB8 /* Single player.png in Resources */,
+				BA3498831AD06A51001BDBB8 /* Info.png in Resources */,
+				BA3498841AD06A51001BDBB8 /* Instructions Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
