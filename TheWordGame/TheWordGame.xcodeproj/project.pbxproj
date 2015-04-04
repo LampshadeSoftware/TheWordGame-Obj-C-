@@ -7,26 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA34986F1AD06831001BDBB8 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = BA34986E1AD06831001BDBB8 /* Home.png */; };
-		BA8CFE8F1ACEE6530089FAD4 /* Instructions Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA8CFE8E1ACEE6530089FAD4 /* Instructions Icon.png */; };
-		BA8CFE931ACEE9B90089FAD4 /* Swipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BA8CFE921ACEE9B90089FAD4 /* Swipe.png */; };
-		BAB5040A1AD0573C00EB8C39 /* House Black.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB504081AD0573C00EB8C39 /* House Black.png */; };
-		BAB5040B1AD0573C00EB8C39 /* House White.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB504091AD0573C00EB8C39 /* House White.png */; };
-		BAB5040D1AD05B2500EB8C39 /* BG1.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB5040C1AD05B2500EB8C39 /* BG1.png */; };
-		BABCE50B1AD03672005A9B54 /* Bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5061AD03672005A9B54 /* Bulb.png */; };
-		BABCE50C1AD03672005A9B54 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5071AD03672005A9B54 /* Info.png */; };
-		BABCE50D1AD03672005A9B54 /* Market.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5081AD03672005A9B54 /* Market.png */; };
-		BABCE50E1AD03672005A9B54 /* Single player.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5091AD03672005A9B54 /* Single player.png */; };
-		BABCE50F1AD03672005A9B54 /* Trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE50A1AD03672005A9B54 /* Trophy.png */; };
-		BABCE5111AD03716005A9B54 /* Stats.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5101AD03716005A9B54 /* Stats.png */; };
-		BABCE5131AD03888005A9B54 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5121AD03888005A9B54 /* Home.png */; };
 		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
 		BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5181AD03E21005A9B54 /* QuartzCore.framework */; };
-		BADCBB8D1ACF00750047B3A1 /* Close.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB881ACF00750047B3A1 /* Close.png */; };
-		BADCBB8E1ACF00750047B3A1 /* Dots.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB891ACF00750047B3A1 /* Dots.png */; };
-		BADCBB8F1ACF00750047B3A1 /* Left.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB8A1ACF00750047B3A1 /* Left.png */; };
-		BADCBB901ACF00750047B3A1 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB8B1ACF00750047B3A1 /* Menu.png */; };
-		BADCBB911ACF00750047B3A1 /* Right.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB8C1ACF00750047B3A1 /* Right.png */; };
 		CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD51ACC3AF0006E93B3 /* main.m */; };
 		CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */; };
 		CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */; };
@@ -47,27 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA34986E1AD06831001BDBB8 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = "../../../Desktop/Word Game/Icons/Home.png"; sourceTree = "<group>"; };
-		BA8CFE8E1ACEE6530089FAD4 /* Instructions Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Instructions Icon.png"; path = "../../../Word Game/Instructions/Instructions Icon.png"; sourceTree = "<group>"; };
-		BA8CFE921ACEE9B90089FAD4 /* Swipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Swipe.png; path = "../../../Word Game/Instructions/Swipe.png"; sourceTree = "<group>"; };
-		BAB504081AD0573C00EB8C39 /* House Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House Black.png"; path = "../../../Word Game/Icons/House Black.png"; sourceTree = "<group>"; };
-		BAB504091AD0573C00EB8C39 /* House White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House White.png"; path = "../../../Word Game/Icons/House White.png"; sourceTree = "<group>"; };
-		BAB5040C1AD05B2500EB8C39 /* BG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG1.png; path = "../../../Word Game/UI/BG1.png"; sourceTree = "<group>"; };
-		BABCE5061AD03672005A9B54 /* Bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bulb.png; path = "../../../Word Game/Icons/Bulb.png"; sourceTree = "<group>"; };
-		BABCE5071AD03672005A9B54 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Info.png; path = "../../../Word Game/Icons/Info.png"; sourceTree = "<group>"; };
-		BABCE5081AD03672005A9B54 /* Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Market.png; path = "../../../Word Game/Icons/Market.png"; sourceTree = "<group>"; };
-		BABCE5091AD03672005A9B54 /* Single player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Single player.png"; path = "../../../Word Game/Icons/Single player.png"; sourceTree = "<group>"; };
-		BABCE50A1AD03672005A9B54 /* Trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trophy.png; path = "../../../Word Game/Icons/Trophy.png"; sourceTree = "<group>"; };
-		BABCE5101AD03716005A9B54 /* Stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stats.png; path = "../../../Word Game/Icons/Stats.png"; sourceTree = "<group>"; };
-		BABCE5121AD03888005A9B54 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = "../../../Word Game/Icons/Home.png"; sourceTree = "<group>"; };
 		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
 		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BADCBB881ACF00750047B3A1 /* Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Close.png; path = "../../../Word Game/Icons/Close.png"; sourceTree = "<group>"; };
-		BADCBB891ACF00750047B3A1 /* Dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dots.png; path = "../../../Word Game/Icons/Dots.png"; sourceTree = "<group>"; };
-		BADCBB8A1ACF00750047B3A1 /* Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Left.png; path = "../../../Word Game/Icons/Left.png"; sourceTree = "<group>"; };
-		BADCBB8B1ACF00750047B3A1 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Menu.png; path = "../../../Word Game/Icons/Menu.png"; sourceTree = "<group>"; };
-		BADCBB8C1ACF00750047B3A1 /* Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Right.png; path = "../../../Word Game/Icons/Right.png"; sourceTree = "<group>"; };
 		CCA90BD01ACC3AF0006E93B3 /* TheWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA90BD41ACC3AF0006E93B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA90BD51ACC3AF0006E93B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +67,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC03E9E71AD069C50068B980 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		CCA90BC71ACC3AF0006E93B3 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +97,7 @@
 		CCA90BD21ACC3AF0006E93B3 /* TheWordGame */ = {
 			isa = PBXGroup;
 			children = (
+				CC03E9E71AD069C50068B980 /* Images */,
 				CCA90BD71ACC3AF0006E93B3 /* AppDelegate.h */,
 				CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */,
 				CCA90BDD1ACC3AF0006E93B3 /* ViewController.h */,
@@ -142,24 +114,6 @@
 		CCA90BD31ACC3AF0006E93B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA34986E1AD06831001BDBB8 /* Home.png */,
-				BAB5040C1AD05B2500EB8C39 /* BG1.png */,
-				BAB504081AD0573C00EB8C39 /* House Black.png */,
-				BAB504091AD0573C00EB8C39 /* House White.png */,
-				BABCE5121AD03888005A9B54 /* Home.png */,
-				BABCE5101AD03716005A9B54 /* Stats.png */,
-				BABCE5061AD03672005A9B54 /* Bulb.png */,
-				BABCE5071AD03672005A9B54 /* Info.png */,
-				BABCE5081AD03672005A9B54 /* Market.png */,
-				BABCE5091AD03672005A9B54 /* Single player.png */,
-				BABCE50A1AD03672005A9B54 /* Trophy.png */,
-				BADCBB881ACF00750047B3A1 /* Close.png */,
-				BADCBB891ACF00750047B3A1 /* Dots.png */,
-				BADCBB8A1ACF00750047B3A1 /* Left.png */,
-				BADCBB8B1ACF00750047B3A1 /* Menu.png */,
-				BADCBB8C1ACF00750047B3A1 /* Right.png */,
-				BA8CFE921ACEE9B90089FAD4 /* Swipe.png */,
-				BA8CFE8E1ACEE6530089FAD4 /* Instructions Icon.png */,
 				CCA90BD41ACC3AF0006E93B3 /* Info.plist */,
 				CCA90BD51ACC3AF0006E93B3 /* main.m */,
 			);
@@ -263,26 +217,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BADCBB901ACF00750047B3A1 /* Menu.png in Resources */,
-				BAB5040D1AD05B2500EB8C39 /* BG1.png in Resources */,
-				BABCE50F1AD03672005A9B54 /* Trophy.png in Resources */,
-				BADCBB8D1ACF00750047B3A1 /* Close.png in Resources */,
-				BABCE50B1AD03672005A9B54 /* Bulb.png in Resources */,
-				BABCE5131AD03888005A9B54 /* Home.png in Resources */,
 				CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */,
-				BABCE50E1AD03672005A9B54 /* Single player.png in Resources */,
-				BADCBB8F1ACF00750047B3A1 /* Left.png in Resources */,
-				BABCE50C1AD03672005A9B54 /* Info.png in Resources */,
 				CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */,
-				BADCBB8E1ACF00750047B3A1 /* Dots.png in Resources */,
-				BA34986F1AD06831001BDBB8 /* Home.png in Resources */,
-				BAB5040A1AD0573C00EB8C39 /* House Black.png in Resources */,
-				BA8CFE8F1ACEE6530089FAD4 /* Instructions Icon.png in Resources */,
-				BABCE5111AD03716005A9B54 /* Stats.png in Resources */,
-				BABCE50D1AD03672005A9B54 /* Market.png in Resources */,
-				BAB5040B1AD0573C00EB8C39 /* House White.png in Resources */,
-				BA8CFE931ACEE9B90089FAD4 /* Swipe.png in Resources */,
-				BADCBB911ACF00750047B3A1 /* Right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
