@@ -10,12 +10,6 @@
 
 @interface ViewController ()
 
-BOOL isValidPlay(NSString *newWord, NSString *currentWord);
-BOOL restOfWordIsSame(NSString *newWord, NSString *currentWord, NSUInteger index, NSUInteger offset);
-BOOL isValidAdd(NSString *newWord, NSString *currentWord);
-BOOL isValidSub(NSString *newWord, NSString *currentWord);
-BOOL isValidSwap(NSString *newWord, NSString *currentWord);
-
 @end
 
 @implementation ViewController
