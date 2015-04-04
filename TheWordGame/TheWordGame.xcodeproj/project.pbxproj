@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA34986F1AD06831001BDBB8 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = BA34986E1AD06831001BDBB8 /* Home.png */; };
 		BA8CFE8F1ACEE6530089FAD4 /* Instructions Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA8CFE8E1ACEE6530089FAD4 /* Instructions Icon.png */; };
 		BA8CFE931ACEE9B90089FAD4 /* Swipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BA8CFE921ACEE9B90089FAD4 /* Swipe.png */; };
 		BAB5040A1AD0573C00EB8C39 /* House Black.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB504081AD0573C00EB8C39 /* House Black.png */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA34986E1AD06831001BDBB8 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = "../../../Desktop/Word Game/Icons/Home.png"; sourceTree = "<group>"; };
 		BA8CFE8E1ACEE6530089FAD4 /* Instructions Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Instructions Icon.png"; path = "../../../Word Game/Instructions/Instructions Icon.png"; sourceTree = "<group>"; };
 		BA8CFE921ACEE9B90089FAD4 /* Swipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Swipe.png; path = "../../../Word Game/Instructions/Swipe.png"; sourceTree = "<group>"; };
 		BAB504081AD0573C00EB8C39 /* House Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House Black.png"; path = "../../../Word Game/Icons/House Black.png"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		CCA90BD31ACC3AF0006E93B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BA34986E1AD06831001BDBB8 /* Home.png */,
 				BAB5040C1AD05B2500EB8C39 /* BG1.png */,
 				BAB504081AD0573C00EB8C39 /* House Black.png */,
 				BAB504091AD0573C00EB8C39 /* House White.png */,
@@ -272,6 +275,7 @@
 				BABCE50C1AD03672005A9B54 /* Info.png in Resources */,
 				CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */,
 				BADCBB8E1ACF00750047B3A1 /* Dots.png in Resources */,
+				BA34986F1AD06831001BDBB8 /* Home.png in Resources */,
 				BAB5040A1AD0573C00EB8C39 /* House Black.png in Resources */,
 				BA8CFE8F1ACEE6530089FAD4 /* Instructions Icon.png in Resources */,
 				BABCE5111AD03716005A9B54 /* Stats.png in Resources */,
