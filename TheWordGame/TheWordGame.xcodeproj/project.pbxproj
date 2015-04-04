@@ -33,32 +33,10 @@
 		CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */; };
 		CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */; };
 		CCA90BF31ACC3AF0006E93B3 /* TheWordGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */; };
-		CCD260CD1ACC4D7600217D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD260CC1ACC4D7600217D08 /* main.m */; };
-		CCD260D01ACC4D7600217D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD260CF1ACC4D7600217D08 /* AppDelegate.m */; };
-		CCD260D31ACC4D7600217D08 /* test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCD260D11ACC4D7600217D08 /* test.xcdatamodeld */; };
-		CCD260D61ACC4D7600217D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD260D51ACC4D7600217D08 /* ViewController.m */; };
-		CCD260D91ACC4D7600217D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD260D71ACC4D7600217D08 /* Main.storyboard */; };
-		CCD260DB1ACC4D7600217D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD260DA1ACC4D7600217D08 /* Images.xcassets */; };
-		CCD260DE1ACC4D7600217D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD260DC1ACC4D7600217D08 /* LaunchScreen.xib */; };
-		CCD260EA1ACC4D7600217D08 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD260E91ACC4D7600217D08 /* testTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		CCA90BED1ACC3AF0006E93B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CCA90BC81ACC3AF0006E93B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCA90BCF1ACC3AF0006E93B3;
-			remoteInfo = TheWordGame;
-		};
-		CCD260E41ACC4D7600217D08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CCA90BC81ACC3AF0006E93B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCD260C71ACC4D7500217D08;
-			remoteInfo = test;
-		};
-		CCD260F11ACC4D7C00217D08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CCA90BC81ACC3AF0006E93B3 /* Project object */;
 			proxyType = 1;
@@ -101,20 +79,6 @@
 		CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA90BF11ACC3AF0006E93B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheWordGameTests.m; sourceTree = "<group>"; };
-		CCD260C81ACC4D7500217D08 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCD260CB1ACC4D7600217D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCD260CC1ACC4D7600217D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CCD260CE1ACC4D7600217D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CCD260CF1ACC4D7600217D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CCD260D21ACC4D7600217D08 /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
-		CCD260D41ACC4D7600217D08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CCD260D51ACC4D7600217D08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CCD260D81ACC4D7600217D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCD260DA1ACC4D7600217D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CCD260DD1ACC4D7600217D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CCD260E31ACC4D7600217D08 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCD260E81ACC4D7600217D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCD260E91ACC4D7600217D08 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,20 +98,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCD260C51ACC4D7500217D08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCD260E01ACC4D7600217D08 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -158,8 +108,6 @@
 				BABCE5181AD03E21005A9B54 /* QuartzCore.framework */,
 				CCA90BD21ACC3AF0006E93B3 /* TheWordGame */,
 				CCA90BEF1ACC3AF0006E93B3 /* TheWordGameTests */,
-				CCD260C91ACC4D7500217D08 /* test */,
-				CCD260E61ACC4D7600217D08 /* testTests */,
 				CCA90BD11ACC3AF0006E93B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -169,8 +117,6 @@
 			children = (
 				CCA90BD01ACC3AF0006E93B3 /* TheWordGame.app */,
 				CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */,
-				CCD260C81ACC4D7500217D08 /* test.app */,
-				CCD260E31ACC4D7600217D08 /* testTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,48 +180,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CCD260C91ACC4D7500217D08 /* test */ = {
-			isa = PBXGroup;
-			children = (
-				CCD260CE1ACC4D7600217D08 /* AppDelegate.h */,
-				CCD260CF1ACC4D7600217D08 /* AppDelegate.m */,
-				CCD260D41ACC4D7600217D08 /* ViewController.h */,
-				CCD260D51ACC4D7600217D08 /* ViewController.m */,
-				CCD260D71ACC4D7600217D08 /* Main.storyboard */,
-				CCD260DA1ACC4D7600217D08 /* Images.xcassets */,
-				CCD260DC1ACC4D7600217D08 /* LaunchScreen.xib */,
-				CCD260D11ACC4D7600217D08 /* test.xcdatamodeld */,
-				CCD260CA1ACC4D7600217D08 /* Supporting Files */,
-			);
-			path = test;
-			sourceTree = "<group>";
-		};
-		CCD260CA1ACC4D7600217D08 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CCD260CB1ACC4D7600217D08 /* Info.plist */,
-				CCD260CC1ACC4D7600217D08 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CCD260E61ACC4D7600217D08 /* testTests */ = {
-			isa = PBXGroup;
-			children = (
-				CCD260E91ACC4D7600217D08 /* testTests.m */,
-				CCD260E71ACC4D7600217D08 /* Supporting Files */,
-			);
-			path = testTests;
-			sourceTree = "<group>";
-		};
-		CCD260E71ACC4D7600217D08 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CCD260E81ACC4D7600217D08 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -314,42 +218,6 @@
 			productReference = CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CCD260C71ACC4D7500217D08 /* test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCD260EF1ACC4D7600217D08 /* Build configuration list for PBXNativeTarget "test" */;
-			buildPhases = (
-				CCD260C41ACC4D7500217D08 /* Sources */,
-				CCD260C51ACC4D7500217D08 /* Frameworks */,
-				CCD260C61ACC4D7500217D08 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = test;
-			productName = test;
-			productReference = CCD260C81ACC4D7500217D08 /* test.app */;
-			productType = "com.apple.product-type.application";
-		};
-		CCD260E21ACC4D7600217D08 /* testTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CCD260F01ACC4D7600217D08 /* Build configuration list for PBXNativeTarget "testTests" */;
-			buildPhases = (
-				CCD260DF1ACC4D7600217D08 /* Sources */,
-				CCD260E01ACC4D7600217D08 /* Frameworks */,
-				CCD260E11ACC4D7600217D08 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CCD260E51ACC4D7600217D08 /* PBXTargetDependency */,
-				CCD260F21ACC4D7C00217D08 /* PBXTargetDependency */,
-			);
-			name = testTests;
-			productName = testTests;
-			productReference = CCD260E31ACC4D7600217D08 /* testTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -363,13 +231,6 @@
 						CreatedOnToolsVersion = 6.2;
 					};
 					CCA90BEB1ACC3AF0006E93B3 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = CCA90BCF1ACC3AF0006E93B3;
-					};
-					CCD260C71ACC4D7500217D08 = {
-						CreatedOnToolsVersion = 6.2;
-					};
-					CCD260E21ACC4D7600217D08 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = CCA90BCF1ACC3AF0006E93B3;
 					};
@@ -390,8 +251,6 @@
 			targets = (
 				CCA90BCF1ACC3AF0006E93B3 /* TheWordGame */,
 				CCA90BEB1ACC3AF0006E93B3 /* TheWordGameTests */,
-				CCD260C71ACC4D7500217D08 /* test */,
-				CCD260E21ACC4D7600217D08 /* testTests */,
 			);
 		};
 /* End PBXProject section */
@@ -430,23 +289,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCD260C61ACC4D7500217D08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCD260D91ACC4D7600217D08 /* Main.storyboard in Resources */,
-				CCD260DE1ACC4D7600217D08 /* LaunchScreen.xib in Resources */,
-				CCD260DB1ACC4D7600217D08 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCD260E11ACC4D7600217D08 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -469,25 +311,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCD260C41ACC4D7500217D08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCD260D01ACC4D7600217D08 /* AppDelegate.m in Sources */,
-				CCD260CD1ACC4D7600217D08 /* main.m in Sources */,
-				CCD260D61ACC4D7600217D08 /* ViewController.m in Sources */,
-				CCD260D31ACC4D7600217D08 /* test.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCD260DF1ACC4D7600217D08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCD260EA1ACC4D7600217D08 /* testTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -495,16 +318,6 @@
 			isa = PBXTargetDependency;
 			target = CCA90BCF1ACC3AF0006E93B3 /* TheWordGame */;
 			targetProxy = CCA90BED1ACC3AF0006E93B3 /* PBXContainerItemProxy */;
-		};
-		CCD260E51ACC4D7600217D08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CCD260C71ACC4D7500217D08 /* test */;
-			targetProxy = CCD260E41ACC4D7600217D08 /* PBXContainerItemProxy */;
-		};
-		CCD260F21ACC4D7C00217D08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CCA90BCF1ACC3AF0006E93B3 /* TheWordGame */;
-			targetProxy = CCD260F11ACC4D7C00217D08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -515,22 +328,6 @@
 				CCA90BE11ACC3AF0006E93B3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCD260D71ACC4D7600217D08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCD260D81ACC4D7600217D08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCD260DC1ACC4D7600217D08 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCD260DD1ACC4D7600217D08 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -681,64 +478,6 @@
 			};
 			name = Release;
 		};
-		CCD260EB1ACC4D7600217D08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = test/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		CCD260EC1ACC4D7600217D08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = test/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		CCD260ED1ACC4D7600217D08 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWordGame.app/TheWordGame";
-			};
-			name = Debug;
-		};
-		CCD260EE1ACC4D7600217D08 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = testTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWordGame.app/TheWordGame";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -769,24 +508,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCD260EF1ACC4D7600217D08 /* Build configuration list for PBXNativeTarget "test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCD260EB1ACC4D7600217D08 /* Debug */,
-				CCD260EC1ACC4D7600217D08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CCD260F01ACC4D7600217D08 /* Build configuration list for PBXNativeTarget "testTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCD260ED1ACC4D7600217D08 /* Debug */,
-				CCD260EE1ACC4D7600217D08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -797,16 +518,6 @@
 			);
 			currentVersion = CCA90BDB1ACC3AF0006E93B3 /* TheWordGame.xcdatamodel */;
 			path = TheWordGame.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		CCD260D11ACC4D7600217D08 /* test.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CCD260D21ACC4D7600217D08 /* test.xcdatamodel */,
-			);
-			currentVersion = CCD260D21ACC4D7600217D08 /* test.xcdatamodel */;
-			path = test.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

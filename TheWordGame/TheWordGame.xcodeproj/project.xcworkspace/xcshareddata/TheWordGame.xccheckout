@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>36FBBCFB-102A-44B5-BAD9-6DE6F1F8BCE3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TheWordGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>87D2FDB8EC52D81B786C55BFB4A14B71FD2FE16A</key>
+		<string>https://github.com/LampshadeSoftware/TheWordGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TheWordGame/TheWordGame.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>87D2FDB8EC52D81B786C55BFB4A14B71FD2FE16A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LampshadeSoftware/TheWordGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>87D2FDB8EC52D81B786C55BFB4A14B71FD2FE16A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87D2FDB8EC52D81B786C55BFB4A14B71FD2FE16A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TheWordGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>
