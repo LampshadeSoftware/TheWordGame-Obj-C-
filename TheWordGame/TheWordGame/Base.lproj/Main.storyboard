@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sAn-Nl-tCN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sAn-Nl-tCN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
@@ -335,7 +335,6 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="DpT-rB-Q5Y"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FPa-b7-S5L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -344,7 +343,7 @@
         <!--Singleplayer-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController title="Singleplayer" definesPresentationContext="YES" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Singleplayer" definesPresentationContext="YES" id="vXZ-lx-hvc" customClass="FreePlayViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -1268,10 +1267,10 @@
         <image name="Trophy.png" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uGg-2Q-8Mn"/>
-        <segue reference="Ivm-th-M9Q"/>
-        <segue reference="M60-Be-VlI"/>
+        <segue reference="Snp-Jh-6kj"/>
+        <segue reference="sd7-5M-TBb"/>
         <segue reference="DMv-x8-Whq"/>
+        <segue reference="M60-Be-VlI"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

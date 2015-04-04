@@ -30,6 +30,8 @@
 		CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */; };
 		CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */; };
 		CCA90BF31ACC3AF0006E93B3 /* TheWordGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */; };
+		CCB04C3B1AD06F2600A76C1D /* Singleplayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB04C3A1AD06F2600A76C1D /* Singleplayer.m */; };
+		CCB04C3E1AD071ED00A76C1D /* FreePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB04C3D1AD071ED00A76C1D /* FreePlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,9 @@
 		CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA90BF11ACC3AF0006E93B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheWordGameTests.m; sourceTree = "<group>"; };
+		CCB04C3A1AD06F2600A76C1D /* Singleplayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleplayer.m; sourceTree = "<group>"; };
+		CCB04C3C1AD071ED00A76C1D /* FreePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreePlayViewController.h; sourceTree = "<group>"; };
+		CCB04C3D1AD071ED00A76C1D /* FreePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreePlayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,10 +150,13 @@
 				CCA90BDD1ACC3AF0006E93B3 /* ViewController.h */,
 				CCA90BDE1ACC3AF0006E93B3 /* ViewController.m */,
 				CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */,
+				CCB04C3A1AD06F2600A76C1D /* Singleplayer.m */,
 				CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */,
 				CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */,
 				CCA90BD31ACC3AF0006E93B3 /* Supporting Files */,
 				BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */,
+				CCB04C3C1AD071ED00A76C1D /* FreePlayViewController.h */,
+				CCB04C3D1AD071ED00A76C1D /* FreePlayViewController.m */,
 			);
 			path = TheWordGame;
 			sourceTree = "<group>";
@@ -231,7 +239,6 @@
 					};
 					CCA90BEB1ACC3AF0006E93B3 = {
 						CreatedOnToolsVersion = 6.2;
-						TestTargetID = CCA90BCF1ACC3AF0006E93B3;
 					};
 				};
 			};
@@ -292,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB04C3B1AD06F2600A76C1D /* Singleplayer.m in Sources */,
 				CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */,
 				CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */,
 				CCA90BDF1ACC3AF0006E93B3 /* ViewController.m in Sources */,
+				CCB04C3E1AD071ED00A76C1D /* FreePlayViewController.m in Sources */,
 				CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +452,6 @@
 		CCA90BFA1ACC3AF0006E93B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -455,14 +463,12 @@
 				INFOPLIST_FILE = TheWordGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWordGame.app/TheWordGame";
 			};
 			name = Debug;
 		};
 		CCA90BFB1ACC3AF0006E93B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -470,7 +476,6 @@
 				INFOPLIST_FILE = TheWordGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWordGame.app/TheWordGame";
 			};
 			name = Release;
 		};
