@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TheWordGame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CCA90BCF1ACC3AF0006E93B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCA90BEB1ACC3AF0006E93B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCD260C71ACC4D7500217D08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCD260E21ACC4D7600217D08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

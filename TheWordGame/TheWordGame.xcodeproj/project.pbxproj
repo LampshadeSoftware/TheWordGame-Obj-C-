@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8CFE8F1ACEE6530089FAD4 /* Instructions Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BA8CFE8E1ACEE6530089FAD4 /* Instructions Icon.png */; };
+		BA8CFE931ACEE9B90089FAD4 /* Swipe.png in Resources */ = {isa = PBXBuildFile; fileRef = BA8CFE921ACEE9B90089FAD4 /* Swipe.png */; };
+		BAB5040A1AD0573C00EB8C39 /* House Black.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB504081AD0573C00EB8C39 /* House Black.png */; };
+		BAB5040B1AD0573C00EB8C39 /* House White.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB504091AD0573C00EB8C39 /* House White.png */; };
+		BAB5040D1AD05B2500EB8C39 /* BG1.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB5040C1AD05B2500EB8C39 /* BG1.png */; };
+		BABCE50B1AD03672005A9B54 /* Bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5061AD03672005A9B54 /* Bulb.png */; };
+		BABCE50C1AD03672005A9B54 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5071AD03672005A9B54 /* Info.png */; };
+		BABCE50D1AD03672005A9B54 /* Market.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5081AD03672005A9B54 /* Market.png */; };
+		BABCE50E1AD03672005A9B54 /* Single player.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5091AD03672005A9B54 /* Single player.png */; };
+		BABCE50F1AD03672005A9B54 /* Trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE50A1AD03672005A9B54 /* Trophy.png */; };
+		BABCE5111AD03716005A9B54 /* Stats.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5101AD03716005A9B54 /* Stats.png */; };
+		BABCE5131AD03888005A9B54 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = BABCE5121AD03888005A9B54 /* Home.png */; };
+		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
+		BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5181AD03E21005A9B54 /* QuartzCore.framework */; };
+		BADCBB8D1ACF00750047B3A1 /* Close.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB881ACF00750047B3A1 /* Close.png */; };
+		BADCBB8E1ACF00750047B3A1 /* Dots.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB891ACF00750047B3A1 /* Dots.png */; };
+		BADCBB8F1ACF00750047B3A1 /* Left.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB8A1ACF00750047B3A1 /* Left.png */; };
+		BADCBB901ACF00750047B3A1 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB8B1ACF00750047B3A1 /* Menu.png */; };
+		BADCBB911ACF00750047B3A1 /* Right.png in Resources */ = {isa = PBXBuildFile; fileRef = BADCBB8C1ACF00750047B3A1 /* Right.png */; };
+		CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD51ACC3AF0006E93B3 /* main.m */; };
+		CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */; };
+		CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */; };
+		CCA90BDF1ACC3AF0006E93B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BDE1ACC3AF0006E93B3 /* ViewController.m */; };
+		CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */; };
+		CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */; };
+		CCA90BF31ACC3AF0006E93B3 /* TheWordGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */; };
+		CCD260CD1ACC4D7600217D08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD260CC1ACC4D7600217D08 /* main.m */; };
+		CCD260D01ACC4D7600217D08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD260CF1ACC4D7600217D08 /* AppDelegate.m */; };
+		CCD260D31ACC4D7600217D08 /* test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCD260D11ACC4D7600217D08 /* test.xcdatamodeld */; };
+		CCD260D61ACC4D7600217D08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD260D51ACC4D7600217D08 /* ViewController.m */; };
+		CCD260D91ACC4D7600217D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD260D71ACC4D7600217D08 /* Main.storyboard */; };
+		CCD260DB1ACC4D7600217D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD260DA1ACC4D7600217D08 /* Images.xcassets */; };
+		CCD260DE1ACC4D7600217D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCD260DC1ACC4D7600217D08 /* LaunchScreen.xib */; };
+		CCD260EA1ACC4D7600217D08 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD260E91ACC4D7600217D08 /* testTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCA90BED1ACC3AF0006E93B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA90BC81ACC3AF0006E93B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA90BCF1ACC3AF0006E93B3;
+			remoteInfo = TheWordGame;
+		};
+		CCD260E41ACC4D7600217D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA90BC81ACC3AF0006E93B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD260C71ACC4D7500217D08;
+			remoteInfo = test;
+		};
+		CCD260F11ACC4D7C00217D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA90BC81ACC3AF0006E93B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCA90BCF1ACC3AF0006E93B3;
+			remoteInfo = TheWordGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8CFE8E1ACEE6530089FAD4 /* Instructions Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Instructions Icon.png"; path = "../../../Word Game/Instructions/Instructions Icon.png"; sourceTree = "<group>"; };
+		BA8CFE921ACEE9B90089FAD4 /* Swipe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Swipe.png; path = "../../../Word Game/Instructions/Swipe.png"; sourceTree = "<group>"; };
+		BAB504081AD0573C00EB8C39 /* House Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House Black.png"; path = "../../../Word Game/Icons/House Black.png"; sourceTree = "<group>"; };
+		BAB504091AD0573C00EB8C39 /* House White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House White.png"; path = "../../../Word Game/Icons/House White.png"; sourceTree = "<group>"; };
+		BAB5040C1AD05B2500EB8C39 /* BG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BG1.png; path = "../../../Word Game/UI/BG1.png"; sourceTree = "<group>"; };
+		BABCE5061AD03672005A9B54 /* Bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bulb.png; path = "../../../Word Game/Icons/Bulb.png"; sourceTree = "<group>"; };
+		BABCE5071AD03672005A9B54 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Info.png; path = "../../../Word Game/Icons/Info.png"; sourceTree = "<group>"; };
+		BABCE5081AD03672005A9B54 /* Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Market.png; path = "../../../Word Game/Icons/Market.png"; sourceTree = "<group>"; };
+		BABCE5091AD03672005A9B54 /* Single player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Single player.png"; path = "../../../Word Game/Icons/Single player.png"; sourceTree = "<group>"; };
+		BABCE50A1AD03672005A9B54 /* Trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trophy.png; path = "../../../Word Game/Icons/Trophy.png"; sourceTree = "<group>"; };
+		BABCE5101AD03716005A9B54 /* Stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stats.png; path = "../../../Word Game/Icons/Stats.png"; sourceTree = "<group>"; };
+		BABCE5121AD03888005A9B54 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = "../../../Word Game/Icons/Home.png"; sourceTree = "<group>"; };
+		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BADCBB881ACF00750047B3A1 /* Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Close.png; path = "../../../Word Game/Icons/Close.png"; sourceTree = "<group>"; };
+		BADCBB891ACF00750047B3A1 /* Dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dots.png; path = "../../../Word Game/Icons/Dots.png"; sourceTree = "<group>"; };
+		BADCBB8A1ACF00750047B3A1 /* Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Left.png; path = "../../../Word Game/Icons/Left.png"; sourceTree = "<group>"; };
+		BADCBB8B1ACF00750047B3A1 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Menu.png; path = "../../../Word Game/Icons/Menu.png"; sourceTree = "<group>"; };
+		BADCBB8C1ACF00750047B3A1 /* Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Right.png; path = "../../../Word Game/Icons/Right.png"; sourceTree = "<group>"; };
+		CCA90BD01ACC3AF0006E93B3 /* TheWordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheWordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA90BD41ACC3AF0006E93B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA90BD51ACC3AF0006E93B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA90BD71ACC3AF0006E93B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA90BDB1ACC3AF0006E93B3 /* TheWordGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheWordGame.xcdatamodel; sourceTree = "<group>"; };
+		CCA90BDD1ACC3AF0006E93B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCA90BDE1ACC3AF0006E93B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCA90BE11ACC3AF0006E93B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA90BF11ACC3AF0006E93B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheWordGameTests.m; sourceTree = "<group>"; };
+		CCD260C81ACC4D7500217D08 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD260CB1ACC4D7600217D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD260CC1ACC4D7600217D08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCD260CE1ACC4D7600217D08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCD260CF1ACC4D7600217D08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCD260D21ACC4D7600217D08 /* test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test.xcdatamodel; sourceTree = "<group>"; };
+		CCD260D41ACC4D7600217D08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCD260D51ACC4D7600217D08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCD260D81ACC4D7600217D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD260DA1ACC4D7600217D08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCD260DD1ACC4D7600217D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCD260E31ACC4D7600217D08 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD260E81ACC4D7600217D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD260E91ACC4D7600217D08 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA90BCD1ACC3AF0006E93B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */,
+				BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA90BE91ACC3AF0006E93B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD260C51ACC4D7500217D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD260E01ACC4D7600217D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA90BC71ACC3AF0006E93B3 = {
+			isa = PBXGroup;
+			children = (
+				BABCE5171AD03E21005A9B54 /* CoreImage.framework */,
+				BABCE5181AD03E21005A9B54 /* QuartzCore.framework */,
+				CCA90BD21ACC3AF0006E93B3 /* TheWordGame */,
+				CCA90BEF1ACC3AF0006E93B3 /* TheWordGameTests */,
+				CCD260C91ACC4D7500217D08 /* test */,
+				CCD260E61ACC4D7600217D08 /* testTests */,
+				CCA90BD11ACC3AF0006E93B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA90BD11ACC3AF0006E93B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA90BD01ACC3AF0006E93B3 /* TheWordGame.app */,
+				CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */,
+				CCD260C81ACC4D7500217D08 /* test.app */,
+				CCD260E31ACC4D7600217D08 /* testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA90BD21ACC3AF0006E93B3 /* TheWordGame */ = {
+			isa = PBXGroup;
+			children = (
+				CCA90BD71ACC3AF0006E93B3 /* AppDelegate.h */,
+				CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */,
+				CCA90BDD1ACC3AF0006E93B3 /* ViewController.h */,
+				CCA90BDE1ACC3AF0006E93B3 /* ViewController.m */,
+				CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */,
+				CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */,
+				CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */,
+				CCA90BD31ACC3AF0006E93B3 /* Supporting Files */,
+				BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */,
+			);
+			path = TheWordGame;
+			sourceTree = "<group>";
+		};
+		CCA90BD31ACC3AF0006E93B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAB5040C1AD05B2500EB8C39 /* BG1.png */,
+				BAB504081AD0573C00EB8C39 /* House Black.png */,
+				BAB504091AD0573C00EB8C39 /* House White.png */,
+				BABCE5121AD03888005A9B54 /* Home.png */,
+				BABCE5101AD03716005A9B54 /* Stats.png */,
+				BABCE5061AD03672005A9B54 /* Bulb.png */,
+				BABCE5071AD03672005A9B54 /* Info.png */,
+				BABCE5081AD03672005A9B54 /* Market.png */,
+				BABCE5091AD03672005A9B54 /* Single player.png */,
+				BABCE50A1AD03672005A9B54 /* Trophy.png */,
+				BADCBB881ACF00750047B3A1 /* Close.png */,
+				BADCBB891ACF00750047B3A1 /* Dots.png */,
+				BADCBB8A1ACF00750047B3A1 /* Left.png */,
+				BADCBB8B1ACF00750047B3A1 /* Menu.png */,
+				BADCBB8C1ACF00750047B3A1 /* Right.png */,
+				BA8CFE921ACEE9B90089FAD4 /* Swipe.png */,
+				BA8CFE8E1ACEE6530089FAD4 /* Instructions Icon.png */,
+				CCA90BD41ACC3AF0006E93B3 /* Info.plist */,
+				CCA90BD51ACC3AF0006E93B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA90BEF1ACC3AF0006E93B3 /* TheWordGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */,
+				CCA90BF01ACC3AF0006E93B3 /* Supporting Files */,
+			);
+			path = TheWordGameTests;
+			sourceTree = "<group>";
+		};
+		CCA90BF01ACC3AF0006E93B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA90BF11ACC3AF0006E93B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD260C91ACC4D7500217D08 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				CCD260CE1ACC4D7600217D08 /* AppDelegate.h */,
+				CCD260CF1ACC4D7600217D08 /* AppDelegate.m */,
+				CCD260D41ACC4D7600217D08 /* ViewController.h */,
+				CCD260D51ACC4D7600217D08 /* ViewController.m */,
+				CCD260D71ACC4D7600217D08 /* Main.storyboard */,
+				CCD260DA1ACC4D7600217D08 /* Images.xcassets */,
+				CCD260DC1ACC4D7600217D08 /* LaunchScreen.xib */,
+				CCD260D11ACC4D7600217D08 /* test.xcdatamodeld */,
+				CCD260CA1ACC4D7600217D08 /* Supporting Files */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		CCD260CA1ACC4D7600217D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD260CB1ACC4D7600217D08 /* Info.plist */,
+				CCD260CC1ACC4D7600217D08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD260E61ACC4D7600217D08 /* testTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD260E91ACC4D7600217D08 /* testTests.m */,
+				CCD260E71ACC4D7600217D08 /* Supporting Files */,
+			);
+			path = testTests;
+			sourceTree = "<group>";
+		};
+		CCD260E71ACC4D7600217D08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCD260E81ACC4D7600217D08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA90BCF1ACC3AF0006E93B3 /* TheWordGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA90BF61ACC3AF0006E93B3 /* Build configuration list for PBXNativeTarget "TheWordGame" */;
+			buildPhases = (
+				CCA90BCC1ACC3AF0006E93B3 /* Sources */,
+				CCA90BCD1ACC3AF0006E93B3 /* Frameworks */,
+				CCA90BCE1ACC3AF0006E93B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheWordGame;
+			productName = TheWordGame;
+			productReference = CCA90BD01ACC3AF0006E93B3 /* TheWordGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCA90BEB1ACC3AF0006E93B3 /* TheWordGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA90BF91ACC3AF0006E93B3 /* Build configuration list for PBXNativeTarget "TheWordGameTests" */;
+			buildPhases = (
+				CCA90BE81ACC3AF0006E93B3 /* Sources */,
+				CCA90BE91ACC3AF0006E93B3 /* Frameworks */,
+				CCA90BEA1ACC3AF0006E93B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA90BEE1ACC3AF0006E93B3 /* PBXTargetDependency */,
+			);
+			name = TheWordGameTests;
+			productName = TheWordGameTests;
+			productReference = CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCD260C71ACC4D7500217D08 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD260EF1ACC4D7600217D08 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				CCD260C41ACC4D7500217D08 /* Sources */,
+				CCD260C51ACC4D7500217D08 /* Frameworks */,
+				CCD260C61ACC4D7500217D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = CCD260C81ACC4D7500217D08 /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD260E21ACC4D7600217D08 /* testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD260F01ACC4D7600217D08 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildPhases = (
+				CCD260DF1ACC4D7600217D08 /* Sources */,
+				CCD260E01ACC4D7600217D08 /* Frameworks */,
+				CCD260E11ACC4D7600217D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD260E51ACC4D7600217D08 /* PBXTargetDependency */,
+				CCD260F21ACC4D7C00217D08 /* PBXTargetDependency */,
+			);
+			name = testTests;
+			productName = testTests;
+			productReference = CCD260E31ACC4D7600217D08 /* testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA90BC81ACC3AF0006E93B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Daniel McCrystal";
+				TargetAttributes = {
+					CCA90BCF1ACC3AF0006E93B3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CCA90BEB1ACC3AF0006E93B3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CCA90BCF1ACC3AF0006E93B3;
+					};
+					CCD260C71ACC4D7500217D08 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CCD260E21ACC4D7600217D08 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CCA90BCF1ACC3AF0006E93B3;
+					};
+				};
+			};
+			buildConfigurationList = CCA90BCB1ACC3AF0006E93B3 /* Build configuration list for PBXProject "TheWordGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA90BC71ACC3AF0006E93B3;
+			productRefGroup = CCA90BD11ACC3AF0006E93B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA90BCF1ACC3AF0006E93B3 /* TheWordGame */,
+				CCA90BEB1ACC3AF0006E93B3 /* TheWordGameTests */,
+				CCD260C71ACC4D7500217D08 /* test */,
+				CCD260E21ACC4D7600217D08 /* testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA90BCE1ACC3AF0006E93B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADCBB901ACF00750047B3A1 /* Menu.png in Resources */,
+				BAB5040D1AD05B2500EB8C39 /* BG1.png in Resources */,
+				BABCE50F1AD03672005A9B54 /* Trophy.png in Resources */,
+				BADCBB8D1ACF00750047B3A1 /* Close.png in Resources */,
+				BABCE50B1AD03672005A9B54 /* Bulb.png in Resources */,
+				BABCE5131AD03888005A9B54 /* Home.png in Resources */,
+				CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */,
+				BABCE50E1AD03672005A9B54 /* Single player.png in Resources */,
+				BADCBB8F1ACF00750047B3A1 /* Left.png in Resources */,
+				BABCE50C1AD03672005A9B54 /* Info.png in Resources */,
+				CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */,
+				BADCBB8E1ACF00750047B3A1 /* Dots.png in Resources */,
+				BAB5040A1AD0573C00EB8C39 /* House Black.png in Resources */,
+				BA8CFE8F1ACEE6530089FAD4 /* Instructions Icon.png in Resources */,
+				BABCE5111AD03716005A9B54 /* Stats.png in Resources */,
+				BABCE50D1AD03672005A9B54 /* Market.png in Resources */,
+				BAB5040B1AD0573C00EB8C39 /* House White.png in Resources */,
+				BA8CFE931ACEE9B90089FAD4 /* Swipe.png in Resources */,
+				BADCBB911ACF00750047B3A1 /* Right.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA90BEA1ACC3AF0006E93B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD260C61ACC4D7500217D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD260D91ACC4D7600217D08 /* Main.storyboard in Resources */,
+				CCD260DE1ACC4D7600217D08 /* LaunchScreen.xib in Resources */,
+				CCD260DB1ACC4D7600217D08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD260E11ACC4D7600217D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA90BCC1ACC3AF0006E93B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */,
+				CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */,
+				CCA90BDF1ACC3AF0006E93B3 /* ViewController.m in Sources */,
+				CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA90BE81ACC3AF0006E93B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA90BF31ACC3AF0006E93B3 /* TheWordGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD260C41ACC4D7500217D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD260D01ACC4D7600217D08 /* AppDelegate.m in Sources */,
+				CCD260CD1ACC4D7600217D08 /* main.m in Sources */,
+				CCD260D61ACC4D7600217D08 /* ViewController.m in Sources */,
+				CCD260D31ACC4D7600217D08 /* test.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD260DF1ACC4D7600217D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD260EA1ACC4D7600217D08 /* testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCA90BEE1ACC3AF0006E93B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA90BCF1ACC3AF0006E93B3 /* TheWordGame */;
+			targetProxy = CCA90BED1ACC3AF0006E93B3 /* PBXContainerItemProxy */;
+		};
+		CCD260E51ACC4D7600217D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD260C71ACC4D7500217D08 /* test */;
+			targetProxy = CCD260E41ACC4D7600217D08 /* PBXContainerItemProxy */;
+		};
+		CCD260F21ACC4D7C00217D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCA90BCF1ACC3AF0006E93B3 /* TheWordGame */;
+			targetProxy = CCD260F11ACC4D7C00217D08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA90BE11ACC3AF0006E93B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD260D71ACC4D7600217D08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD260D81ACC4D7600217D08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD260DC1ACC4D7600217D08 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD260DD1ACC4D7600217D08 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA90BF41ACC3AF0006E93B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCA90BF51ACC3AF0006E93B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA90BF71ACC3AF0006E93B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
+				INFOPLIST_FILE = TheWordGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TheWordGame/TheWordGame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCA90BF81ACC3AF0006E93B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TheWordGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TheWordGame/TheWordGame-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CCA90BFA1ACC3AF0006E93B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheWordGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWordGame.app/TheWordGame";
+			};
+			name = Debug;
+		};
+		CCA90BFB1ACC3AF0006E93B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheWordGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWordGame.app/TheWordGame";
+			};
+			name = Release;
+		};
+		CCD260EB1ACC4D7600217D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCD260EC1ACC4D7600217D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCD260ED1ACC4D7600217D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWordGame.app/TheWordGame";
+			};
+			name = Debug;
+		};
+		CCD260EE1ACC4D7600217D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = testTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheWordGame.app/TheWordGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA90BCB1ACC3AF0006E93B3 /* Build configuration list for PBXProject "TheWordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA90BF41ACC3AF0006E93B3 /* Debug */,
+				CCA90BF51ACC3AF0006E93B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA90BF61ACC3AF0006E93B3 /* Build configuration list for PBXNativeTarget "TheWordGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA90BF71ACC3AF0006E93B3 /* Debug */,
+				CCA90BF81ACC3AF0006E93B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA90BF91ACC3AF0006E93B3 /* Build configuration list for PBXNativeTarget "TheWordGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA90BFA1ACC3AF0006E93B3 /* Debug */,
+				CCA90BFB1ACC3AF0006E93B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD260EF1ACC4D7600217D08 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD260EB1ACC4D7600217D08 /* Debug */,
+				CCD260EC1ACC4D7600217D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD260F01ACC4D7600217D08 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD260ED1ACC4D7600217D08 /* Debug */,
+				CCD260EE1ACC4D7600217D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCA90BDB1ACC3AF0006E93B3 /* TheWordGame.xcdatamodel */,
+			);
+			currentVersion = CCA90BDB1ACC3AF0006E93B3 /* TheWordGame.xcdatamodel */;
+			path = TheWordGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		CCD260D11ACC4D7600217D08 /* test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCD260D21ACC4D7600217D08 /* test.xcdatamodel */,
+			);
+			currentVersion = CCD260D21ACC4D7600217D08 /* test.xcdatamodel */;
+			path = test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCA90BC81ACC3AF0006E93B3 /* Project object */;
+}
