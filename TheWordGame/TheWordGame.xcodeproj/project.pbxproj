@@ -31,7 +31,6 @@
 		BADEFFBE1AD0F9210071EAA1 /* NavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFB81AD0F9210071EAA1 /* NavBar.png */; };
 		BADEFFBF1AD0F9210071EAA1 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFB91AD0F9210071EAA1 /* Settings.png */; };
 		BADEFFC01AD0F9210071EAA1 /* Volume.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFBA1AD0F9210071EAA1 /* Volume.png */; };
-		CC610BB01AD0D54F00A9F8EE /* MainEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CC610BAF1AD0D54F00A9F8EE /* MainEngine.m */; };
 		CC77B23C1AD0779F00BABE6B /* Dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC77B23B1AD0779F00BABE6B /* Dictionary.txt */; };
 		CC77B23F1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */; };
 		CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD51ACC3AF0006E93B3 /* main.m */; };
@@ -40,6 +39,8 @@
 		CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */; };
 		CCA90BE41ACC3AF0006E93B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */; };
 		CCA90BF31ACC3AF0006E93B3 /* TheWordGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */; };
+		CCFEA6F91AD1C87F00149316 /* LSSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFEA6F81AD1C87F00149316 /* LSSGame.m */; };
+		CCFEA6FC1AD1D24500149316 /* LSSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFEA6FB1AD1D24500149316 /* LSSDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +80,6 @@
 		BADEFFB81AD0F9210071EAA1 /* NavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavBar.png; path = "Images/New UI/NavBar.png"; sourceTree = SOURCE_ROOT; };
 		BADEFFB91AD0F9210071EAA1 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = "Images/New UI/Settings.png"; sourceTree = SOURCE_ROOT; };
 		BADEFFBA1AD0F9210071EAA1 /* Volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Volume.png; path = "Images/New UI/Volume.png"; sourceTree = SOURCE_ROOT; };
-		CC610BAF1AD0D54F00A9F8EE /* MainEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEngine.m; sourceTree = "<group>"; };
 		CC77B23B1AD0779F00BABE6B /* Dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dictionary.txt; sourceTree = "<group>"; };
 		CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePlayerFreePlayViewController.h; sourceTree = "<group>"; };
 		CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerFreePlayViewController.m; sourceTree = "<group>"; };
@@ -94,6 +94,10 @@
 		CCA90BEC1ACC3AF0006E93B3 /* TheWordGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheWordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA90BF11ACC3AF0006E93B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheWordGameTests.m; sourceTree = "<group>"; };
+		CCFEA6F71AD1C87F00149316 /* LSSGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSGame.h; sourceTree = "<group>"; };
+		CCFEA6F81AD1C87F00149316 /* LSSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSGame.m; sourceTree = "<group>"; };
+		CCFEA6FA1AD1D24500149316 /* LSSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSDictionary.h; sourceTree = "<group>"; };
+		CCFEA6FB1AD1D24500149316 /* LSSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,9 +182,12 @@
 				BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */,
 				CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */,
 				CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */,
-				CC610BAF1AD0D54F00A9F8EE /* MainEngine.m */,
 				BA56B8AC1AD0FBCF0023F1C5 /* UITestViewController.h */,
 				BA56B8AD1AD0FBCF0023F1C5 /* UITestViewController.m */,
+				CCFEA6F71AD1C87F00149316 /* LSSGame.h */,
+				CCFEA6F81AD1C87F00149316 /* LSSGame.m */,
+				CCFEA6FA1AD1D24500149316 /* LSSDictionary.h */,
+				CCFEA6FB1AD1D24500149316 /* LSSDictionary.m */,
 			);
 			path = TheWordGame;
 			sourceTree = "<group>";
@@ -332,8 +339,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFEA6F91AD1C87F00149316 /* LSSGame.m in Sources */,
+				CCFEA6FC1AD1D24500149316 /* LSSDictionary.m in Sources */,
 				CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */,
-				CC610BB01AD0D54F00A9F8EE /* MainEngine.m in Sources */,
 				CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */,
 				CC77B23F1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m in Sources */,
 				BA56B8AE1AD0FBCF0023F1C5 /* UITestViewController.m in Sources */,
