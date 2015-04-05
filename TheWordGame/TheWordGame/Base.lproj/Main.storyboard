@@ -390,7 +390,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="word" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ3-sg-gt0">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.98634676750000005" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.96392287016112077" green="1" blue="0.37743832828959312" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="120" y="121" width="80" height="42"/>
@@ -464,6 +464,14 @@
                         </connections>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="currentWord" destination="eQ3-sg-gt0" id="gDZ-GN-Rba"/>
+                        <outlet property="inputTextBox" destination="a5w-UY-lR1" id="K4e-47-fTe"/>
+                        <outlet property="invalidWordLog" destination="1Mn-sM-MB0" id="G8I-Vk-A0G"/>
+                        <outlet property="lastWord0" destination="mQo-Gn-SK6" id="8pc-a7-19V"/>
+                        <outlet property="lastWord1" destination="Uzg-Ad-Jsy" id="sz2-bY-ivh"/>
+                        <outlet property="lastWord2" destination="l5h-VK-H7W" id="elw-db-qfx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Qbd-Gw-kov">

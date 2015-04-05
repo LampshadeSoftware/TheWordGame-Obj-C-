@@ -23,6 +23,7 @@
 		BA34988B1AD06A51001BDBB8 /* Trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = BA34987D1AD06A51001BDBB8 /* Trophy.png */; };
 		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
 		BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5181AD03E21005A9B54 /* QuartzCore.framework */; };
+		CC610BB01AD0D54F00A9F8EE /* MainEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CC610BAF1AD0D54F00A9F8EE /* MainEngine.m */; };
 		CC77B23C1AD0779F00BABE6B /* Dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC77B23B1AD0779F00BABE6B /* Dictionary.txt */; };
 		CC77B23F1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */; };
 		CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA90BD51ACC3AF0006E93B3 /* main.m */; };
@@ -61,6 +62,7 @@
 		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
 		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CC610BAF1AD0D54F00A9F8EE /* MainEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEngine.m; sourceTree = "<group>"; };
 		CC77B23B1AD0779F00BABE6B /* Dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dictionary.txt; sourceTree = "<group>"; };
 		CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePlayerFreePlayViewController.h; sourceTree = "<group>"; };
 		CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerFreePlayViewController.m; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */,
 				CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */,
 				CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */,
+				CC610BAF1AD0D54F00A9F8EE /* MainEngine.m */,
 			);
 			path = TheWordGame;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */,
+				CC610BB01AD0D54F00A9F8EE /* MainEngine.m in Sources */,
 				CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */,
 				CC77B23F1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m in Sources */,
 				CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */,
