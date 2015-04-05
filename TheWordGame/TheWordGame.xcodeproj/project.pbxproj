@@ -22,8 +22,6 @@
 		BA56B8AE1AD0FBCF0023F1C5 /* UITestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA56B8AD1AD0FBCF0023F1C5 /* UITestViewController.m */; };
 		BA56B8B01AD109D40023F1C5 /* GameModesSC.png in Resources */ = {isa = PBXBuildFile; fileRef = BA56B8AF1AD109D40023F1C5 /* GameModesSC.png */; };
 		BA56B8B21AD1643B0023F1C5 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = BA56B8B11AD1643B0023F1C5 /* PlayButton.png */; };
-		BA56B8B51AD177380023F1C5 /* MultiPlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = BA56B8B31AD177370023F1C5 /* MultiPlayer.png */; };
-		BA56B8B61AD177380023F1C5 /* SinglePlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = BA56B8B41AD177370023F1C5 /* SinglePlayer.png */; };
 		BA56B8BD1AD1858F0023F1C5 /* MultiPlayerNew.png in Resources */ = {isa = PBXBuildFile; fileRef = BA56B8BB1AD1858F0023F1C5 /* MultiPlayerNew.png */; };
 		BA56B8BE1AD1858F0023F1C5 /* SinglePlayerNew.png in Resources */ = {isa = PBXBuildFile; fileRef = BA56B8BC1AD1858F0023F1C5 /* SinglePlayerNew.png */; };
 		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
@@ -71,8 +69,6 @@
 		BA56B8AD1AD0FBCF0023F1C5 /* UITestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestViewController.m; sourceTree = "<group>"; };
 		BA56B8AF1AD109D40023F1C5 /* GameModesSC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameModesSC.png; path = "Images/New UI/GameModesSC.png"; sourceTree = SOURCE_ROOT; };
 		BA56B8B11AD1643B0023F1C5 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlayButton.png; path = "Images/New UI/PlayButton.png"; sourceTree = SOURCE_ROOT; };
-		BA56B8B31AD177370023F1C5 /* MultiPlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MultiPlayer.png; path = "Images/New UI/MultiPlayer.png"; sourceTree = SOURCE_ROOT; };
-		BA56B8B41AD177370023F1C5 /* SinglePlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SinglePlayer.png; path = "Images/New UI/SinglePlayer.png"; sourceTree = SOURCE_ROOT; };
 		BA56B8BB1AD1858F0023F1C5 /* MultiPlayerNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MultiPlayerNew.png; path = "Images/New UI/MultiPlayerNew.png"; sourceTree = SOURCE_ROOT; };
 		BA56B8BC1AD1858F0023F1C5 /* SinglePlayerNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SinglePlayerNew.png; path = "Images/New UI/SinglePlayerNew.png"; sourceTree = SOURCE_ROOT; };
 		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -125,8 +121,6 @@
 			children = (
 				BA56B8BB1AD1858F0023F1C5 /* MultiPlayerNew.png */,
 				BA56B8BC1AD1858F0023F1C5 /* SinglePlayerNew.png */,
-				BA56B8B31AD177370023F1C5 /* MultiPlayer.png */,
-				BA56B8B41AD177370023F1C5 /* SinglePlayer.png */,
 				BA56B8B11AD1643B0023F1C5 /* PlayButton.png */,
 				BA56B8AF1AD109D40023F1C5 /* GameModesSC.png */,
 				BADEFFB61AD0F9210071EAA1 /* BottomBar.png */,
@@ -299,7 +293,6 @@
 			files = (
 				BA3498871AD06A51001BDBB8 /* Menu.png in Resources */,
 				CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */,
-				BA56B8B51AD177380023F1C5 /* MultiPlayer.png in Resources */,
 				BADEFFBD1AD0F9210071EAA1 /* GameModes.png in Resources */,
 				BA3498811AD06A51001BDBB8 /* House Black.png in Resources */,
 				BA56B8B21AD1643B0023F1C5 /* PlayButton.png in Resources */,
@@ -312,7 +305,6 @@
 				BA56B8BE1AD1858F0023F1C5 /* SinglePlayerNew.png in Resources */,
 				CC77B23C1AD0779F00BABE6B /* Dictionary.txt in Resources */,
 				BA3498881AD06A51001BDBB8 /* Right.png in Resources */,
-				BA56B8B61AD177380023F1C5 /* SinglePlayer.png in Resources */,
 				BA56B8BD1AD1858F0023F1C5 /* MultiPlayerNew.png in Resources */,
 				BADEFFBC1AD0F9210071EAA1 /* BottomBar.png in Resources */,
 				BA3498861AD06A51001BDBB8 /* Market.png in Resources */,
