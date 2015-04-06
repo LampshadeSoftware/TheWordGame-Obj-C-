@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C17EDC1AD31DF800A7EDD5 /* MultiPlayerPassAndPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C17EDB1AD31DF800A7EDD5 /* MultiPlayerPassAndPlayViewController.m */; };
 		BA3498801AD06A51001BDBB8 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498721AD06A51001BDBB8 /* Home.png */; };
 		BA3498811AD06A51001BDBB8 /* House Black.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498731AD06A51001BDBB8 /* House Black.png */; };
 		BA3498821AD06A51001BDBB8 /* House White.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498741AD06A51001BDBB8 /* House White.png */; };
@@ -81,6 +82,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C17EDA1AD31DF800A7EDD5 /* MultiPlayerPassAndPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPlayerPassAndPlayViewController.h; sourceTree = "<group>"; };
+		18C17EDB1AD31DF800A7EDD5 /* MultiPlayerPassAndPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPlayerPassAndPlayViewController.m; sourceTree = "<group>"; };
 		BA3498721AD06A51001BDBB8 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = Images/Home.png; sourceTree = SOURCE_ROOT; };
 		BA3498731AD06A51001BDBB8 /* House Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House Black.png"; path = "Images/House Black.png"; sourceTree = SOURCE_ROOT; };
 		BA3498741AD06A51001BDBB8 /* House White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "House White.png"; path = "Images/House White.png"; sourceTree = SOURCE_ROOT; };
@@ -303,6 +306,8 @@
 				BAA58CA11AD2EB8F00C8A2AA /* LandingPageViewController.m */,
 				BAA58C991AD2DC7500C8A2AA /* GameModesViewController.h */,
 				BAA58C9A1AD2DC7600C8A2AA /* GameModesViewController.m */,
+				18C17EDA1AD31DF800A7EDD5 /* MultiPlayerPassAndPlayViewController.h */,
+				18C17EDB1AD31DF800A7EDD5 /* MultiPlayerPassAndPlayViewController.m */,
 			);
 			path = TheWordGame;
 			sourceTree = "<group>";
@@ -489,6 +494,7 @@
 				CC77B23F1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m in Sources */,
 				BA56B8AE1AD0FBCF0023F1C5 /* UITestViewController.m in Sources */,
 				BAA58CA21AD2EB8F00C8A2AA /* LandingPageViewController.m in Sources */,
+				18C17EDC1AD31DF800A7EDD5 /* MultiPlayerPassAndPlayViewController.m in Sources */,
 				CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
