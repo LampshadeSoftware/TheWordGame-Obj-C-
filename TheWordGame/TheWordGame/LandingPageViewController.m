@@ -50,14 +50,14 @@
     
     multiplayer.animationImages =
     [NSArray arrayWithObjects:
-     [UIImage imageNamed:@"sb1.png"],
-     [UIImage imageNamed:@"sb2.png"],
-     [UIImage imageNamed:@"sb3.png"],
-     [UIImage imageNamed:@"sb4.png"],
-     [UIImage imageNamed:@"sb5.png"],
-     [UIImage imageNamed:@"sb6.png"],
-     [UIImage imageNamed:@"sb7.png"],
-     [UIImage imageNamed:@"sb8.png"], nil];
+     [UIImage imageNamed:@"sp1.png"],
+     [UIImage imageNamed:@"sp2.png"],
+     [UIImage imageNamed:@"sp3.png"],
+     [UIImage imageNamed:@"sp4.png"],
+     [UIImage imageNamed:@"sp5.png"],
+     [UIImage imageNamed:@"sp6.png"],
+     [UIImage imageNamed:@"sp7.png"],
+     [UIImage imageNamed:@"sp8.png"], nil];
     multiplayer.animationDuration = 0.7;
     [multiplayer setAnimationRepeatCount:1];
     [multiplayer startAnimating];

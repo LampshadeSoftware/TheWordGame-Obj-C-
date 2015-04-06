@@ -44,7 +44,7 @@
      [UIImage imageNamed:@"button13.png"],
      [UIImage imageNamed:@"button14.png"],
      [UIImage imageNamed:@"button15.png"], nil];
-    freeplay.animationDuration = 0.3;
+    freeplay.animationDuration = 0.7;
     [freeplay setAnimationRepeatCount:1];
     [freeplay startAnimating];
     
@@ -69,7 +69,7 @@
      [UIImage imageNamed:@"button13.png"],
      [UIImage imageNamed:@"button14.png"],
      [UIImage imageNamed:@"button15.png"], nil];
-    timetrial.animationDuration = 0.3;
+    timetrial.animationDuration = 0.7;
     [timetrial setAnimationRepeatCount:1];
     [timetrial startAnimating];
     
@@ -95,7 +95,7 @@
      [UIImage imageNamed:@"button13.png"],
      [UIImage imageNamed:@"button14.png"],
      [UIImage imageNamed:@"button15.png"], nil];
-    levels.animationDuration = 0.3;
+    levels.animationDuration = 0.7;
     [levels setAnimationRepeatCount:1];
     [levels startAnimating];
     

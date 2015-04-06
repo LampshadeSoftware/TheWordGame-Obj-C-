@@ -285,115 +285,6 @@
             </objects>
             <point key="canvasLocation" x="1759.5" y="1036.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="GB6-6r-Mm9">
-            <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="ExM-rL-e3T" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="H1c-Oh-f43"/>
-                        <viewControllerLayoutGuide type="bottom" id="lBP-58-amE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="p4t-fW-ys8">
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cowboy.png" translatesAutoresizingMaskIntoConstraints="NO" id="f3f-Zr-hoT">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="85" y="401" width="150" height="150"/>
-                                </variation>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Daniel.png" translatesAutoresizingMaskIntoConstraints="NO" id="OM3-Yf-26Y">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="85" y="56" width="150" height="150"/>
-                                </variation>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daniel McCrystal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTG-uj-fOr">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="95" y="214" width="131" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cowboy Lynk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDc-MI-boX">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="109" y="559" width="105" height="21"/>
-                                </variation>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aca-55-TQ9">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="41" y="588" width="240" height="128"/>
-                                </variation>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p77-pJ-B9G">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="243" width="240" height="128"/>
-                                </variation>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AgU-yb-mrf">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
-                                <state key="normal" title="X">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="17" y="21" width="35" height="35"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="rze-Ew-6qL" kind="presentation" id="tZk-ed-6W8"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="f3f-Zr-hoT"/>
-                                <exclude reference="OM3-Yf-26Y"/>
-                                <exclude reference="wTG-uj-fOr"/>
-                                <exclude reference="yDc-MI-boX"/>
-                                <exclude reference="aca-55-TQ9"/>
-                                <exclude reference="p77-pJ-B9G"/>
-                                <exclude reference="AgU-yb-mrf"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="f3f-Zr-hoT"/>
-                                <include reference="OM3-Yf-26Y"/>
-                                <include reference="wTG-uj-fOr"/>
-                                <include reference="yDc-MI-boX"/>
-                                <include reference="aca-55-TQ9"/>
-                                <include reference="p77-pJ-B9G"/>
-                                <include reference="AgU-yb-mrf"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="800"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TLI-qZ-2sF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-793.5" y="895.5"/>
-        </scene>
         <!--Instructions Launch-->
         <scene sceneID="jk3-GU-gVv">
             <objects>
@@ -418,37 +309,6 @@
                                                 <rect key="frame" x="130" y="44" width="60" height="60"/>
                                             </variation>
                                         </imageView>
-                                        <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efy-O0-aMp">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                            <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NB4-y0-25Q">
-                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                                    <state key="normal" title="Lampshade Software">
-                                                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                        <rect key="frame" x="101" y="6" width="157" height="33"/>
-                                                    </variation>
-                                                    <connections>
-                                                        <segue destination="ExM-rL-e3T" kind="presentation" id="j6h-xu-FTc"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <variation key="default">
-                                                <mask key="subviews">
-                                                    <exclude reference="NB4-y0-25Q"/>
-                                                </mask>
-                                            </variation>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="-19" y="427" width="339" height="45"/>
-                                                <mask key="subviews">
-                                                    <include reference="NB4-y0-25Q"/>
-                                                </mask>
-                                            </variation>
-                                        </view>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inN-1p-Zyx">
                                             <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
@@ -468,21 +328,41 @@
                                                 <rect key="frame" x="40" y="141" width="240" height="267"/>
                                             </variation>
                                         </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daniel, Rio, Cowboy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kS-Ii-ff9">
+                                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="82" y="447" width="156" height="21"/>
+                                            </variation>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lampshade Software" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Wf-9T-a2N">
+                                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="35" y="428" width="251" height="21"/>
+                                            </variation>
+                                        </label>
                                     </subviews>
                                     <variation key="default">
                                         <mask key="subviews">
                                             <exclude reference="9rY-aX-wgE"/>
-                                            <exclude reference="efy-O0-aMp"/>
                                             <exclude reference="inN-1p-Zyx"/>
                                             <exclude reference="WqP-IU-diJ"/>
+                                            <exclude reference="1kS-Ii-ff9"/>
+                                            <exclude reference="0Wf-9T-a2N"/>
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=regular-widthClass=compact">
                                         <mask key="subviews">
                                             <include reference="9rY-aX-wgE"/>
-                                            <include reference="efy-O0-aMp"/>
                                             <include reference="inN-1p-Zyx"/>
                                             <include reference="WqP-IU-diJ"/>
+                                            <include reference="1kS-Ii-ff9"/>
+                                            <include reference="0Wf-9T-a2N"/>
                                         </mask>
                                     </variation>
                                 </view>
@@ -519,6 +399,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0hk-ex-4Ui" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="up" id="UMd-Qi-A4i"/>
@@ -555,15 +436,12 @@
                                     <rect key="frame" x="255" y="0.0" width="65" height="65"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8i-X0-mss">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" image="Volume.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Volume.png" translatesAutoresizingMaskIntoConstraints="NO" id="qbM-AJ-6Yw">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="182" y="0.0" width="65" height="65"/>
                                 </variation>
-                            </button>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Word Game" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KPE-Dk-q9K">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
@@ -704,7 +582,7 @@
                                 <exclude reference="XMW-nq-AyD"/>
                                 <exclude reference="aPr-4z-cap"/>
                                 <exclude reference="M43-5u-V1d"/>
-                                <exclude reference="p8i-X0-mss"/>
+                                <exclude reference="qbM-AJ-6Yw"/>
                                 <exclude reference="KPE-Dk-q9K"/>
                                 <exclude reference="VvA-zK-VLN"/>
                                 <exclude reference="AgF-jh-dvV"/>
@@ -726,7 +604,7 @@
                                 <include reference="XMW-nq-AyD"/>
                                 <include reference="aPr-4z-cap"/>
                                 <include reference="M43-5u-V1d"/>
-                                <include reference="p8i-X0-mss"/>
+                                <include reference="qbM-AJ-6Yw"/>
                                 <include reference="KPE-Dk-q9K"/>
                                 <include reference="VvA-zK-VLN"/>
                                 <include reference="AgF-jh-dvV"/>
@@ -1350,8 +1228,6 @@
     </scenes>
     <resources>
         <image name="BottomBar.png" width="640" height="130"/>
-        <image name="Cowboy.png" width="500" height="500"/>
-        <image name="Daniel.png" width="500" height="500"/>
         <image name="GameModesSC.png" width="170" height="170"/>
         <image name="Home.png" width="200" height="200"/>
         <image name="House Black.png" width="200" height="200"/>
@@ -1370,12 +1246,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Hqm-2p-w8Y"/>
-<<<<<<< Updated upstream
         <segue reference="Hrz-vV-jfG"/>
-=======
-        <segue reference="xPY-D4-61d"/>
-        <segue reference="kCg-jr-WXH"/>
->>>>>>> Stashed changes
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
