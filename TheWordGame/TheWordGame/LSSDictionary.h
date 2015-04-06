@@ -11,6 +11,6 @@
 @interface LSSDictionary : NSObject
 
 +(void)initialize;
-+(BOOL)isEnglishWord:(NSString *)newWord;
++(BOOL)isEnglishWord:(NSString *)word;
 
 @end
