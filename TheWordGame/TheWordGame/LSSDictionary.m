@@ -16,6 +16,8 @@ static NSArray *dictionary;
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Dictionary" ofType:@"txt"];
     NSString *entireDictionary = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     dictionary = [entireDictionary componentsSeparatedByString:@"\n"];
+    NSLog(@"Dictionary initialized");
+    NSLog(dictionary[10]);
 }
 
 +(BOOL)isEnglishWord:(NSString *)word {

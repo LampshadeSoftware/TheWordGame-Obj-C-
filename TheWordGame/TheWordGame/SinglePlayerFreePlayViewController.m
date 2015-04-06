@@ -7,6 +7,7 @@
 //
 
 #import "SinglePlayerFreePlayViewController.h"
+#import "LSSGame.h"
 
 @interface SinglePlayerFreePlayViewController ()
 
@@ -15,21 +16,27 @@
 
 @implementation SinglePlayerFreePlayViewController
 
+LSSGame *currentGame;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    /*
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Dictionary" ofType:@"txt"];
-    NSString *entireDictionary = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
-    dictionary = [entireDictionary componentsSeparatedByString:@"\n"];
+    NSMutableArray *savedGames = [LSSGame getSavedGames];
     
-    _currentWord.text = @"word";
-    _lastWord0.text = @"";
-    _lastWord1.text = @"";
-    _lastWord2.text = @"";
+    if([[LSSGame getSavedGames] count] == 0) {
+        currentGame = [[LSSGame alloc] init];
+        [savedGames addObject:currentGame];
+    }
+    else if(currentGame == nil){
+        currentGame = savedGames[[savedGames count]-1];
+    }
+    
+    _currentWord.text = currentGame.currentWord;
+    _lastWord0.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
+    _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
+    _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 4];
     _invalidWordLog.text = @"";
-    usedWords = [NSMutableArray arrayWithObjects:@"", @"", _currentWord.text, nil];
-     */
+    
     _inputTextBox.returnKeyType = UIReturnKeyDone;
     [_inputTextBox becomeFirstResponder];
     _inputTextBox.delegate = self;
@@ -41,6 +48,19 @@
 }
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    if([currentGame isValidPlay:_inputTextBox.text onWord:currentGame.currentWord]) {
+        _invalidWordLog.text = @"";
+        _currentWord.text = _inputTextBox.text;
+        currentGame.currentWord = _inputTextBox.text;
+        _lastWord0.text = currentGame.usedWords[[currentGame.usedWords count] - 1];
+        _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
+        _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
+        [currentGame.usedWords addObject:_inputTextBox.text];
+    }
+    else {
+        _invalidWordLog.text = currentGame.logMessage;
+    }
+    _inputTextBox.text = @"";
     /*
     if(isValidPlay(_inputTextBox.text, _currentWord.text)) {
         _invalidWordLog.text = @"";
@@ -57,11 +77,6 @@
      */
     return YES;
 }
-
-NSString *invalidMessage = @"";
-NSMutableArray *usedWords;
-NSArray *dictionary;
-
 
 #pragma mark - Navigation
 

@@ -18,6 +18,27 @@
 
 @implementation LSSGame
 
+static NSMutableArray *savedGames;
+
++(void)initializeSaves {
+    savedGames = [[NSMutableArray alloc] init];
+    NSLog(@"Game saves initialized");
+}
+
++(NSMutableArray *)getSavedGames {
+    return savedGames;
+}
+
+- (id) init {
+    self = [super init];
+    _currentWord = @"word";
+    _usedWords = [NSMutableArray arrayWithObjects:@"", @"", @"", _currentWord, nil];
+    _logMessage = @"";
+    
+    NSLog(@"Created new game");
+    return self;
+}
+
 -(void)updateMessage:(NSString *)message {
     _logMessage = message;
 }
@@ -50,6 +71,9 @@
                 return NO;
             }
             return YES;
+        }
+        else {
+            [self updateMessage:[NSString stringWithFormat:@"%@ is not an English word.", newWord]];
         }
     }
     return NO;

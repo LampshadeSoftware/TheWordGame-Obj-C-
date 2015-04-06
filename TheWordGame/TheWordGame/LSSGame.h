@@ -14,9 +14,13 @@
 @property (strong) NSString *logMessage;
 @property (strong) NSMutableArray *usedWords;
 
+-(id)init;
 -(BOOL)isValidPlay:(NSString *)newWord onWord:(NSString *)currentWord;
 -(BOOL)isValidAdd:(NSString *)newWord onWord:(NSString *)currentWord;
 -(BOOL)isValidSub:(NSString *)newWord onWord:(NSString *)currentWord;
 -(BOOL)isValidSwap:(NSString *)newWord onWord:(NSString *)currentWord;
+
++(void)initializeSaves;
++(NSMutableArray *)getSavedGames;
 
 @end
