@@ -51,6 +51,8 @@
 		BAA58CC21AD2F0C000C8A2AA /* mp6.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CBA1AD2F0C000C8A2AA /* mp6.png */; };
 		BAA58CC31AD2F0C000C8A2AA /* mp7.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CBB1AD2F0C000C8A2AA /* mp7.png */; };
 		BAA58CC41AD2F0C000C8A2AA /* mp8.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CBC1AD2F0C000C8A2AA /* mp8.png */; };
+		BAA58CC81AD2F61300C8A2AA /* Cowboy.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CC61AD2F61300C8A2AA /* Cowboy.png */; };
+		BAA58CC91AD2F61300C8A2AA /* Daniel.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CC71AD2F61300C8A2AA /* Daniel.png */; };
 		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
 		BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5181AD03E21005A9B54 /* QuartzCore.framework */; };
 		BADEFFBC1AD0F9210071EAA1 /* BottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFB61AD0F9210071EAA1 /* BottomBar.png */; };
@@ -127,6 +129,8 @@
 		BAA58CBA1AD2F0C000C8A2AA /* mp6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp6.png; sourceTree = "<group>"; };
 		BAA58CBB1AD2F0C000C8A2AA /* mp7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp7.png; sourceTree = "<group>"; };
 		BAA58CBC1AD2F0C000C8A2AA /* mp8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp8.png; sourceTree = "<group>"; };
+		BAA58CC61AD2F61300C8A2AA /* Cowboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cowboy.png; sourceTree = "<group>"; };
+		BAA58CC71AD2F61300C8A2AA /* Daniel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Daniel.png; sourceTree = "<group>"; };
 		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
 		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -236,9 +240,20 @@
 			path = MultiPlayer;
 			sourceTree = "<group>";
 		};
+		BAA58CC51AD2F61300C8A2AA /* Developers */ = {
+			isa = PBXGroup;
+			children = (
+				BAA58CC61AD2F61300C8A2AA /* Cowboy.png */,
+				BAA58CC71AD2F61300C8A2AA /* Daniel.png */,
+			);
+			name = Developers;
+			path = Images/Developers;
+			sourceTree = SOURCE_ROOT;
+		};
 		CC03E9E71AD069C50068B980 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BAA58CC51AD2F61300C8A2AA /* Developers */,
 				BA56B8BB1AD1858F0023F1C5 /* MultiPlayerNew.png */,
 				BA56B8BC1AD1858F0023F1C5 /* SinglePlayerNew.png */,
 				BADEFFB61AD0F9210071EAA1 /* BottomBar.png */,
@@ -434,6 +449,7 @@
 				BA56B8BE1AD1858F0023F1C5 /* SinglePlayerNew.png in Resources */,
 				CC77B23C1AD0779F00BABE6B /* Dictionary.txt in Resources */,
 				BAA58C8B1AD2DBC000C8A2AA /* button10.png in Resources */,
+				BAA58CC91AD2F61300C8A2AA /* Daniel.png in Resources */,
 				BA56B8BD1AD1858F0023F1C5 /* MultiPlayerNew.png in Resources */,
 				BADEFFBC1AD0F9210071EAA1 /* BottomBar.png in Resources */,
 				BAA58CAC1AD2EC6100C8A2AA /* sp1.png in Resources */,
@@ -442,6 +458,7 @@
 				BAA58C961AD2DBC000C8A2AA /* button7.png in Resources */,
 				BAA58C971AD2DBC000C8A2AA /* button8.png in Resources */,
 				BAA58CC01AD2F0C000C8A2AA /* mp4.png in Resources */,
+				BAA58CC81AD2F61300C8A2AA /* Cowboy.png in Resources */,
 				BAA58C921AD2DBC000C8A2AA /* button3.png in Resources */,
 				BADEFFBE1AD0F9210071EAA1 /* NavBar.png in Resources */,
 				BAA58C911AD2DBC000C8A2AA /* button2.png in Resources */,
