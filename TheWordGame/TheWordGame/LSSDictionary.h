@@ -12,6 +12,5 @@
 
 +(void)initialize;
 +(BOOL)isEnglishWord:(NSString *)newWord;
-+(NSString *)getRandomWord;
 
 @end

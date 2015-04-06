@@ -28,15 +28,4 @@ static NSArray *dictionary;
     return NO;
 }
 
-+(NSString *)getRandomWord {
-    int start = arc4random_uniform((int)[dictionary count]);
-    for(int i=start; i<(int)[dictionary count]; i++) {
-        NSString *potential = dictionary[i];
-        if (potential.length == 4 || potential.length == 5) {
-            return potential;
-        }
-    }
-    return @"word";
-}
-
 @end
