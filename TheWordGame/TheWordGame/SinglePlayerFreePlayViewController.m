@@ -35,7 +35,7 @@ LSSGame *currentGame;
     _lastWord0.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
     _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
     _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 4];
-    _invalidWordLog.text = @"";
+    _invalidWordLog.text = currentGame.logMessage;
     
     _inputTextBox.returnKeyType = UIReturnKeyDone;
     [_inputTextBox becomeFirstResponder];
