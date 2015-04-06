@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="81l-qX-jLb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
@@ -285,59 +285,6 @@
             </objects>
             <point key="canvasLocation" x="1759.5" y="1036.5"/>
         </scene>
-        <!--Launh Screen View Controller-->
-        <scene sceneID="PES-xB-RwY">
-            <objects>
-                <viewController id="81l-qX-jLb" customClass="LaunhScreenViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zCd-b3-EH9"/>
-                        <viewControllerLayoutGuide type="bottom" id="deE-Vp-4fv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xkx-42-m8X">
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MultiPlayer_00000.png" translatesAutoresizingMaskIntoConstraints="NO" id="wXc-I4-4i0">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="60" y="85" width="200" height="200"/>
-                                </variation>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVo-B4-NGw">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="137" y="331" width="46" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="startSbbutton:" destination="81l-qX-jLb" eventType="touchUpInside" id="fHk-Tq-8uY"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="wXc-I4-4i0"/>
-                                <exclude reference="iVo-B4-NGw"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="wXc-I4-4i0"/>
-                                <include reference="iVo-B4-NGw"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="spbutton" destination="wXc-I4-4i0" id="pGI-jW-czN"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eSa-KZ-kXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2674.5" y="712.5"/>
-        </scene>
         <!--Instructions Launch-->
         <scene sceneID="jk3-GU-gVv">
             <objects>
@@ -462,7 +409,7 @@
         <!--Landing Page-->
         <scene sceneID="WTd-A2-IbA">
             <objects>
-                <viewController title="Landing Page" id="Zw0-Mb-1rR" sceneMemberID="viewController">
+                <viewController title="Landing Page" id="Zw0-Mb-1rR" customClass="LandingPageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e1o-cV-C4G"/>
                         <viewControllerLayoutGuide type="bottom" id="JkS-Yf-GT7"/>
@@ -527,34 +474,6 @@
                                     <rect key="frame" x="72" y="200" width="85" height="85"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CA-bh-4B3">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" image="SinglePlayerNew.png">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="30" y="120" width="120" height="120"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="TQW-Ta-NxG" kind="presentation" id="ZqV-K3-uAE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vub-Oh-rbj">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" image="MultiPlayerNew.png">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="171" y="120" width="120" height="120"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="6bU-fq-oAZ" kind="presentation" id="dJi-Rv-FM8"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game statistics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pow-ig-Wtu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
@@ -618,6 +537,44 @@
                                     <rect key="frame" x="91" y="343" width="32" height="13"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sp1.png" translatesAutoresizingMaskIntoConstraints="NO" id="pcJ-g7-TuV">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="29" y="119" width="125" height="125"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akd-8M-kWt">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="29" y="119" width="125" height="125"/>
+                                </variation>
+                                <connections>
+                                    <action selector="startSinglePlayer:" destination="Zw0-Mb-1rR" eventType="touchUpInside" id="kCp-kJ-YrQ"/>
+                                    <segue destination="Rp3-nL-0yv" kind="presentation" id="SYG-b5-qnH"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mp1.png" translatesAutoresizingMaskIntoConstraints="NO" id="7cN-wY-WHT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="167" y="119" width="125" height="125"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaX-ww-3V7">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="167" y="119" width="125" height="125"/>
+                                </variation>
+                                <connections>
+                                    <action selector="startMultiPlayer:" destination="Zw0-Mb-1rR" eventType="touchUpInside" id="fNZ-ZD-GuG"/>
+                                    <segue destination="6bU-fq-oAZ" kind="presentation" id="hZp-iM-Ztb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.17701998493693896" green="0.21309090918002874" blue="0.26779560308972061" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -629,8 +586,6 @@
                                 <exclude reference="KPE-Dk-q9K"/>
                                 <exclude reference="VvA-zK-VLN"/>
                                 <exclude reference="AgF-jh-dvV"/>
-                                <exclude reference="0CA-bh-4B3"/>
-                                <exclude reference="vub-Oh-rbj"/>
                                 <exclude reference="Pow-ig-Wtu"/>
                                 <exclude reference="OdX-Sv-q5k"/>
                                 <exclude reference="MlK-50-0se"/>
@@ -638,6 +593,10 @@
                                 <exclude reference="EwD-Fi-Rbd"/>
                                 <exclude reference="wiE-y7-1hz"/>
                                 <exclude reference="drQ-hp-XfD"/>
+                                <exclude reference="pcJ-g7-TuV"/>
+                                <exclude reference="Akd-8M-kWt"/>
+                                <exclude reference="7cN-wY-WHT"/>
+                                <exclude reference="gaX-ww-3V7"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -649,8 +608,6 @@
                                 <include reference="KPE-Dk-q9K"/>
                                 <include reference="VvA-zK-VLN"/>
                                 <include reference="AgF-jh-dvV"/>
-                                <include reference="0CA-bh-4B3"/>
-                                <include reference="vub-Oh-rbj"/>
                                 <include reference="Pow-ig-Wtu"/>
                                 <include reference="OdX-Sv-q5k"/>
                                 <include reference="MlK-50-0se"/>
@@ -658,141 +615,24 @@
                                 <include reference="EwD-Fi-Rbd"/>
                                 <include reference="wiE-y7-1hz"/>
                                 <include reference="drQ-hp-XfD"/>
+                                <include reference="pcJ-g7-TuV"/>
+                                <include reference="Akd-8M-kWt"/>
+                                <include reference="7cN-wY-WHT"/>
+                                <include reference="gaX-ww-3V7"/>
                             </mask>
                         </variation>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="multiplayer" destination="7cN-wY-WHT" id="kz3-H6-3rn"/>
+                        <outlet property="singleplayer" destination="pcJ-g7-TuV" id="UCu-XF-K9W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ftL-De-Mas" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="510" y="775.5"/>
-        </scene>
-        <!--SInglePlayerGameModes-->
-        <scene sceneID="icE-3G-bDs">
-            <objects>
-                <viewController title="SInglePlayerGameModes" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="TQW-Ta-NxG" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hVZ-w2-6Ru"/>
-                        <viewControllerLayoutGuide type="bottom" id="hhi-kI-O1Z"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dm1-MZ-Z0X">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNu-5k-wbW">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="iZy-Gd-ZhU">
-                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0x-UE-iLN">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
-                                            <state key="normal" title="X">
-                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="17" y="21" width="35" height="35"/>
-                                            </variation>
-                                            <connections>
-                                                <segue destination="Zw0-Mb-1rR" kind="presentation" modalTransitionStyle="crossDissolve" id="iPg-lY-eFd"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6B-np-Grj">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <color key="backgroundColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Freeplay">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="15"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="119" width="150" height="66"/>
-                                            </variation>
-                                            <connections>
-                                                <segue destination="vXZ-lx-hvc" kind="presentation" id="Wdl-vx-P9I"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cj8-OJ-j0z">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <color key="backgroundColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Time Trials">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="15"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="208" width="150" height="66"/>
-                                            </variation>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sk5-SJ-sDS">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <color key="backgroundColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Levels">
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                    <integer key="value" value="15"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="295" width="150" height="66"/>
-                                            </variation>
-                                        </button>
-                                    </subviews>
-                                    <variation key="default">
-                                        <mask key="subviews">
-                                            <exclude reference="d0x-UE-iLN"/>
-                                            <exclude reference="o6B-np-Grj"/>
-                                            <exclude reference="cj8-OJ-j0z"/>
-                                            <exclude reference="Sk5-SJ-sDS"/>
-                                        </mask>
-                                    </variation>
-                                    <variation key="heightClass=regular-widthClass=compact">
-                                        <mask key="subviews">
-                                            <include reference="d0x-UE-iLN"/>
-                                            <include reference="o6B-np-Grj"/>
-                                            <include reference="cj8-OJ-j0z"/>
-                                            <include reference="Sk5-SJ-sDS"/>
-                                        </mask>
-                                    </variation>
-                                </view>
-                                <blurEffect style="light"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                                </variation>
-                            </visualEffectView>
-                        </subviews>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="eNu-5k-wbW"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="eNu-5k-wbW"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JhA-sr-KpD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="up" id="b6c-rL-U2V"/>
-            </objects>
-            <point key="canvasLocation" x="1150.5" y="1036.5"/>
         </scene>
         <!--SInglePlayerGameModes-->
         <scene sceneID="0t4-Fu-Tuq">
@@ -1238,7 +1078,152 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S9p-fK-XX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="up" id="BvQ-tJ-t6L"/>
             </objects>
-            <point key="canvasLocation" x="1150.5" y="495"/>
+            <point key="canvasLocation" x="1168.5" y="495"/>
+        </scene>
+        <!--SinglePlayerGameModes-->
+        <scene sceneID="nKd-Q5-MaG">
+            <objects>
+                <viewController title="SinglePlayerGameModes" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="Rp3-nL-0yv" customClass="GameModesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LVI-6R-HIU"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Xf-Pk-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Sw0-Ua-0B2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QTl-Y7-8hA">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="iVX-K4-nUA">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUc-W1-mgy">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
+                                            <state key="normal" title="X">
+                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="17" y="21" width="35" height="35"/>
+                                            </variation>
+                                            <connections>
+                                                <segue destination="Zw0-Mb-1rR" kind="presentation" modalTransitionStyle="crossDissolve" id="lgx-5E-mSQ"/>
+                                            </connections>
+                                        </button>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="hu0-C0-Vfl">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="64" y="101" width="193" height="87"/>
+                                            </variation>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZe-qa-Emq">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                            <state key="normal" title="Freeplay">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="85" y="120" width="150" height="50"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="wj7-gm-4zp"/>
+                                                <segue destination="vXZ-lx-hvc" kind="presentation" id="SP3-9W-b5P"/>
+                                            </connections>
+                                        </button>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="MO4-ic-hWF">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="64" y="196" width="193" height="87"/>
+                                            </variation>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="CWn-os-Tta">
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="64" y="291" width="193" height="87"/>
+                                            </variation>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sc1-tn-yNw">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                            <state key="normal" title="Levels">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="85" y="310" width="150" height="50"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="startLevels:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="jCg-WK-7Gh"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtT-tH-IUU">
+                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                            <state key="normal" title="Time Trial">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="85" y="215" width="150" height="50"/>
+                                            </variation>
+                                            <connections>
+                                                <action selector="startTimeTrial:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="01m-nj-nWw"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <variation key="default">
+                                        <mask key="subviews">
+                                            <exclude reference="vUc-W1-mgy"/>
+                                            <exclude reference="hu0-C0-Vfl"/>
+                                            <exclude reference="HZe-qa-Emq"/>
+                                            <exclude reference="MO4-ic-hWF"/>
+                                            <exclude reference="CWn-os-Tta"/>
+                                            <exclude reference="sc1-tn-yNw"/>
+                                            <exclude reference="TtT-tH-IUU"/>
+                                        </mask>
+                                    </variation>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <mask key="subviews">
+                                            <include reference="vUc-W1-mgy"/>
+                                            <include reference="hu0-C0-Vfl"/>
+                                            <include reference="HZe-qa-Emq"/>
+                                            <include reference="MO4-ic-hWF"/>
+                                            <include reference="CWn-os-Tta"/>
+                                            <include reference="sc1-tn-yNw"/>
+                                            <include reference="TtT-tH-IUU"/>
+                                        </mask>
+                                    </variation>
+                                </view>
+                                <blurEffect style="light"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                </variation>
+                            </visualEffectView>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="QTl-Y7-8hA"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="QTl-Y7-8hA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="freeplay" destination="hu0-C0-Vfl" id="lQj-BK-6xs"/>
+                        <outlet property="levels" destination="CWn-os-Tta" id="5hs-Hr-Y2t"/>
+                        <outlet property="timetrial" destination="MO4-ic-hWF" id="X55-zb-Nre"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBT-ch-wKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1168.5" y="941.25"/>
         </scene>
     </scenes>
     <resources>
@@ -1250,18 +1235,18 @@
         <image name="Info.png" width="200" height="200"/>
         <image name="Instructions Icon.png" width="120" height="120"/>
         <image name="Market.png" width="200" height="200"/>
-        <image name="MultiPlayerNew.png" width="350" height="350"/>
-        <image name="MultiPlayer_00000.png" width="370" height="370"/>
         <image name="NavBar.png" width="640" height="130"/>
         <image name="Settings.png" width="130" height="130"/>
-        <image name="SinglePlayerNew.png" width="350" height="350"/>
         <image name="Stats.png" width="200" height="200"/>
         <image name="Trophy.png" width="200" height="200"/>
         <image name="Volume.png" width="130" height="130"/>
+        <image name="button1.png" width="500" height="250"/>
+        <image name="mp1.png" width="370" height="370"/>
+        <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Hqm-2p-w8Y"/>
-        <segue reference="xPY-D4-61d"/>
+        <segue reference="5NM-2t-3M3"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
