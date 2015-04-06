@@ -17,12 +17,11 @@ static NSArray *dictionary;
     NSString *entireDictionary = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     dictionary = [entireDictionary componentsSeparatedByString:@"\n"];
     NSLog(@"Dictionary initialized");
-    NSLog(dictionary[10]);
 }
 
-+(BOOL)isEnglishWord:(NSString *)word {
++(BOOL)isEnglishWord:(NSString *)newWord {
     for(NSString *word in dictionary) {
-        if([word isEqualToString:word]) {
+        if([newWord isEqualToString:word]) {
             return YES;
         }
     }
