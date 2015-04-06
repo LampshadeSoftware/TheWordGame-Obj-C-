@@ -238,7 +238,7 @@
                                     <rect key="frame" x="23" y="20" width="25" height="25"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="KSx-dw-EH0"/>
+                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="Hrz-vV-jfG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -283,11 +283,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Qbd-Gw-kov"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="1759.5" y="1036.5"/>
-=======
-            <point key="canvasLocation" x="1819.5" y="941.25"/>
->>>>>>> origin/master
         </scene>
         <!--Instructions Launch-->
         <scene sceneID="jk3-GU-gVv">
@@ -332,13 +328,22 @@
                                                 <rect key="frame" x="40" y="141" width="240" height="267"/>
                                             </variation>
                                         </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daniel, Rio, Cowboy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1kS-Ii-ff9">
+                                            <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                                <rect key="frame" x="82" y="447" width="156" height="21"/>
+                                            </variation>
+                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lampshade Software" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Wf-9T-a2N">
                                             <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                             <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="35" y="442" width="251" height="21"/>
+                                                <rect key="frame" x="35" y="428" width="251" height="21"/>
                                             </variation>
                                         </label>
                                     </subviews>
@@ -347,6 +352,7 @@
                                             <exclude reference="9rY-aX-wgE"/>
                                             <exclude reference="inN-1p-Zyx"/>
                                             <exclude reference="WqP-IU-diJ"/>
+                                            <exclude reference="1kS-Ii-ff9"/>
                                             <exclude reference="0Wf-9T-a2N"/>
                                         </mask>
                                     </variation>
@@ -355,6 +361,7 @@
                                             <include reference="9rY-aX-wgE"/>
                                             <include reference="inN-1p-Zyx"/>
                                             <include reference="WqP-IU-diJ"/>
+                                            <include reference="1kS-Ii-ff9"/>
                                             <include reference="0Wf-9T-a2N"/>
                                         </mask>
                                     </variation>
@@ -659,32 +666,11 @@
                                                 <segue destination="sAn-Nl-tCN" kind="presentation" modalTransitionStyle="crossDissolve" id="v3S-PL-YTA"/>
                                             </connections>
                                         </button>
-<<<<<<< HEAD
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6W6-bM-QqL">
-=======
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="hNw-Uf-Jyw">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="64" y="149" width="193" height="87"/>
-                                            </variation>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="DSE-41-hHX">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="64" y="244" width="193" height="87"/>
-                                            </variation>
-                                        </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcB-bX-wMI">
->>>>>>> origin/master
                                             <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                             <color key="backgroundColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-<<<<<<< HEAD
                                             <state key="normal" title="Freeplay">
-=======
-                                            <state key="normal" title="Pass n' Play">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
->>>>>>> origin/master
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <userDefinedRuntimeAttributes>
@@ -696,7 +682,6 @@
                                                 <rect key="frame" x="85" y="119" width="150" height="66"/>
                                             </variation>
                                             <connections>
-<<<<<<< HEAD
                                                 <segue destination="8kk-UV-nrI" kind="presentation" id="PF6-Fp-cPR"/>
                                             </connections>
                                         </button>
@@ -721,17 +706,6 @@
                                             <color key="backgroundColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                             <state key="normal" title="Levels">
-=======
-                                                <action selector="startFreeplay:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="DZh-Gr-fgq"/>
-                                                <segue destination="GPX-3E-w2X" kind="presentation" id="VJe-we-GjG"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cCh-aE-ubM">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Challenge">
-                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
->>>>>>> origin/master
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <userDefinedRuntimeAttributes>
@@ -742,45 +716,22 @@
                                             <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                 <rect key="frame" x="85" y="295" width="150" height="66"/>
                                             </variation>
-<<<<<<< HEAD
-=======
-                                            <connections>
-                                                <action selector="startLevels:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="Ea3-1t-fDn"/>
-                                                <segue destination="tN3-Ph-mf3" kind="presentation" id="UED-H6-tQh"/>
-                                            </connections>
->>>>>>> origin/master
                                         </button>
                                     </subviews>
                                     <variation key="default">
                                         <mask key="subviews">
-<<<<<<< HEAD
                                             <exclude reference="UeP-JN-lto"/>
                                             <exclude reference="6W6-bM-QqL"/>
                                             <exclude reference="wcG-CQ-owU"/>
                                             <exclude reference="d8q-hC-6eu"/>
-=======
-                                            <exclude reference="8hK-CM-ZFn"/>
-                                            <exclude reference="hNw-Uf-Jyw"/>
-                                            <exclude reference="DSE-41-hHX"/>
-                                            <exclude reference="XcB-bX-wMI"/>
-                                            <exclude reference="cCh-aE-ubM"/>
->>>>>>> origin/master
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=regular-widthClass=compact">
                                         <mask key="subviews">
-<<<<<<< HEAD
                                             <include reference="UeP-JN-lto"/>
                                             <include reference="6W6-bM-QqL"/>
                                             <include reference="wcG-CQ-owU"/>
                                             <include reference="d8q-hC-6eu"/>
-=======
-                                            <include reference="8hK-CM-ZFn"/>
-                                            <include reference="hNw-Uf-Jyw"/>
-                                            <include reference="DSE-41-hHX"/>
-                                            <include reference="XcB-bX-wMI"/>
-                                            <include reference="cCh-aE-ubM"/>
->>>>>>> origin/master
                                         </mask>
                                     </variation>
                                 </view>
@@ -802,40 +753,11 @@
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-<<<<<<< HEAD
-=======
-                    <connections>
-                        <outlet property="freeplay" destination="hNw-Uf-Jyw" id="9AG-kx-hsz"/>
-                        <outlet property="levels" destination="DSE-41-hHX" id="4FJ-Ll-ylv"/>
-                    </connections>
->>>>>>> origin/master
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QbO-OP-ECW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="up" id="lON-kF-5OJ"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="1150.5" y="-250.5"/>
-=======
-            <point key="canvasLocation" x="1168.5" y="495"/>
-        </scene>
-        <!--ChoosePlayers-->
-        <scene sceneID="3WK-RN-ibm">
-            <objects>
-                <viewController title="ChoosePlayers" id="GPX-3E-w2X" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yI9-Ws-c0b"/>
-                        <viewControllerLayoutGuide type="bottom" id="M1K-kA-AUo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Rzn-p8-Dn3">
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XrL-od-LV4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1819.5" y="501"/>
->>>>>>> origin/master
         </scene>
         <!--Instructions Launch-->
         <scene sceneID="DND-RT-uma">
@@ -861,16 +783,11 @@
                                                 <rect key="frame" x="130" y="44" width="60" height="60"/>
                                             </variation>
                                         </imageView>
-<<<<<<< HEAD
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBW-t9-gKK">
                                             <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                             <color key="textColor" red="0.2278053977" green="0.2278053977" blue="0.2278053977" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-=======
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="MO4-ic-hWF">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
->>>>>>> origin/master
                                             <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                 <rect key="frame" x="115" y="112" width="90" height="21"/>
                                             </variation>
@@ -894,64 +811,22 @@
                                             <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                                 <rect key="frame" x="17" y="34" width="25" height="25"/>
                                             </variation>
-<<<<<<< HEAD
-=======
-                                            <connections>
-                                                <action selector="startTimeTrial:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="01m-nj-nWw"/>
-                                                <segue destination="Ai1-Ye-t6e" kind="presentation" id="Bk4-dS-h4B"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZe-qa-Emq">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Freeplay">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="120" width="150" height="50"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="wj7-gm-4zp"/>
-                                                <segue destination="vXZ-lx-hvc" kind="presentation" id="SP3-9W-b5P"/>
-                                            </connections>
->>>>>>> origin/master
                                         </button>
                                     </subviews>
                                     <variation key="default">
                                         <mask key="subviews">
-<<<<<<< HEAD
                                             <exclude reference="7YQ-Nf-Ygx"/>
                                             <exclude reference="NBW-t9-gKK"/>
                                             <exclude reference="6nb-aP-eBs"/>
                                             <exclude reference="ySg-ol-JP3"/>
-=======
-                                            <exclude reference="vUc-W1-mgy"/>
-                                            <exclude reference="hu0-C0-Vfl"/>
-                                            <exclude reference="MO4-ic-hWF"/>
-                                            <exclude reference="CWn-os-Tta"/>
-                                            <exclude reference="sc1-tn-yNw"/>
-                                            <exclude reference="TtT-tH-IUU"/>
-                                            <exclude reference="HZe-qa-Emq"/>
->>>>>>> origin/master
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=regular-widthClass=compact">
                                         <mask key="subviews">
-<<<<<<< HEAD
                                             <include reference="7YQ-Nf-Ygx"/>
                                             <include reference="NBW-t9-gKK"/>
                                             <include reference="6nb-aP-eBs"/>
                                             <include reference="ySg-ol-JP3"/>
-=======
-                                            <include reference="vUc-W1-mgy"/>
-                                            <include reference="hu0-C0-Vfl"/>
-                                            <include reference="MO4-ic-hWF"/>
-                                            <include reference="CWn-os-Tta"/>
-                                            <include reference="sc1-tn-yNw"/>
-                                            <include reference="TtT-tH-IUU"/>
-                                            <include reference="HZe-qa-Emq"/>
->>>>>>> origin/master
                                         </mask>
                                     </variation>
                                 </view>
@@ -973,7 +848,6 @@
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-<<<<<<< HEAD
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n5k-4c-sJZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="up" id="NB5-fE-zin"/>
@@ -1111,31 +985,9 @@
                         <viewControllerLayoutGuide type="bottom" id="54J-dq-Ra1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZhP-nT-NIb">
-=======
-                    <connections>
-                        <outlet property="freeplay" destination="hu0-C0-Vfl" id="lQj-BK-6xs"/>
-                        <outlet property="levels" destination="CWn-os-Tta" id="5hs-Hr-Y2t"/>
-                        <outlet property="timetrial" destination="MO4-ic-hWF" id="X55-zb-Nre"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lBT-ch-wKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1168.5" y="941.25"/>
-        </scene>
-        <!--TimeTrial-->
-        <scene sceneID="oaU-SY-yxK">
-            <objects>
-                <viewController title="TimeTrial" definesPresentationContext="YES" id="Ai1-Ye-t6e" customClass="SinglePlayerFreePlayViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WcV-3m-vZr"/>
-                        <viewControllerLayoutGuide type="bottom" id="2bg-3S-jQm"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8t1-n2-VJa">
->>>>>>> origin/master
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7nI-dW-QnF">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="rdt-Pc-G3E">
@@ -1209,93 +1061,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 </variation>
                             </visualEffectView>
-=======
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wUb-OK-1PH">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="200" width="240" height="30"/>
-                                </variation>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PMO-ps-KIx">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" red="0.85242410680000003" green="0.88660472629999998" blue="0.86910270460000005" alpha="0.75" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="89" y="92" width="143" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rm-PW-1dF">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                <color key="textColor" red="0.85242410680000003" green="0.88660472629999998" blue="0.86910270460000005" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="91" y="66" width="139" height="18"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwu-HL-QUu">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
-                                <color key="textColor" red="0.85242410680000003" green="0.88660472629999998" blue="0.86910270460000005" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="95" y="44" width="130" height="14"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="invalid word log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5d9-b4-GXa">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.24512941769999999" blue="0.32890815540000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="176" width="240" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="word" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ja9-An-e9f">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="121" width="274" height="42"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFN-Q6-0zW">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" image="House White.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="20" width="25" height="25"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="Xj5-Td-62l"/>
-                                </connections>
-                            </button>
->>>>>>> origin/master
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
-<<<<<<< HEAD
                                 <exclude reference="7nI-dW-QnF"/>
-=======
-                                <exclude reference="wUb-OK-1PH"/>
-                                <exclude reference="PMO-ps-KIx"/>
-                                <exclude reference="7rm-PW-1dF"/>
-                                <exclude reference="Gwu-HL-QUu"/>
-                                <exclude reference="5d9-b4-GXa"/>
-                                <exclude reference="Ja9-An-e9f"/>
-                                <exclude reference="GFN-Q6-0zW"/>
->>>>>>> origin/master
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-<<<<<<< HEAD
                                 <include reference="7nI-dW-QnF"/>
                             </mask>
                         </variation>
@@ -1316,49 +1089,9 @@
                         <viewControllerLayoutGuide type="bottom" id="7Xf-Pk-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Sw0-Ua-0B2">
-=======
-                                <include reference="wUb-OK-1PH"/>
-                                <include reference="PMO-ps-KIx"/>
-                                <include reference="7rm-PW-1dF"/>
-                                <include reference="Gwu-HL-QUu"/>
-                                <include reference="5d9-b4-GXa"/>
-                                <include reference="Ja9-An-e9f"/>
-                                <include reference="GFN-Q6-0zW"/>
-                            </mask>
-                        </variation>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="fC0-kb-mde" appends="YES" id="YtH-ZA-X8e"/>
-                        </connections>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="currentWord" destination="Ja9-An-e9f" id="w3j-RB-tUP"/>
-                        <outlet property="inputTextBox" destination="wUb-OK-1PH" id="yel-MD-dqP"/>
-                        <outlet property="invalidWordLog" destination="5d9-b4-GXa" id="wMR-El-cqy"/>
-                        <outlet property="lastWord0" destination="PMO-ps-KIx" id="cU7-9R-qm4"/>
-                        <outlet property="lastWord1" destination="7rm-PW-1dF" id="qPg-Yj-Uui"/>
-                        <outlet property="lastWord2" destination="Gwu-HL-QUu" id="Nzg-Hr-fqi"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OZV-Z1-Qsk" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="fC0-kb-mde"/>
-            </objects>
-            <point key="canvasLocation" x="1819.5" y="1416.75"/>
-        </scene>
-        <!--FreePlay-->
-        <scene sceneID="d8l-aa-8Zw">
-            <objects>
-                <viewController title="FreePlay" definesPresentationContext="YES" id="tN3-Ph-mf3" customClass="SinglePlayerFreePlayViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="d2u-YP-WLt"/>
-                        <viewControllerLayoutGuide type="bottom" id="uXo-eH-Wi4"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="vg7-Ee-e9z">
->>>>>>> origin/master
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QTl-Y7-8hA">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="iVX-K4-nUA">
@@ -1465,97 +1198,18 @@
                                     </variation>
                                 </view>
                                 <blurEffect style="light"/>
-=======
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Lw-Uh-1ue">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="200" width="240" height="30"/>
-                                </variation>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o6I-cY-WHe">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
-                                <color key="textColor" red="0.85242410680000003" green="0.88660472629999998" blue="0.86910270460000005" alpha="0.75" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="89" y="92" width="143" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5fo-fd-dLF">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
-                                <color key="textColor" red="0.85242410680000003" green="0.88660472629999998" blue="0.86910270460000005" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="91" y="66" width="139" height="18"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDv-jc-Dri">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
-                                <color key="textColor" red="0.85242410680000003" green="0.88660472629999998" blue="0.86910270460000005" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="95" y="44" width="130" height="14"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="invalid word log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1z-KQ-iXP">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
-                                <color key="textColor" red="1" green="0.24512941769999999" blue="0.32890815540000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="176" width="240" height="21"/>
-                                </variation>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="word" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxu-5q-7pw">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="121" width="274" height="42"/>
-                                </variation>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJj-c1-4fE">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" image="House White.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
->>>>>>> origin/master
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 </variation>
-<<<<<<< HEAD
                             </visualEffectView>
-=======
-                                <connections>
-                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="GSo-3J-8Mo"/>
-                                </connections>
-                            </button>
->>>>>>> origin/master
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
-<<<<<<< HEAD
                                 <exclude reference="QTl-Y7-8hA"/>
-=======
-                                <exclude reference="3Lw-Uh-1ue"/>
-                                <exclude reference="o6I-cY-WHe"/>
-                                <exclude reference="5fo-fd-dLF"/>
-                                <exclude reference="zDv-jc-Dri"/>
-                                <exclude reference="R1z-KQ-iXP"/>
-                                <exclude reference="Lxu-5q-7pw"/>
-                                <exclude reference="BJj-c1-4fE"/>
->>>>>>> origin/master
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-<<<<<<< HEAD
                                 <include reference="QTl-Y7-8hA"/>
                             </mask>
                         </variation>
@@ -1570,35 +1224,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lBT-ch-wKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1168.5" y="941.25"/>
-=======
-                                <include reference="3Lw-Uh-1ue"/>
-                                <include reference="o6I-cY-WHe"/>
-                                <include reference="5fo-fd-dLF"/>
-                                <include reference="zDv-jc-Dri"/>
-                                <include reference="R1z-KQ-iXP"/>
-                                <include reference="Lxu-5q-7pw"/>
-                                <include reference="BJj-c1-4fE"/>
-                            </mask>
-                        </variation>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="74U-4d-jm8" appends="YES" id="ngp-gR-Qzc"/>
-                        </connections>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="currentWord" destination="Lxu-5q-7pw" id="DHy-Hd-Nkx"/>
-                        <outlet property="inputTextBox" destination="3Lw-Uh-1ue" id="mmb-5E-K7q"/>
-                        <outlet property="invalidWordLog" destination="R1z-KQ-iXP" id="0AM-v0-MHa"/>
-                        <outlet property="lastWord0" destination="o6I-cY-WHe" id="php-Dh-oQI"/>
-                        <outlet property="lastWord1" destination="5fo-fd-dLF" id="RNz-tK-Qad"/>
-                        <outlet property="lastWord2" destination="zDv-jc-Dri" id="JCL-pc-IYv"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jrM-Sv-g53" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="74U-4d-jm8"/>
-            </objects>
-            <point key="canvasLocation" x="1810.5" y="20.25"/>
->>>>>>> origin/master
         </scene>
     </scenes>
     <resources>
@@ -1620,12 +1245,8 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-<<<<<<< HEAD
         <segue reference="Hqm-2p-w8Y"/>
         <segue reference="5NM-2t-3M3"/>
-=======
-        <segue reference="GSo-3J-8Mo"/>
->>>>>>> origin/master
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
