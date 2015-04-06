@@ -127,6 +127,7 @@
 		BAA58CBA1AD2F0C000C8A2AA /* mp6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp6.png; sourceTree = "<group>"; };
 		BAA58CBB1AD2F0C000C8A2AA /* mp7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp7.png; sourceTree = "<group>"; };
 		BAA58CBC1AD2F0C000C8A2AA /* mp8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp8.png; sourceTree = "<group>"; };
+		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
 		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BADEFFB61AD0F9210071EAA1 /* BottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BottomBar.png; path = "Images/New UI/BottomBar.png"; sourceTree = SOURCE_ROOT; };
@@ -286,6 +287,7 @@
 				CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */,
 				CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */,
 				CCA90BD31ACC3AF0006E93B3 /* Supporting Files */,
+				BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */,
 				CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */,
 				CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */,
 				BA56B8AC1AD0FBCF0023F1C5 /* UITestViewController.h */,
