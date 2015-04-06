@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--FreePlay-->
@@ -526,7 +526,7 @@
                                             <connections>
                                                 <action selector="startFreeplay:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="gkq-WU-Ytd"/>
                                                 <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="lke-qq-rRv"/>
-                                                <segue destination="O2U-qe-LXA" kind="presentation" id="D89-et-DtA"/>
+                                                <segue destination="b8B-bP-sQW" kind="presentation" id="DGZ-4H-bfD"/>
                                             </connections>
                                         </button>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="fAR-Ao-oIa">
@@ -744,6 +744,24 @@
             </objects>
             <point key="canvasLocation" x="1168.5" y="1011.75"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="bG9-aB-bQm">
+            <objects>
+                <viewController id="b8B-bP-sQW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sg7-0N-93J"/>
+                        <viewControllerLayoutGuide type="bottom" id="V8g-JU-Dcp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cnH-RD-62K">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eui-pH-DMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1939.5" y="561"/>
+        </scene>
         <!--Pass n' Play-->
         <scene sceneID="xZM-gM-3he">
             <objects>
@@ -892,7 +910,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="anB-fp-lZt" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="bC2-DK-HCs"/>
             </objects>
-            <point key="canvasLocation" x="1939.5" y="561"/>
+            <point key="canvasLocation" x="2629.5" y="561"/>
         </scene>
         <!--Challenge-->
         <scene sceneID="8lv-Hs-tn3">
@@ -1028,7 +1046,7 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5NM-2t-3M3"/>
+        <segue reference="Wfc-Ma-a4o"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
