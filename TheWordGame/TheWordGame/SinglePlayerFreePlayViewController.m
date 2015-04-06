@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    /*
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Dictionary" ofType:@"txt"];
     NSString *entireDictionary = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     dictionary = [entireDictionary componentsSeparatedByString:@"\n"];
@@ -28,6 +29,7 @@
     _lastWord2.text = @"";
     _invalidWordLog.text = @"";
     usedWords = [NSMutableArray arrayWithObjects:@"", @"", _currentWord.text, nil];
+     */
     _inputTextBox.returnKeyType = UIReturnKeyDone;
     [_inputTextBox becomeFirstResponder];
     _inputTextBox.delegate = self;
@@ -39,6 +41,7 @@
 }
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
+    /*
     if(isValidPlay(_inputTextBox.text, _currentWord.text)) {
         _invalidWordLog.text = @"";
         _currentWord.text = _inputTextBox.text;
@@ -51,6 +54,7 @@
         _invalidWordLog.text = invalidMessage;
     }
     _inputTextBox.text = @"";
+     */
     return YES;
 }
 
