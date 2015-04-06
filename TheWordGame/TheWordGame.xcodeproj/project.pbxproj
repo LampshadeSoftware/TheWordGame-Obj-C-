@@ -51,7 +51,6 @@
 		BAA58CC21AD2F0C000C8A2AA /* mp6.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CBA1AD2F0C000C8A2AA /* mp6.png */; };
 		BAA58CC31AD2F0C000C8A2AA /* mp7.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CBB1AD2F0C000C8A2AA /* mp7.png */; };
 		BAA58CC41AD2F0C000C8A2AA /* mp8.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CBC1AD2F0C000C8A2AA /* mp8.png */; };
-		BAA58CCB1AD3159300C8A2AA /* VolumeOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BAA58CCA1AD3159300C8A2AA /* VolumeOff.png */; };
 		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
 		BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5181AD03E21005A9B54 /* QuartzCore.framework */; };
 		BADEFFBC1AD0F9210071EAA1 /* BottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFB61AD0F9210071EAA1 /* BottomBar.png */; };
@@ -128,7 +127,6 @@
 		BAA58CBA1AD2F0C000C8A2AA /* mp6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp6.png; sourceTree = "<group>"; };
 		BAA58CBB1AD2F0C000C8A2AA /* mp7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp7.png; sourceTree = "<group>"; };
 		BAA58CBC1AD2F0C000C8A2AA /* mp8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mp8.png; sourceTree = "<group>"; };
-		BAA58CCA1AD3159300C8A2AA /* VolumeOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VolumeOff.png; path = "Images/New UI/VolumeOff.png"; sourceTree = SOURCE_ROOT; };
 		BABCE5141AD03D9F005A9B54 /* TheWordGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheWordGame-Bridging-Header.h"; sourceTree = "<group>"; };
 		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -241,7 +239,6 @@
 		CC03E9E71AD069C50068B980 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				BAA58CCA1AD3159300C8A2AA /* VolumeOff.png */,
 				BA56B8BB1AD1858F0023F1C5 /* MultiPlayerNew.png */,
 				BA56B8BC1AD1858F0023F1C5 /* SinglePlayerNew.png */,
 				BADEFFB61AD0F9210071EAA1 /* BottomBar.png */,
@@ -419,7 +416,6 @@
 				CCA90BE21ACC3AF0006E93B3 /* Main.storyboard in Resources */,
 				BAA58CAE1AD2EC6100C8A2AA /* sp3.png in Resources */,
 				BAA58CC11AD2F0C000C8A2AA /* mp5.png in Resources */,
-				BAA58CCB1AD3159300C8A2AA /* VolumeOff.png in Resources */,
 				BAA58C8A1AD2DBC000C8A2AA /* button1.png in Resources */,
 				BAA58CB21AD2EC6100C8A2AA /* sp7.png in Resources */,
 				BA3498811AD06A51001BDBB8 /* House Black.png in Resources */,
