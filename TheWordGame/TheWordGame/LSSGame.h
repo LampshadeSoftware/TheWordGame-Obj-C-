@@ -14,6 +14,7 @@
 @property (strong) NSString *logMessage;
 @property (strong) NSMutableArray *usedWords;
 
+-(id)init:(NSString *)startWord;
 -(id)init;
 -(BOOL)isValidPlay:(NSString *)newWord onWord:(NSString *)currentWord;
 -(BOOL)isValidAdd:(NSString *)newWord onWord:(NSString *)currentWord;

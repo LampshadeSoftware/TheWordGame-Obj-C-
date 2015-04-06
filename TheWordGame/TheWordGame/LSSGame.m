@@ -29,6 +29,16 @@ static NSMutableArray *savedGames;
     return savedGames;
 }
 
+-(id)init:(NSString *)startWord {
+    self = [super init];
+    _currentWord = startWord;
+    _usedWords = [NSMutableArray arrayWithObjects:@"", @"", @"", _currentWord, nil];
+    _logMessage = @"";
+    
+    NSLog(@"Created new game");
+    return self;
+}
+
 - (id) init {
     self = [super init];
     _currentWord = [LSSDictionary getRandomWord];
