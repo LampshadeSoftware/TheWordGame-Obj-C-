@@ -22,6 +22,6 @@
 -(BOOL)isValidSwap:(NSString *)newWord onWord:(NSString *)currentWord;
 
 +(void)initializeSaves;
-+(NSMutableArray *)getSavedGames;
++(NSMutableArray *)getSavedSinglePlayerFreePlayGames;
 
 @end

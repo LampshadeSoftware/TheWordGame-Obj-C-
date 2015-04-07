@@ -49,16 +49,7 @@ LSSGame *currentGame;
     
     [self setTimer];
     
-    NSMutableArray *savedGames = [LSSGame getSavedGames];
-    
-    
-    if([[LSSGame getSavedGames] count] == 0) {
-        currentGame = [[LSSGame alloc] init];
-        [savedGames addObject:currentGame];
-    }
-    else if(currentGame == nil){
-        currentGame = savedGames[[savedGames count]-1];
-    }
+    currentGame = [[LSSGame alloc] init];
     
     _currentWord.text = currentGame.currentWord;
     _lastWord0.text = currentGame.usedWords[[currentGame.usedWords count] - 2];

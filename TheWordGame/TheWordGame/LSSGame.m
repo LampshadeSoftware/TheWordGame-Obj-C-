@@ -18,15 +18,15 @@
 
 @implementation LSSGame
 
-static NSMutableArray *savedGames;
+static NSMutableArray *savedSinglePlayerFreePlayGames;
 
 +(void)initializeSaves {
-    savedGames = [[NSMutableArray alloc] init];
-    NSLog(@"Game saves initialized");
+    savedSinglePlayerFreePlayGames = [[NSMutableArray alloc] init];
+    NSLog(@"Single-player saves initialized");
 }
 
-+(NSMutableArray *)getSavedGames {
-    return savedGames;
++(NSMutableArray *)getSavedSinglePlayerFreePlayGames {
+    return savedSinglePlayerFreePlayGames;
 }
 
 -(id)init:(NSString *)startWord {

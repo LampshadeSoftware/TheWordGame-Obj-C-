@@ -21,9 +21,9 @@ LSSGame *currentGame;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSMutableArray *savedGames = [LSSGame getSavedGames];
+    NSMutableArray *savedGames = [LSSGame getSavedSinglePlayerFreePlayGames];
     
-    if([[LSSGame getSavedGames] count] == 0) {
+    if([savedGames count] == 0) {
         currentGame = [[LSSGame alloc] init];
         [savedGames addObject:currentGame];
     }
