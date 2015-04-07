@@ -55,7 +55,6 @@
 		BABCE5191AD03E21005A9B54 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5171AD03E21005A9B54 /* CoreImage.framework */; };
 		BABCE51A1AD03E21005A9B54 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABCE5181AD03E21005A9B54 /* QuartzCore.framework */; };
 		BADEFFBC1AD0F9210071EAA1 /* BottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFB61AD0F9210071EAA1 /* BottomBar.png */; };
-		BADEFFBE1AD0F9210071EAA1 /* NavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFB81AD0F9210071EAA1 /* NavBar.png */; };
 		BADEFFBF1AD0F9210071EAA1 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFB91AD0F9210071EAA1 /* Settings.png */; };
 		BADEFFC01AD0F9210071EAA1 /* Volume.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFFBA1AD0F9210071EAA1 /* Volume.png */; };
 		CC77B23C1AD0779F00BABE6B /* Dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = CC77B23B1AD0779F00BABE6B /* Dictionary.txt */; };
@@ -133,7 +132,6 @@
 		BABCE5171AD03E21005A9B54 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		BABCE5181AD03E21005A9B54 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BADEFFB61AD0F9210071EAA1 /* BottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BottomBar.png; path = "Images/New UI/BottomBar.png"; sourceTree = SOURCE_ROOT; };
-		BADEFFB81AD0F9210071EAA1 /* NavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavBar.png; path = "Images/New UI/NavBar.png"; sourceTree = SOURCE_ROOT; };
 		BADEFFB91AD0F9210071EAA1 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = "Images/New UI/Settings.png"; sourceTree = SOURCE_ROOT; };
 		BADEFFBA1AD0F9210071EAA1 /* Volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Volume.png; path = "Images/New UI/Volume.png"; sourceTree = SOURCE_ROOT; };
 		CC77B23B1AD0779F00BABE6B /* Dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dictionary.txt; sourceTree = "<group>"; };
@@ -244,7 +242,6 @@
 				BA56B8BB1AD1858F0023F1C5 /* MultiPlayerNew.png */,
 				BA56B8BC1AD1858F0023F1C5 /* SinglePlayerNew.png */,
 				BADEFFB61AD0F9210071EAA1 /* BottomBar.png */,
-				BADEFFB81AD0F9210071EAA1 /* NavBar.png */,
 				BADEFFB91AD0F9210071EAA1 /* Settings.png */,
 				BADEFFBA1AD0F9210071EAA1 /* Volume.png */,
 				BA3498721AD06A51001BDBB8 /* Home.png */,
@@ -446,7 +443,6 @@
 				BAA58C971AD2DBC000C8A2AA /* button8.png in Resources */,
 				BAA58CC01AD2F0C000C8A2AA /* mp4.png in Resources */,
 				BAA58C921AD2DBC000C8A2AA /* button3.png in Resources */,
-				BADEFFBE1AD0F9210071EAA1 /* NavBar.png in Resources */,
 				BAA58C911AD2DBC000C8A2AA /* button2.png in Resources */,
 				BAA58C941AD2DBC000C8A2AA /* button5.png in Resources */,
 				BAA58CC21AD2F0C000C8A2AA /* mp6.png in Resources */,
