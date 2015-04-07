@@ -28,7 +28,7 @@ LSSGame *currentGame;
             NSString *endWordCount = [NSString stringWithFormat:@"You suck and got %d words!", wordCountInt];
             _currentWord.text = endWordCount;
         }
-        if (wordCountInt > 3 && wordCountInt < 10) {
+        if (wordCountInt > 3 && wordCountInt <= 10) {
             NSString * aboveThree = [NSString stringWithFormat:@"You got %d words", wordCountInt];
             _currentWord.text = aboveThree;
         }
