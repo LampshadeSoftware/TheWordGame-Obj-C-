@@ -15,5 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lastWord0;
 @property (weak, nonatomic) IBOutlet UILabel *lastWord1;
 @property (weak, nonatomic) IBOutlet UILabel *lastWord2;
+@property (weak, nonatomic) IBOutlet UILabel *wordCountingLabel;
 
 @end
+int wordCountInt;

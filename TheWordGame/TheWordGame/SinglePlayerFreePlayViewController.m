@@ -56,6 +56,9 @@ LSSGame *currentGame;
         _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
         _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
         [currentGame.usedWords addObject:_inputTextBox.text];
+        wordCountInt = wordCountInt +1;
+        NSString *wordCounter = [NSString stringWithFormat:@"%d", wordCountInt];
+        _wordCountingLabel.text = wordCounter;
     }
     else {
         _invalidWordLog.text = currentGame.logMessage;

@@ -23,29 +23,21 @@ LSSGame *currentGame;
     NSString *timerOutput = [NSString stringWithFormat:@"%d", secondsCount];
     _timerLabel.text = timerOutput;
     if (secondsCount == 0) {
-        NSString *endWordCount = [NSString stringWithFormat:@"You got %d words!", wordCountInt];
-        _currentWord.text = endWordCount;
-        
+        if (wordCountInt <= 3){
+            NSString *endWordCount = [NSString stringWithFormat:@"You suck and got %d words!", wordCountInt];
+            _currentWord.text = endWordCount;
+        }
+        if (3 < wordCountInt <10) {
+            NSString *endWordCount = [NSString stringWithFormat:@"You got %d words!", wordCountInt];
+            _currentWord.text = endWordCount;
+        }
     }
 }
 
 - (void) setTimer {
-    NSTimer *countdownTimer;
     secondsCount = 60;
-    if (secondsCount == 0) {
-        [countdownTimer invalidate];
-    }
     countdownTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(showTimer) userInfo:nil repeats:YES];
-    
 }
-
-
-
-
-
-
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
