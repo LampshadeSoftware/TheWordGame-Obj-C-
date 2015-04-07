@@ -31,7 +31,7 @@ LSSGame *currentGame;
 
 - (void) setTimer {
     NSTimer *countdownTimer;
-    secondsCount = 15;
+    secondsCount = 60;
     if (secondsCount == 0) {
         [countdownTimer invalidate];
     }
