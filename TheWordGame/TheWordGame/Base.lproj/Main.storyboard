@@ -429,6 +429,13 @@
                                     <segue destination="6bU-fq-oAZ" kind="presentation" id="hZp-iM-Ztb"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IBs-vi-dip">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-3" y="65" width="323" height="2"/>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.17701998493693896" green="0.21309090918002874" blue="0.26779560308972061" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -451,6 +458,7 @@
                                 <exclude reference="Akd-8M-kWt"/>
                                 <exclude reference="7cN-wY-WHT"/>
                                 <exclude reference="gaX-ww-3V7"/>
+                                <exclude reference="IBs-vi-dip"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -473,6 +481,7 @@
                                 <include reference="Akd-8M-kWt"/>
                                 <include reference="7cN-wY-WHT"/>
                                 <include reference="gaX-ww-3V7"/>
+                                <include reference="IBs-vi-dip"/>
                             </mask>
                         </variation>
                     </view>
@@ -1088,7 +1097,7 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xPY-D4-61d"/>
+        <segue reference="Hrz-vV-jfG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
