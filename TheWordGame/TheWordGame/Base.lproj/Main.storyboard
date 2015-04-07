@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
     </dependencies>
     <scenes>
         <!--Freeplay-->
@@ -608,6 +608,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2ap-kh-r7O"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IQX-ur-MR1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eZ-uF-yCe">
@@ -791,7 +792,7 @@
         <!--TimeTrial-->
         <scene sceneID="fXl-hx-2fD">
             <objects>
-                <viewController title="TimeTrial" definesPresentationContext="YES" id="0d3-tv-gFr" customClass="SinglePlayerFreePlayViewController" sceneMemberID="viewController">
+                <viewController title="TimeTrial" definesPresentationContext="YES" id="0d3-tv-gFr" customClass="SinglePlayerTimeTrialViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tcI-oo-aOh"/>
                         <viewControllerLayoutGuide type="bottom" id="FJY-Sn-xVQ"/>
@@ -866,6 +867,24 @@
                                     <segue destination="Zw0-Mb-1rR" kind="presentation" id="SeZ-ae-rZO"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyQ-hC-wPu">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="255" y="20" width="49" height="25"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7v-75-AZg">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="255" y="49" width="49" height="27"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.22467873660000001" green="0.2449911437" blue="0.28945707069999999" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -878,6 +897,8 @@
                                 <exclude reference="aMl-ca-otE"/>
                                 <exclude reference="AgJ-lw-GwI"/>
                                 <exclude reference="6YC-bM-tYz"/>
+                                <exclude reference="tyQ-hC-wPu"/>
+                                <exclude reference="E7v-75-AZg"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -889,6 +910,8 @@
                                 <include reference="aMl-ca-otE"/>
                                 <include reference="AgJ-lw-GwI"/>
                                 <include reference="6YC-bM-tYz"/>
+                                <include reference="tyQ-hC-wPu"/>
+                                <include reference="E7v-75-AZg"/>
                             </mask>
                         </variation>
                         <connections>
@@ -903,6 +926,8 @@
                         <outlet property="lastWord0" destination="0Z4-6E-i11" id="qoI-nc-ckg"/>
                         <outlet property="lastWord1" destination="Vq2-DV-eL9" id="Xyw-1G-qCS"/>
                         <outlet property="lastWord2" destination="YHj-fB-ivw" id="FMH-Pg-4Ee"/>
+                        <outlet property="timerLabel" destination="tyQ-hC-wPu" id="alu-D8-RDa"/>
+                        <outlet property="wordCountingLabel" destination="E7v-75-AZg" id="1A7-jr-Q5d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JlN-5S-u2e" sceneMemberID="firstResponder"/>
