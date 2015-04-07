@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--Freeplay-->
@@ -69,28 +69,29 @@
                                     <rect key="frame" x="23" y="121" width="274" height="42"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UB4-Et-HZ5">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" image="House White.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="20" width="25" height="25"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="Hrz-vV-jfG"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUs-qc-EnU">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="257" y="20" width="47" height="40"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UB4-Et-HZ5">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                                <state key="normal" image="House White.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="15" width="55" height="55"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="Hrz-vV-jfG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22467873664089799" green="0.2449911437202586" blue="0.28945707070707072" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -102,8 +103,8 @@
                                 <exclude reference="l5h-VK-H7W"/>
                                 <exclude reference="1Mn-sM-MB0"/>
                                 <exclude reference="eQ3-sg-gt0"/>
-                                <exclude reference="UB4-Et-HZ5"/>
                                 <exclude reference="kUs-qc-EnU"/>
+                                <exclude reference="UB4-Et-HZ5"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -114,8 +115,8 @@
                                 <include reference="l5h-VK-H7W"/>
                                 <include reference="1Mn-sM-MB0"/>
                                 <include reference="eQ3-sg-gt0"/>
-                                <include reference="UB4-Et-HZ5"/>
                                 <include reference="kUs-qc-EnU"/>
+                                <include reference="UB4-Et-HZ5"/>
                             </mask>
                         </variation>
                         <connections>
@@ -232,7 +233,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="17" y="21" width="35" height="35"/>
+                                    <rect key="frame" x="17" y="21" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <segue destination="Zw0-Mb-1rR" kind="presentation" modalTransitionStyle="crossDissolve" id="xPY-D4-61d"/>
@@ -513,7 +514,7 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="17" y="21" width="35" height="35"/>
+                                                <rect key="frame" x="17" y="21" width="50" height="50"/>
                                             </variation>
                                             <connections>
                                                 <segue destination="Zw0-Mb-1rR" kind="presentation" modalTransitionStyle="crossDissolve" id="5NM-2t-3M3"/>
@@ -623,29 +624,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eZ-uF-yCe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFW-WE-l9y">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                 <state key="normal" image="House Black.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="20" width="25" height="25"/>
+                                    <rect key="frame" x="16" y="15" width="55" height="55"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="zUj-i7-8Uh"/>
+                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="Kfx-wT-xcT"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="3eZ-uF-yCe"/>
+                                <exclude reference="BFW-WE-l9y"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="3eZ-uF-yCe"/>
+                                <include reference="BFW-WE-l9y"/>
                             </mask>
                         </variation>
                     </view>
@@ -681,7 +683,7 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="17" y="21" width="35" height="35"/>
+                                                <rect key="frame" x="17" y="21" width="50" height="50"/>
                                             </variation>
                                             <connections>
                                                 <segue destination="Zw0-Mb-1rR" kind="presentation" modalTransitionStyle="crossDissolve" id="lgx-5E-mSQ"/>
@@ -866,19 +868,6 @@
                                     <rect key="frame" x="9" y="121" width="302" height="42"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6YC-bM-tYz">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" image="House White.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="20" width="25" height="25"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="SeZ-ae-rZO"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyQ-hC-wPu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -897,6 +886,20 @@
                                     <rect key="frame" x="255" y="49" width="49" height="27"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERD-Q0-cfy">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                                <state key="normal" image="House White.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="15" width="55" height="55"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="9Lg-00-rwt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22467873660000001" green="0.2449911437" blue="0.28945707069999999" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -908,9 +911,9 @@
                                 <exclude reference="YHj-fB-ivw"/>
                                 <exclude reference="aMl-ca-otE"/>
                                 <exclude reference="AgJ-lw-GwI"/>
-                                <exclude reference="6YC-bM-tYz"/>
                                 <exclude reference="tyQ-hC-wPu"/>
                                 <exclude reference="E7v-75-AZg"/>
+                                <exclude reference="ERD-Q0-cfy"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -921,9 +924,9 @@
                                 <include reference="YHj-fB-ivw"/>
                                 <include reference="aMl-ca-otE"/>
                                 <include reference="AgJ-lw-GwI"/>
-                                <include reference="6YC-bM-tYz"/>
                                 <include reference="tyQ-hC-wPu"/>
                                 <include reference="E7v-75-AZg"/>
+                                <include reference="ERD-Q0-cfy"/>
                             </mask>
                         </variation>
                         <connections>
@@ -976,19 +979,6 @@
                                     <rect key="frame" x="95" y="44" width="130" height="14"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyY-HH-drx">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" image="House White.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="23" y="20" width="25" height="25"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="iDx-8a-qfn"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5aE-SA-g9W">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
@@ -1025,6 +1015,20 @@
                                     <rect key="frame" x="23" y="121" width="274" height="42"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8n-gV-JZ4">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
+                                <state key="normal" image="House White.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="15" width="55" height="55"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Zw0-Mb-1rR" kind="presentation" id="ejA-Og-l7x"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22467873660000001" green="0.2449911437" blue="0.28945707069999999" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -1032,22 +1036,22 @@
                             <mask key="subviews">
                                 <exclude reference="NTG-2d-dIM"/>
                                 <exclude reference="Ulq-nD-Tf0"/>
-                                <exclude reference="dyY-HH-drx"/>
                                 <exclude reference="5aE-SA-g9W"/>
                                 <exclude reference="7Gd-Jt-ejt"/>
                                 <exclude reference="hNO-ee-4cl"/>
                                 <exclude reference="Rfc-5b-Ui3"/>
+                                <exclude reference="L8n-gV-JZ4"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="NTG-2d-dIM"/>
                                 <include reference="Ulq-nD-Tf0"/>
-                                <include reference="dyY-HH-drx"/>
                                 <include reference="5aE-SA-g9W"/>
                                 <include reference="7Gd-Jt-ejt"/>
                                 <include reference="hNO-ee-4cl"/>
                                 <include reference="Rfc-5b-Ui3"/>
+                                <include reference="L8n-gV-JZ4"/>
                             </mask>
                         </variation>
                         <connections>
@@ -1084,7 +1088,7 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SeZ-ae-rZO"/>
+        <segue reference="xPY-D4-61d"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
