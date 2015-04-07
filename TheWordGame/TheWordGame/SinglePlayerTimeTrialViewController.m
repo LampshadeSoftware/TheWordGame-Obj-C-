@@ -23,13 +23,14 @@ LSSGame *currentGame;
     NSString *timerOutput = [NSString stringWithFormat:@"%d", secondsCount];
     _timerLabel.text = timerOutput;
     if (secondsCount == 0) {
+        [countdownTimer invalidate];
         if (wordCountInt <= 3){
             NSString *endWordCount = [NSString stringWithFormat:@"You suck and got %d words!", wordCountInt];
             _currentWord.text = endWordCount;
         }
         if (3 < wordCountInt <10) {
-            NSString *endWordCount = [NSString stringWithFormat:@"You got %d words!", wordCountInt];
-            _currentWord.text = endWordCount;
+            NSString *aboveThree = [NSString stringWithFormat:@"You got %d words!", wordCountInt];
+            _currentWord.text = aboveThree;
         }
     }
 }
