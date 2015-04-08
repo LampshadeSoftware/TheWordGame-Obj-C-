@@ -45,7 +45,7 @@ static NSMutableArray *savedSinglePlayerFreePlayGames;
     _usedWords = [NSMutableArray arrayWithObjects:@"", @"", @"", _currentWord, nil];
     _logMessage = @"";
     
-    NSLog(@"Created new game");
+    NSLog(@"Created new game with word: %@", _currentWord);
     return self;
 }
 
