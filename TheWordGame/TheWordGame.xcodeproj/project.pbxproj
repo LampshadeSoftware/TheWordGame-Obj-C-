@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184D37681AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */; };
 		18DC136C1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC136B1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m */; };
 		BA18BE4D1AD491650067F6B2 /* VolumeOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BA18BE4C1AD491650067F6B2 /* VolumeOff.png */; };
 		BA3498801AD06A51001BDBB8 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498721AD06A51001BDBB8 /* Home.png */; };
@@ -82,6 +83,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184D37661AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplayerPassAndPlayPlayerInputViewController.h; sourceTree = "<group>"; };
+		184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplayerPassAndPlayPlayerInputViewController.m; sourceTree = "<group>"; };
 		18DC136A1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePlayerTimeTrialViewController.h; sourceTree = "<group>"; };
 		18DC136B1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerTimeTrialViewController.m; sourceTree = "<group>"; };
 		BA18BE4C1AD491650067F6B2 /* VolumeOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VolumeOff.png; path = "Images/New UI/VolumeOff.png"; sourceTree = SOURCE_ROOT; };
@@ -308,6 +311,8 @@
 				18DC136B1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m */,
 				BAE961C01AD567ED001A911E /* DissolveSegue.m */,
 				BAE961C11AD567ED001A911E /* DissolveSegue.h */,
+				184D37661AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.h */,
+				184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */,
 			);
 			path = TheWordGame;
 			sourceTree = "<group>";
@@ -489,6 +494,7 @@
 				CCFEA6F91AD1C87F00149316 /* LSSGame.m in Sources */,
 				BAE961C21AD567ED001A911E /* DissolveSegue.m in Sources */,
 				CCFEA6FC1AD1D24500149316 /* LSSDictionary.m in Sources */,
+				184D37681AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m in Sources */,
 				18DC136C1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m in Sources */,
 				CCA90BD91ACC3AF0006E93B3 /* AppDelegate.m in Sources */,
 				CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */,
