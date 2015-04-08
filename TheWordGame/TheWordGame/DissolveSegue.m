@@ -1,5 +1,5 @@
 //
-//  DissolveSegue.m
+//  YAYSegue.m
 //  Segue
 //
 //  Created by Cowboy Lynk on 6/14/14.
@@ -9,6 +9,7 @@
 #import "DissolveSegue.h"
 
 @implementation DissolveSegue
+
 
 - (void)perform
 {
@@ -25,6 +26,7 @@
                      animations:^{
                          
                          destinationViewController.view.alpha = 1.0;
+                         [UIView commitAnimations];
                      }
                      completion:^(BOOL finished){
                          [sourceViewController presentViewController:destinationViewController animated:NO completion:NULL];

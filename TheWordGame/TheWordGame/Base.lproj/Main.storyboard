@@ -137,6 +137,7 @@
                             <outletCollection property="gestureRecognizers" destination="Qbd-Gw-kov" appends="YES" id="npc-dP-s70"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="hJu-uA-VO2"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="currentWord" destination="eQ3-sg-gt0" id="gDZ-GN-Rba"/>
@@ -429,7 +430,7 @@
                                 </variation>
                                 <connections>
                                     <action selector="startSinglePlayer:" destination="Zw0-Mb-1rR" eventType="touchUpInside" id="kCp-kJ-YrQ"/>
-                                    <segue destination="Rp3-nL-0yv" kind="custom" customClass="DissolveSegue" id="SYG-b5-qnH"/>
+                                    <segue destination="Rp3-nL-0yv" kind="presentation" id="SYG-b5-qnH"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mp1.png" translatesAutoresizingMaskIntoConstraints="NO" id="7cN-wY-WHT">
@@ -448,7 +449,7 @@
                                 </variation>
                                 <connections>
                                     <action selector="startMultiPlayer:" destination="Zw0-Mb-1rR" eventType="touchUpInside" id="fNZ-ZD-GuG"/>
-                                    <segue destination="6bU-fq-oAZ" kind="custom" customClass="DissolveSegue" id="hZp-iM-Ztb"/>
+                                    <segue destination="6bU-fq-oAZ" kind="presentation" id="hZp-iM-Ztb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -569,7 +570,7 @@
                                             <connections>
                                                 <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="kaJ-yk-JQt"/>
                                                 <action selector="startLevels:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="bWs-od-7kZ"/>
-                                                <segue destination="39c-kg-961" kind="custom" customClass="DissolveSegue" id="zh9-3a-UNh"/>
+                                                <segue destination="39c-kg-961" kind="presentation" id="zh9-3a-UNh"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpA-g1-yT8">
@@ -585,7 +586,7 @@
                                             <connections>
                                                 <action selector="startFreeplay:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="8mo-tu-taB"/>
                                                 <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="UoX-sE-rxP"/>
-                                                <segue destination="8hP-bA-Nib" kind="custom" customClass="DissolveSegue" id="oDL-aT-NCk"/>
+                                                <segue destination="8hP-bA-Nib" kind="presentation" id="oDL-aT-NCk"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -731,7 +732,7 @@
                                             </variation>
                                             <connections>
                                                 <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="wj7-gm-4zp"/>
-                                                <segue destination="vXZ-lx-hvc" kind="custom" customClass="DissolveSegue" id="N8l-pP-Ero"/>
+                                                <segue destination="vXZ-lx-hvc" kind="presentation" identifier="freeplay" id="N8l-pP-Ero"/>
                                             </connections>
                                         </button>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="MO4-ic-hWF">
@@ -772,7 +773,7 @@
                                             </variation>
                                             <connections>
                                                 <action selector="startTimeTrial:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="01m-nj-nWw"/>
-                                                <segue destination="0d3-tv-gFr" kind="custom" customClass="DissolveSegue" id="Uah-dA-L1v"/>
+                                                <segue destination="0d3-tv-gFr" kind="presentation" id="Uah-dA-L1v"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -1082,6 +1083,7 @@
                             <outletCollection property="gestureRecognizers" destination="Ppd-jP-KxY" appends="YES" id="TQZ-Bn-7eY"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="4Oy-M5-YyO"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="currentWord" destination="Rfc-5b-Ui3" id="nSF-s4-NfT"/>
@@ -1112,7 +1114,7 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lgx-5E-mSQ"/>
+        <segue reference="Hrz-vV-jfG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
