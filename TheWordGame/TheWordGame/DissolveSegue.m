@@ -27,7 +27,6 @@
                          destinationViewController.view.alpha = 1.0;
                      }
                      completion:^(BOOL finished){
-                         [destinationViewController.view removeFromSuperview];
                          [sourceViewController presentViewController:destinationViewController animated:NO completion:NULL];
                      }];
 }
