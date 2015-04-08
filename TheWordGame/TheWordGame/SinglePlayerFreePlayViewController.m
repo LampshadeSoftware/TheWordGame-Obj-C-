@@ -64,20 +64,7 @@ LSSGame *currentGame;
         _invalidWordLog.text = currentGame.logMessage;
     }
     _inputTextBox.text = @"";
-    /*
-    if(isValidPlay(_inputTextBox.text, _currentWord.text)) {
-        _invalidWordLog.text = @"";
-        _currentWord.text = _inputTextBox.text;
-        _lastWord0.text = usedWords[[usedWords count] - 1];
-        _lastWord1.text = usedWords[[usedWords count] - 2];
-        _lastWord2.text = usedWords[[usedWords count] - 3];
-        [usedWords addObject:_inputTextBox.text];
-    }
-    else {
-        _invalidWordLog.text = invalidMessage;
-    }
-    _inputTextBox.text = @"";
-     */
+    
     return YES;
 }
 

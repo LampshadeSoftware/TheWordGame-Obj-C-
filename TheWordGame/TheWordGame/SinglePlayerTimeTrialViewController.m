@@ -17,31 +17,31 @@
 
 LSSGame *currentGame;
 
-
 - (void) showTimer {
-    secondsCount = secondsCount - 1;
-    NSString *timerOutput = [NSString stringWithFormat:@"%d", secondsCount];
+    _secondsCount--;
+    NSString *timerOutput = [NSString stringWithFormat:@"%d", _secondsCount];
     _timerLabel.text = timerOutput;
-    if (secondsCount == 0) {
-        [countdownTimer invalidate];
-        if (wordCountInt <= 3){
-            NSString *endWordCount = [NSString stringWithFormat:@"You suck and got %d words!", wordCountInt];
+    if (_secondsCount == 0) {
+        [_countdownTimer invalidate];
+        _countdownTimer = nil;
+        if (_wordCountInt <= 3){
+            NSString *endWordCount = [NSString stringWithFormat:@"You suck and got %d words!", _wordCountInt];
             _currentWord.text = endWordCount;
         }
-        if (wordCountInt > 3 && wordCountInt <= 10) {
-            NSString * aboveThree = [NSString stringWithFormat:@"You got %d words", wordCountInt];
+        if (_wordCountInt > 3 && _wordCountInt <= 10) {
+            NSString * aboveThree = [NSString stringWithFormat:@"You got %d words", _wordCountInt];
             _currentWord.text = aboveThree;
         }
-        if (wordCountInt > 10) {
-            NSString * aboveTen = [NSString stringWithFormat:@"Congrats you got %d words!", wordCountInt];
+        if (_wordCountInt > 10) {
+            NSString * aboveTen = [NSString stringWithFormat:@"Congrats you got %d words!", _wordCountInt];
             _currentWord.text = aboveTen;
         }
     }
 }
 
 - (void) setTimer {
-    secondsCount = 60;
-    countdownTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(showTimer) userInfo:nil repeats:YES];
+    _secondsCount = 60;
+    _countdownTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(showTimer) userInfo:nil repeats:YES];
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -76,28 +76,15 @@ LSSGame *currentGame;
         _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
         _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
         [currentGame.usedWords addObject:_inputTextBox.text];
-        wordCountInt = wordCountInt +1;
-        NSString *wordCounter = [NSString stringWithFormat:@"%d", wordCountInt];
+        _wordCountInt++;
+        NSString *wordCounter = [NSString stringWithFormat:@"%d", _wordCountInt];
         _wordCountingLabel.text = wordCounter;
     }
     else {
         _invalidWordLog.text = currentGame.logMessage;
     }
     _inputTextBox.text = @"";
-    /*
-     if(isValidPlay(_inputTextBox.text, _currentWord.text)) {
-     _invalidWordLog.text = @"";
-     _currentWord.text = _inputTextBox.text;
-     _lastWord0.text = usedWords[[usedWords count] - 1];
-     _lastWord1.text = usedWords[[usedWords count] - 2];
-     _lastWord2.text = usedWords[[usedWords count] - 3];
-     [usedWords addObject:_inputTextBox.text];
-     }
-     else {
-     _invalidWordLog.text = invalidMessage;
-     }
-     _inputTextBox.text = @"";
-     */
+
     return YES;
 }
 

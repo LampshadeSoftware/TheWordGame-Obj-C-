@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SinglePlayerTimeTrialViewController : UIViewController
+@interface SinglePlayerTimeTrialViewController : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *inputTextBox;
 @property (weak, nonatomic) IBOutlet UILabel *invalidWordLog;
 @property (weak, nonatomic) IBOutlet UILabel *currentWord;
@@ -18,8 +18,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 @property (weak, nonatomic) IBOutlet UILabel *wordCountingLabel;
 
+@property (weak, nonatomic) NSTimer *countdownTimer;
+@property (nonatomic) int secondsCount;
+@property (nonatomic) int wordCountInt;
 
 @end
-NSTimer *countdownTimer;
-int secondsCount;
-int wordCountInt;
