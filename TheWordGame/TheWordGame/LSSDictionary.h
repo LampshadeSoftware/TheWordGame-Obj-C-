@@ -13,5 +13,7 @@
 +(void)initialize;
 +(BOOL)isEnglishWord:(NSString *)newWord;
 +(NSString *)getRandomWord;
++(NSString *)getSmartRandom;
++(NSMutableArray *)findAllValidWordsFor:(NSString *)word;
 
 @end

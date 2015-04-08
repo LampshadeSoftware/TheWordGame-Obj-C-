@@ -42,7 +42,7 @@ static NSMutableArray *savedSinglePlayerFreePlayGames;
 
 - (id) init {
     self = [super init];
-    _currentWord = [LSSDictionary getRandomWord];
+    _currentWord = [LSSDictionary getSmartRandom];
     _usedWords = [NSMutableArray arrayWithObjects:@"", @"", @"", _currentWord, nil];
     _logMessage = @"";
     
