@@ -15,8 +15,6 @@
 
 @implementation SinglePlayerTimeTrialViewController
 
-LSSGame *currentGame;
-
 - (void) showTimer {
     _secondsCount--;
     NSString *timerOutput = [NSString stringWithFormat:@"%d", _secondsCount];
@@ -49,13 +47,13 @@ LSSGame *currentGame;
     
     [self setTimer];
     
-    currentGame = [[LSSGame alloc] init];
+    _currentGame = [[LSSGame alloc] init];
     
-    _currentWord.text = currentGame.currentWord;
-    _lastWord0.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
-    _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
-    _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 4];
-    _invalidWordLog.text = currentGame.logMessage;
+    _currentWord.text = _currentGame.currentWord;
+    _lastWord0.text = _currentGame.usedWords[[_currentGame.usedWords count] - 2];
+    _lastWord1.text = _currentGame.usedWords[[_currentGame.usedWords count] - 3];
+    _lastWord2.text = _currentGame.usedWords[[_currentGame.usedWords count] - 4];
+    _invalidWordLog.text = _currentGame.logMessage;
     
     _inputTextBox.returnKeyType = UIReturnKeyDone;
     [_inputTextBox becomeFirstResponder];
@@ -68,20 +66,20 @@ LSSGame *currentGame;
 }
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
-    if([currentGame isValidPlay:_inputTextBox.text onWord:currentGame.currentWord]) {
+    if([_currentGame isValidPlay:_inputTextBox.text onWord:_currentGame.currentWord]) {
         _invalidWordLog.text = @"";
         _currentWord.text = _inputTextBox.text;
-        currentGame.currentWord = _inputTextBox.text;
-        _lastWord0.text = currentGame.usedWords[[currentGame.usedWords count] - 1];
-        _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
-        _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
-        [currentGame.usedWords addObject:_inputTextBox.text];
+        _currentGame.currentWord = _inputTextBox.text;
+        _lastWord0.text = _currentGame.usedWords[[_currentGame.usedWords count] - 1];
+        _lastWord1.text = _currentGame.usedWords[[_currentGame.usedWords count] - 2];
+        _lastWord2.text = _currentGame.usedWords[[_currentGame.usedWords count] - 3];
+        [_currentGame.usedWords addObject:_inputTextBox.text];
         _wordCountInt++;
         NSString *wordCounter = [NSString stringWithFormat:@"%d", _wordCountInt];
         _wordCountingLabel.text = wordCounter;
     }
     else {
-        _invalidWordLog.text = currentGame.logMessage;
+        _invalidWordLog.text = _currentGame.logMessage;
     }
     _inputTextBox.text = @"";
 

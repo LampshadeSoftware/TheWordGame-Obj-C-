@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LSSGame.h"
 
 @interface SinglePlayerTimeTrialViewController : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *inputTextBox;
@@ -17,6 +18,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *lastWord2;
 @property (weak, nonatomic) IBOutlet UILabel *timerLabel;
 @property (weak, nonatomic) IBOutlet UILabel *wordCountingLabel;
+
+@property (strong, nonatomic) LSSGame *currentGame;
 
 @property (weak, nonatomic) NSTimer *countdownTimer;
 @property (nonatomic) int secondsCount;

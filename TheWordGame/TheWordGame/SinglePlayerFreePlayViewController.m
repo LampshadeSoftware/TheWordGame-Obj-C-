@@ -16,28 +16,25 @@
 
 @implementation SinglePlayerFreePlayViewController
 
-LSSGame *currentGame;
-int wordCountInt;
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSMutableArray *savedGames = [LSSGame getSavedSinglePlayerFreePlayGames];
     
     if([savedGames count] == 0) {
-        currentGame = [[LSSGame alloc] init];
-        [savedGames addObject:currentGame];
+        _currentGame = [[LSSGame alloc] init];
+        [savedGames addObject:_currentGame];
     }
-    else if(currentGame == nil){
-        currentGame = savedGames[[savedGames count]-1];
+    else if(_currentGame == nil){
+        _currentGame = savedGames[[savedGames count]-1];
     }
     
-    _currentWord.text = currentGame.currentWord;
-    _lastWord0.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
-    _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
-    _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 4];
-    _invalidWordLog.text = currentGame.logMessage;
-    _wordCountingLabel.text = [NSString stringWithFormat:@"%d", wordCountInt];
+    _currentWord.text = _currentGame.currentWord;
+    _lastWord0.text = _currentGame.usedWords[[_currentGame.usedWords count] - 2];
+    _lastWord1.text = _currentGame.usedWords[[_currentGame.usedWords count] - 3];
+    _lastWord2.text = _currentGame.usedWords[[_currentGame.usedWords count] - 4];
+    _invalidWordLog.text = _currentGame.logMessage;
+    _wordCountingLabel.text = [NSString stringWithFormat:@"%d", _currentGame.wordCount];
     
     _inputTextBox.returnKeyType = UIReturnKeyDone;
     [_inputTextBox becomeFirstResponder];
@@ -50,29 +47,28 @@ int wordCountInt;
 }
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
-    if([currentGame isValidPlay:_inputTextBox.text onWord:currentGame.currentWord]) {
-        currentGame.logMessage = @"";
+    if([_currentGame isValidPlay:_inputTextBox.text onWord:_currentGame.currentWord]) {
+        _currentGame.logMessage = @"";
         _invalidWordLog.text = @"";
         _currentWord.text = _inputTextBox.text;
-        currentGame.currentWord = _inputTextBox.text;
-        _lastWord0.text = currentGame.usedWords[[currentGame.usedWords count] - 1];
-        _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
-        _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
-        [currentGame.usedWords addObject:_inputTextBox.text];
-        wordCountInt++;
-        NSString *wordCounter = [NSString stringWithFormat:@"%d", wordCountInt];
+        _currentGame.currentWord = _inputTextBox.text;
+        _lastWord0.text = _currentGame.usedWords[[_currentGame.usedWords count] - 1];
+        _lastWord1.text = _currentGame.usedWords[[_currentGame.usedWords count] - 2];
+        _lastWord2.text = _currentGame.usedWords[[_currentGame.usedWords count] - 3];
+        [_currentGame.usedWords addObject:_inputTextBox.text];
+        _currentGame.wordCount++;
+        NSString *wordCounter = [NSString stringWithFormat:@"%d", _currentGame.wordCount];
         _wordCountingLabel.text = wordCounter;
     }
     else {
-        _invalidWordLog.text = currentGame.logMessage;
+        _invalidWordLog.text = _currentGame.logMessage;
     }
     _inputTextBox.text = @"";
     
     return YES;
 }
 - (IBAction)generateNewWord:(id)sender {
-    currentGame = [[LSSGame alloc] init];
-    wordCountInt = 0;
+    _currentGame = [[LSSGame alloc] init];
     [self viewDidLoad];
 }
 

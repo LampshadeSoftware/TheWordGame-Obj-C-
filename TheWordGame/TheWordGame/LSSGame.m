@@ -34,6 +34,7 @@ static NSMutableArray *savedSinglePlayerFreePlayGames;
     _currentWord = startWord;
     _usedWords = [NSMutableArray arrayWithObjects:@"", @"", @"", _currentWord, nil];
     _logMessage = @"";
+    _wordCount = 0;
     
     NSLog(@"Created new game");
     return self;

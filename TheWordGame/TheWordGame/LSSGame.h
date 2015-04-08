@@ -13,6 +13,7 @@
 @property (strong) NSString *currentWord;
 @property (strong) NSString *logMessage;
 @property (strong) NSMutableArray *usedWords;
+@property int wordCount;
 
 -(id)init:(NSString *)startWord;
 -(id)init;

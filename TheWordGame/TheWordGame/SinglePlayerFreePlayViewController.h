@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LSSGame.h"
 
 @interface SinglePlayerFreePlayViewController : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *inputTextBox;
@@ -16,5 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lastWord1;
 @property (weak, nonatomic) IBOutlet UILabel *lastWord2;
 @property (weak, nonatomic) IBOutlet UILabel *wordCountingLabel;
+
+@property (strong, nonatomic) LSSGame *currentGame;
 
 @end
