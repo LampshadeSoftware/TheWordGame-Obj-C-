@@ -15,5 +15,6 @@
 +(NSString *)getRandomWord;
 +(NSString *)getSmartRandom;
 +(NSMutableArray *)findAllValidWordsFor:(NSString *)word;
++(BOOL)enoughWordsFor:(NSString *)word;
 
 @end

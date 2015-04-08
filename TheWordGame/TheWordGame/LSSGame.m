@@ -36,7 +36,7 @@ static NSMutableArray *savedSinglePlayerFreePlayGames;
     _logMessage = @"";
     _wordCount = 0;
     
-    NSLog(@"Created new game");
+    //NSLog(@"Created new game");
     return self;
 }
 
@@ -47,6 +47,7 @@ static NSMutableArray *savedSinglePlayerFreePlayGames;
     _logMessage = @"";
     
     NSLog(@"Created new game with word: %@", _currentWord);
+    
     return self;
 }
 

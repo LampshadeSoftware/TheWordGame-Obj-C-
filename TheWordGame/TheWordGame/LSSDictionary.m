@@ -44,7 +44,6 @@ static NSArray *dictionary;
 +(NSString *)getSmartRandom {
     
     NSString *potential;
-    NSMutableArray *validWords;
     
     while(YES) {
         potential = [LSSDictionary getRandomWord];
@@ -52,17 +51,12 @@ static NSArray *dictionary;
             continue;
         }
         
-        validWords = [LSSDictionary findAllValidWordsFor:potential];
-        if([validWords count] < 5) {
+        if(![LSSDictionary enoughWordsFor:potential]) {
             continue;
         }
         
         break;
         
-    }
-    
-    for(int i=0; i<[validWords count]; i++) {
-        NSLog(@"%d-%@",i,validWords[i]);
     }
     
     return potential;
@@ -79,6 +73,20 @@ static NSArray *dictionary;
     }
     
     return validWords;
+}
+
++(BOOL)enoughWordsFor:(NSString *)word {
+    LSSGame *tmp = [[LSSGame alloc] init:@""];
+    int count = 0;
+    for(NSString *dictWord in dictionary) {
+        if([tmp isValidPlay:dictWord onWord:word]) {
+            count++;
+            if(count >= 5) {
+                return YES;
+            }
+        }
+    }
+    return NO;
 }
 
 
