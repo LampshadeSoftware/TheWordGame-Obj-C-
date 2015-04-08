@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
@@ -151,7 +151,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Qbd-Gw-kov"/>
             </objects>
-            <point key="canvasLocation" x="1819.5" y="941.25"/>
+            <point key="canvasLocation" x="1819.5" y="1032.75"/>
         </scene>
         <!--Instructions Launch-->
         <scene sceneID="jk3-GU-gVv">
@@ -429,7 +429,7 @@
                                 </variation>
                                 <connections>
                                     <action selector="startSinglePlayer:" destination="Zw0-Mb-1rR" eventType="touchUpInside" id="kCp-kJ-YrQ"/>
-                                    <segue destination="Rp3-nL-0yv" kind="presentation" id="SYG-b5-qnH"/>
+                                    <segue destination="Rp3-nL-0yv" kind="custom" customClass="DissolveSegue" id="SYG-b5-qnH"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mp1.png" translatesAutoresizingMaskIntoConstraints="NO" id="7cN-wY-WHT">
@@ -448,7 +448,7 @@
                                 </variation>
                                 <connections>
                                     <action selector="startMultiPlayer:" destination="Zw0-Mb-1rR" eventType="touchUpInside" id="fNZ-ZD-GuG"/>
-                                    <segue destination="6bU-fq-oAZ" kind="presentation" id="hZp-iM-Ztb"/>
+                                    <segue destination="6bU-fq-oAZ" kind="custom" customClass="DissolveSegue" id="hZp-iM-Ztb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -569,7 +569,7 @@
                                             <connections>
                                                 <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="kaJ-yk-JQt"/>
                                                 <action selector="startLevels:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="bWs-od-7kZ"/>
-                                                <segue destination="39c-kg-961" kind="presentation" id="zh9-3a-UNh"/>
+                                                <segue destination="39c-kg-961" kind="custom" customClass="DissolveSegue" id="zh9-3a-UNh"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpA-g1-yT8">
@@ -585,7 +585,7 @@
                                             <connections>
                                                 <action selector="startFreeplay:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="8mo-tu-taB"/>
                                                 <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="UoX-sE-rxP"/>
-                                                <segue destination="8hP-bA-Nib" kind="presentation" id="oDL-aT-NCk"/>
+                                                <segue destination="8hP-bA-Nib" kind="custom" customClass="DissolveSegue" id="oDL-aT-NCk"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -634,7 +634,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S9p-fK-XX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="up" id="BvQ-tJ-t6L"/>
             </objects>
-            <point key="canvasLocation" x="1168.5" y="495"/>
+            <point key="canvasLocation" x="1168.5" y="535.5"/>
         </scene>
         <!--ChoosePlayers-->
         <scene sceneID="tEp-iz-ASQ">
@@ -679,7 +679,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80L-o5-mmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1819.5" y="495"/>
+            <point key="canvasLocation" x="1819.5" y="535.5"/>
         </scene>
         <!--SinglePlayerGameModes-->
         <scene sceneID="nKd-Q5-MaG">
@@ -731,7 +731,7 @@
                                             </variation>
                                             <connections>
                                                 <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="wj7-gm-4zp"/>
-                                                <segue destination="vXZ-lx-hvc" kind="presentation" id="SP3-9W-b5P"/>
+                                                <segue destination="vXZ-lx-hvc" kind="custom" customClass="DissolveSegue" id="N8l-pP-Ero"/>
                                             </connections>
                                         </button>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="MO4-ic-hWF">
@@ -772,7 +772,7 @@
                                             </variation>
                                             <connections>
                                                 <action selector="startTimeTrial:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="01m-nj-nWw"/>
-                                                <segue destination="0d3-tv-gFr" kind="presentation" id="Uah-dA-L1v"/>
+                                                <segue destination="0d3-tv-gFr" kind="custom" customClass="DissolveSegue" id="Uah-dA-L1v"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -825,7 +825,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lBT-ch-wKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1168.5" y="947.25"/>
+            <point key="canvasLocation" x="1168.5" y="1032.75"/>
         </scene>
         <!--TimeTrial-->
         <scene sceneID="fXl-hx-2fD">
@@ -972,7 +972,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JlN-5S-u2e" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="nOh-0C-QEW"/>
             </objects>
-            <point key="canvasLocation" x="1819.5" y="1415.25"/>
+            <point key="canvasLocation" x="1819.5" y="1506.75"/>
         </scene>
         <!--Challenge-->
         <scene sceneID="uh1-v1-hBg">
@@ -1095,7 +1095,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="08H-up-p6D" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Ppd-jP-KxY"/>
             </objects>
-            <point key="canvasLocation" x="1819.5" y="81.75"/>
+            <point key="canvasLocation" x="1819.5" y="53.25"/>
         </scene>
     </scenes>
     <resources>

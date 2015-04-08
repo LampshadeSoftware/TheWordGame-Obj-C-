@@ -3,7 +3,7 @@
 //  TheWordGame
 //
 //  Created by Cowboy Lynk on 4/6/15.
-//  Copyright (c) 2015 Daniel McCrystal. All rights reserved.
+//  Copyright (c) 2015 LampshadeStudios. All rights reserved.
 //
 
 #import "LandingPageViewController.h"
