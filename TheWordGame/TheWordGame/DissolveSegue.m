@@ -1,5 +1,5 @@
 //
-//  YAYSegue.m
+//  DissolveSegue.m
 //  Segue
 //
 //  Created by Cowboy Lynk on 6/14/14.

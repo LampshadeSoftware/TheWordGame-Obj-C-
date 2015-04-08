@@ -1,9 +1,9 @@
 //
-//  YAYSegue.h
+//  DissolveSegue.h
 //  Segue
 //
-//  Created by PJ Vea on 6/14/14.
-//  Copyright (c) 2014 Vea Software. All rights reserved.
+//  Created by Cowboy Lynk on 6/14/14.
+//  Copyright (c) 2015 Lampshade Software. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
