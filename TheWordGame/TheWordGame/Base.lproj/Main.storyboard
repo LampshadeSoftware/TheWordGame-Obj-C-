@@ -92,6 +92,18 @@
                                     <segue destination="Zw0-Mb-1rR" kind="presentation" id="Hrz-vV-jfG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1m-hd-Jpy">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="New Word">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="125" y="6" width="71" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="generateNewWord:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sel-yp-5oJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.22467873664089799" green="0.2449911437202586" blue="0.28945707070707072" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -105,6 +117,7 @@
                                 <exclude reference="eQ3-sg-gt0"/>
                                 <exclude reference="kUs-qc-EnU"/>
                                 <exclude reference="UB4-Et-HZ5"/>
+                                <exclude reference="t1m-hd-Jpy"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -117,6 +130,7 @@
                                 <include reference="eQ3-sg-gt0"/>
                                 <include reference="kUs-qc-EnU"/>
                                 <include reference="UB4-Et-HZ5"/>
+                                <include reference="t1m-hd-Jpy"/>
                             </mask>
                         </variation>
                         <connections>
@@ -881,7 +895,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyQ-hC-wPu">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="255" y="20" width="49" height="25"/>
@@ -890,7 +904,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E7v-75-AZg">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="255" y="49" width="49" height="27"/>

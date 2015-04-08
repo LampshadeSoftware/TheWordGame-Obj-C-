@@ -18,4 +18,3 @@
 @property (weak, nonatomic) IBOutlet UILabel *wordCountingLabel;
 
 @end
-int wordCountInt;

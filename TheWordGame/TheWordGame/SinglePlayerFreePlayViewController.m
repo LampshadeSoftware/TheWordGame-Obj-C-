@@ -17,6 +17,7 @@
 @implementation SinglePlayerFreePlayViewController
 
 LSSGame *currentGame;
+int wordCountInt;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -36,6 +37,7 @@ LSSGame *currentGame;
     _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
     _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 4];
     _invalidWordLog.text = currentGame.logMessage;
+    _wordCountingLabel.text = [NSString stringWithFormat:@"%d", wordCountInt];
     
     _inputTextBox.returnKeyType = UIReturnKeyDone;
     [_inputTextBox becomeFirstResponder];
@@ -49,6 +51,7 @@ LSSGame *currentGame;
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
     if([currentGame isValidPlay:_inputTextBox.text onWord:currentGame.currentWord]) {
+        currentGame.logMessage = @"";
         _invalidWordLog.text = @"";
         _currentWord.text = _inputTextBox.text;
         currentGame.currentWord = _inputTextBox.text;
@@ -56,7 +59,7 @@ LSSGame *currentGame;
         _lastWord1.text = currentGame.usedWords[[currentGame.usedWords count] - 2];
         _lastWord2.text = currentGame.usedWords[[currentGame.usedWords count] - 3];
         [currentGame.usedWords addObject:_inputTextBox.text];
-        wordCountInt = wordCountInt +1;
+        wordCountInt++;
         NSString *wordCounter = [NSString stringWithFormat:@"%d", wordCountInt];
         _wordCountingLabel.text = wordCounter;
     }
@@ -66,6 +69,11 @@ LSSGame *currentGame;
     _inputTextBox.text = @"";
     
     return YES;
+}
+- (IBAction)generateNewWord:(id)sender {
+    currentGame = [[LSSGame alloc] init];
+    wordCountInt = 0;
+    [self viewDidLoad];
 }
 
 #pragma mark - Navigation
