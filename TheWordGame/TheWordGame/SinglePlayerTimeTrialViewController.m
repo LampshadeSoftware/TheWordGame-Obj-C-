@@ -21,17 +21,19 @@
     _timerLabel.text = timerOutput;
     if (_secondsCount == 0) {
         [_countdownTimer invalidate];
-        _countdownTimer = nil;
         if (_wordCountInt <= 3){
-            NSString *endWordCount = [NSString stringWithFormat:@"You suck and got %d words!", _wordCountInt];
+            NSString*endWordCount=[NSString stringWithFormat:@"You suck and got %d words.", _wordCountInt];
+            _currentWord.adjustsFontSizeToFitWidth = YES;
             _currentWord.text = endWordCount;
         }
         if (_wordCountInt > 3 && _wordCountInt <= 10) {
             NSString * aboveThree = [NSString stringWithFormat:@"You got %d words", _wordCountInt];
+            _currentWord.adjustsFontSizeToFitWidth = YES;
             _currentWord.text = aboveThree;
         }
         if (_wordCountInt > 10) {
             NSString * aboveTen = [NSString stringWithFormat:@"Congrats you got %d words!", _wordCountInt];
+            _currentWord.adjustsFontSizeToFitWidth = YES;
             _currentWord.text = aboveTen;
         }
     }

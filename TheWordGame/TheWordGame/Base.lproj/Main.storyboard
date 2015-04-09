@@ -743,6 +743,15 @@
                                     <rect key="frame" x="83" y="182" width="155" height="30"/>
                                 </variation>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNB-Zg-xCa">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="90" y="186" width="143" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -757,6 +766,7 @@
                                 <exclude reference="TmN-e0-Sku"/>
                                 <exclude reference="cQ4-4i-un1"/>
                                 <exclude reference="IcV-GY-TPd"/>
+                                <exclude reference="JNB-Zg-xCa"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -771,6 +781,7 @@
                                 <include reference="TmN-e0-Sku"/>
                                 <include reference="cQ4-4i-un1"/>
                                 <include reference="IcV-GY-TPd"/>
+                                <include reference="JNB-Zg-xCa"/>
                             </mask>
                         </variation>
                     </view>
