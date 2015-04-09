@@ -92,13 +92,14 @@
                                     <segue destination="Zw0-Mb-1rR" kind="presentation" id="Hrz-vV-jfG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1m-hd-Jpy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1m-hd-Jpy">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="New Word">
+                                <inset key="contentEdgeInsets" minX="15" minY="16" maxX="15" maxY="15"/>
+                                <state key="normal" title="New Word" image="NewGameWhite.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="125" y="6" width="71" height="30"/>
+                                    <rect key="frame" x="255" y="50" width="50" height="50"/>
                                 </variation>
                                 <connections>
                                     <action selector="generateNewWord:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="sel-yp-5oJ"/>
@@ -1215,6 +1216,7 @@
         <image name="House Black.png" width="200" height="200"/>
         <image name="House White.png" width="200" height="200"/>
         <image name="Instructions Icon.png" width="120" height="120"/>
+        <image name="NewGameWhite.png" width="444" height="444"/>
         <image name="Settings.png" width="130" height="130"/>
         <image name="Volume.png" width="130" height="130"/>
         <image name="VolumeOff.png" width="130" height="130"/>
@@ -1223,7 +1225,7 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Kfx-wT-xcT"/>
+        <segue reference="Hrz-vV-jfG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
