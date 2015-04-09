@@ -16,15 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a5w-UY-lR1">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <color key="backgroundColor" red="0.3567991449931775" green="0.39539327610282909" blue="0.4260574494949495" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="200" width="240" height="30"/>
-                                </variation>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQo-Gn-SK6">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
@@ -106,12 +97,21 @@
                                     <rect key="frame" x="265" y="20" width="47" height="40"/>
                                 </variation>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a5w-UY-lR1">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.8169304193782968" green="0.90655326807662395" blue="0.94290561868686873" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="200" width="240" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.22467873664089799" green="0.2449911437202586" blue="0.28945707070707072" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="a5w-UY-lR1"/>
                                 <exclude reference="mQo-Gn-SK6"/>
                                 <exclude reference="Uzg-Ad-Jsy"/>
                                 <exclude reference="l5h-VK-H7W"/>
@@ -120,11 +120,11 @@
                                 <exclude reference="UB4-Et-HZ5"/>
                                 <exclude reference="t1m-hd-Jpy"/>
                                 <exclude reference="kUs-qc-EnU"/>
+                                <exclude reference="a5w-UY-lR1"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="a5w-UY-lR1"/>
                                 <include reference="mQo-Gn-SK6"/>
                                 <include reference="Uzg-Ad-Jsy"/>
                                 <include reference="l5h-VK-H7W"/>
@@ -133,6 +133,7 @@
                                 <include reference="UB4-Et-HZ5"/>
                                 <include reference="t1m-hd-Jpy"/>
                                 <include reference="kUs-qc-EnU"/>
+                                <include reference="a5w-UY-lR1"/>
                             </mask>
                         </variation>
                         <connections>
@@ -951,16 +952,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4WW-Wm-bGw">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <color key="backgroundColor" red="0.3567991449931775" green="0.39539327610282909" blue="0.4260574494949495" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" red="0.16862745098039217" green="0.18431372549019609" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="200" width="240" height="30"/>
-                                </variation>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Z4-6E-i11">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
@@ -1038,12 +1029,21 @@
                                     <segue destination="Zw0-Mb-1rR" kind="presentation" id="9Lg-00-rwt"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4WW-Wm-bGw">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.8169304194" green="0.90655326810000003" blue="0.9429056187" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="200" width="240" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.22467873660000001" green="0.2449911437" blue="0.28945707069999999" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="4WW-Wm-bGw"/>
                                 <exclude reference="0Z4-6E-i11"/>
                                 <exclude reference="Vq2-DV-eL9"/>
                                 <exclude reference="YHj-fB-ivw"/>
@@ -1052,11 +1052,11 @@
                                 <exclude reference="tyQ-hC-wPu"/>
                                 <exclude reference="E7v-75-AZg"/>
                                 <exclude reference="ERD-Q0-cfy"/>
+                                <exclude reference="4WW-Wm-bGw"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="4WW-Wm-bGw"/>
                                 <include reference="0Z4-6E-i11"/>
                                 <include reference="Vq2-DV-eL9"/>
                                 <include reference="YHj-fB-ivw"/>
@@ -1065,6 +1065,7 @@
                                 <include reference="tyQ-hC-wPu"/>
                                 <include reference="E7v-75-AZg"/>
                                 <include reference="ERD-Q0-cfy"/>
+                                <include reference="4WW-Wm-bGw"/>
                             </mask>
                         </variation>
                         <connections>
@@ -1121,7 +1122,7 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NTG-2d-dIM">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <color key="backgroundColor" red="0.3567991449931775" green="0.39539327610282909" blue="0.4260574494949495" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.8169304194" green="0.90655326810000003" blue="0.9429056187" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -1244,15 +1245,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VKJ-el-HYm">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <color key="backgroundColor" red="0.3567991449931775" green="0.39539327610282909" blue="0.4260574494949495" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="40" y="200" width="240" height="30"/>
-                                </variation>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3z6-oX-e7r">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="18"/>
@@ -1331,12 +1323,20 @@
                                     <rect key="frame" x="265" y="20" width="47" height="40"/>
                                 </variation>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VKJ-el-HYm">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.8169304194" green="0.90655326810000003" blue="0.9429056187" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="go"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="200" width="240" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.22467873660000001" green="0.2449911437" blue="0.28945707069999999" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="VKJ-el-HYm"/>
                                 <exclude reference="3z6-oX-e7r"/>
                                 <exclude reference="43j-FJ-mrm"/>
                                 <exclude reference="adX-co-l4K"/>
@@ -1345,11 +1345,11 @@
                                 <exclude reference="6nA-nK-OZr"/>
                                 <exclude reference="c6b-ZA-RH3"/>
                                 <exclude reference="2a1-Xj-UBE"/>
+                                <exclude reference="VKJ-el-HYm"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="VKJ-el-HYm"/>
                                 <include reference="3z6-oX-e7r"/>
                                 <include reference="43j-FJ-mrm"/>
                                 <include reference="adX-co-l4K"/>
@@ -1358,6 +1358,7 @@
                                 <include reference="6nA-nK-OZr"/>
                                 <include reference="c6b-ZA-RH3"/>
                                 <include reference="2a1-Xj-UBE"/>
+                                <include reference="VKJ-el-HYm"/>
                             </mask>
                         </variation>
                         <connections>
@@ -1397,7 +1398,7 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ejA-Og-l7x"/>
+        <segue reference="Hrz-vV-jfG"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
