@@ -96,8 +96,8 @@
 		BA34987B1AD06A51001BDBB8 /* Single player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Single player.png"; path = "Images/Single player.png"; sourceTree = SOURCE_ROOT; };
 		BA34987C1AD06A51001BDBB8 /* Stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stats.png; path = Images/Stats.png; sourceTree = SOURCE_ROOT; };
 		BA34987D1AD06A51001BDBB8 /* Trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trophy.png; path = Images/Trophy.png; sourceTree = SOURCE_ROOT; };
-		BA56B8AC1AD0FBCF0023F1C5 /* UITestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITestViewController.h; sourceTree = "<group>"; };
-		BA56B8AD1AD0FBCF0023F1C5 /* UITestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITestViewController.m; sourceTree = "<group>"; };
+		BA56B8AC1AD0FBCF0023F1C5 /* UITestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITestViewController.h; path = ../TheWordGame/UITestViewController.h; sourceTree = "<group>"; };
+		BA56B8AD1AD0FBCF0023F1C5 /* UITestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITestViewController.m; path = ../TheWordGame/UITestViewController.m; sourceTree = "<group>"; };
 		BA56B8BB1AD1858F0023F1C5 /* MultiPlayerNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MultiPlayerNew.png; path = "Images/New UI/MultiPlayerNew.png"; sourceTree = SOURCE_ROOT; };
 		BA56B8BC1AD1858F0023F1C5 /* SinglePlayerNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SinglePlayerNew.png; path = "Images/New UI/SinglePlayerNew.png"; sourceTree = SOURCE_ROOT; };
 		BAA58C7B1AD2DBC000C8A2AA /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
@@ -230,6 +230,29 @@
 			name = "Custom Segue";
 			sourceTree = "<group>";
 		};
+		BA5C4E341AD61071007FBF73 /* Multiplayer */ = {
+			isa = PBXGroup;
+			children = (
+				184D37661AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.h */,
+				184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */,
+			);
+			name = Multiplayer;
+			sourceTree = "<group>";
+		};
+		BA5C4E351AD610BF007FBF73 /* LSSMain */ = {
+			isa = PBXGroup;
+			children = (
+				CCA90BD71ACC3AF0006E93B3 /* AppDelegate.h */,
+				CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */,
+				CC77B23B1AD0779F00BABE6B /* Dictionary.txt */,
+				CCFEA6F71AD1C87F00149316 /* LSSGame.h */,
+				CCFEA6F81AD1C87F00149316 /* LSSGame.m */,
+				CCFEA6FA1AD1D24500149316 /* LSSDictionary.h */,
+				CCFEA6FB1AD1D24500149316 /* LSSDictionary.m */,
+			);
+			name = LSSMain;
+			sourceTree = "<group>";
+		};
 		BAA58C7A1AD2DBC000C8A2AA /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,25 +349,15 @@
 		CCA90BD21ACC3AF0006E93B3 /* TheWordGame */ = {
 			isa = PBXGroup;
 			children = (
+				CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */,
+				CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */,
 				BA5C4E301AD60F80007FBF73 /* Landing Page */,
 				BA5C4E311AD60FB2007FBF73 /* Game Modes */,
 				BA5C4E321AD60FD3007FBF73 /* Single Player */,
+				BA5C4E341AD61071007FBF73 /* Multiplayer */,
 				BA5C4E331AD61000007FBF73 /* Custom Segue */,
-				CC77B23B1AD0779F00BABE6B /* Dictionary.txt */,
-				CCA90BD71ACC3AF0006E93B3 /* AppDelegate.h */,
-				CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */,
-				CCA90BE01ACC3AF0006E93B3 /* Main.storyboard */,
-				CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */,
-				CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */,
 				CCA90BD31ACC3AF0006E93B3 /* Supporting Files */,
-				BA56B8AC1AD0FBCF0023F1C5 /* UITestViewController.h */,
-				BA56B8AD1AD0FBCF0023F1C5 /* UITestViewController.m */,
-				CCFEA6F71AD1C87F00149316 /* LSSGame.h */,
-				CCFEA6F81AD1C87F00149316 /* LSSGame.m */,
-				CCFEA6FA1AD1D24500149316 /* LSSDictionary.h */,
-				CCFEA6FB1AD1D24500149316 /* LSSDictionary.m */,
-				184D37661AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.h */,
-				184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */,
+				BA5C4E351AD610BF007FBF73 /* LSSMain */,
 			);
 			path = TheWordGame;
 			sourceTree = "<group>";
@@ -352,6 +365,7 @@
 		CCA90BD31ACC3AF0006E93B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */,
 				BA17E93D1AD226E900902B92 /* Animations */,
 				CC03E9E71AD069C50068B980 /* Images */,
 				CCA90BD41ACC3AF0006E93B3 /* Info.plist */,
@@ -363,6 +377,8 @@
 		CCA90BEF1ACC3AF0006E93B3 /* TheWordGameTests */ = {
 			isa = PBXGroup;
 			children = (
+				BA56B8AC1AD0FBCF0023F1C5 /* UITestViewController.h */,
+				BA56B8AD1AD0FBCF0023F1C5 /* UITestViewController.m */,
 				CCA90BF21ACC3AF0006E93B3 /* TheWordGameTests.m */,
 				CCA90BF01ACC3AF0006E93B3 /* Supporting Files */,
 			);
