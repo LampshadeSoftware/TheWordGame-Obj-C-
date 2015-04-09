@@ -1085,15 +1085,16 @@
             </objects>
             <point key="canvasLocation" x="1819.5" y="1506.75"/>
         </scene>
-        <!--View Controller-->
+        <!--ScoreBoard-->
         <scene sceneID="Ldd-WU-UrL">
             <objects>
-                <viewController id="4Mo-XR-0bf" sceneMemberID="viewController">
+                <viewController title="ScoreBoard" id="4Mo-XR-0bf" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8AF-OZ-voM"/>
                         <viewControllerLayoutGuide type="bottom" id="pye-Eu-op3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="M8k-FZ-1AX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
