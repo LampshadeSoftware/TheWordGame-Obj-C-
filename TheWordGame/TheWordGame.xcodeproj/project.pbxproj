@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		184D37681AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */; };
+		184D376B1AD7184E008D4A95 /* MultiplayerPassAndPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D376A1AD7184E008D4A95 /* MultiplayerPassAndPlayerViewController.m */; };
 		18DC136C1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC136B1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m */; };
 		BA18BE4D1AD491650067F6B2 /* VolumeOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BA18BE4C1AD491650067F6B2 /* VolumeOff.png */; };
 		BA3498801AD06A51001BDBB8 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3498721AD06A51001BDBB8 /* Home.png */; };
@@ -87,6 +88,8 @@
 /* Begin PBXFileReference section */
 		184D37661AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplayerPassAndPlayPlayerInputViewController.h; sourceTree = "<group>"; };
 		184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplayerPassAndPlayPlayerInputViewController.m; sourceTree = "<group>"; };
+		184D37691AD7184E008D4A95 /* MultiplayerPassAndPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplayerPassAndPlayerViewController.h; sourceTree = "<group>"; };
+		184D376A1AD7184E008D4A95 /* MultiplayerPassAndPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplayerPassAndPlayerViewController.m; sourceTree = "<group>"; };
 		18DC136A1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePlayerTimeTrialViewController.h; sourceTree = "<group>"; };
 		18DC136B1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerTimeTrialViewController.m; sourceTree = "<group>"; };
 		BA18BE4C1AD491650067F6B2 /* VolumeOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VolumeOff.png; path = "Images/New UI/VolumeOff.png"; sourceTree = SOURCE_ROOT; };
@@ -239,6 +242,8 @@
 			children = (
 				184D37661AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.h */,
 				184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */,
+				184D37691AD7184E008D4A95 /* MultiplayerPassAndPlayerViewController.h */,
+				184D376A1AD7184E008D4A95 /* MultiplayerPassAndPlayerViewController.m */,
 			);
 			name = Multiplayer;
 			sourceTree = "<group>";
@@ -556,6 +561,7 @@
 				CCA90BDC1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld in Sources */,
 				CC77B23F1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m in Sources */,
 				BA56B8AE1AD0FBCF0023F1C5 /* UITestViewController.m in Sources */,
+				184D376B1AD7184E008D4A95 /* MultiplayerPassAndPlayerViewController.m in Sources */,
 				BAA58CA21AD2EB8F00C8A2AA /* LandingPageViewController.m in Sources */,
 				CCA90BD61ACC3AF0006E93B3 /* main.m in Sources */,
 			);

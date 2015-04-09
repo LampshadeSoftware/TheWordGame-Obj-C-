@@ -1245,7 +1245,7 @@
         <!--Freeplay-->
         <scene sceneID="MEx-72-HDp">
             <objects>
-                <viewController title="Freeplay" definesPresentationContext="YES" id="o7L-k0-4Fr" customClass="SinglePlayerFreePlayViewController" sceneMemberID="viewController">
+                <viewController title="Freeplay" definesPresentationContext="YES" id="o7L-k0-4Fr" customClass="MultiplayerPassAndPlayerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CYA-DV-NN5"/>
                         <viewControllerLayoutGuide type="bottom" id="Vc4-D2-jMr"/>
