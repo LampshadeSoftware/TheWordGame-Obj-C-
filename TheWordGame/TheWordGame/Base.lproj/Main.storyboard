@@ -1041,7 +1041,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="137" y="290" width="46" height="30"/>
+                                    <rect key="frame" x="208" y="40" width="46" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="4Mo-XR-0bf" kind="presentation" id="ibw-Q2-Bcn"/>
