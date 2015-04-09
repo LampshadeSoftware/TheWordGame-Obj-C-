@@ -192,6 +192,44 @@
 			path = Animations;
 			sourceTree = SOURCE_ROOT;
 		};
+		BA5C4E301AD60F80007FBF73 /* Landing Page */ = {
+			isa = PBXGroup;
+			children = (
+				BAA58CA01AD2EB8F00C8A2AA /* LandingPageViewController.h */,
+				BAA58CA11AD2EB8F00C8A2AA /* LandingPageViewController.m */,
+			);
+			name = "Landing Page";
+			sourceTree = "<group>";
+		};
+		BA5C4E311AD60FB2007FBF73 /* Game Modes */ = {
+			isa = PBXGroup;
+			children = (
+				BAA58C991AD2DC7500C8A2AA /* GameModesViewController.h */,
+				BAA58C9A1AD2DC7600C8A2AA /* GameModesViewController.m */,
+			);
+			name = "Game Modes";
+			sourceTree = "<group>";
+		};
+		BA5C4E321AD60FD3007FBF73 /* Single Player */ = {
+			isa = PBXGroup;
+			children = (
+				CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */,
+				CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */,
+				18DC136A1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.h */,
+				18DC136B1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m */,
+			);
+			name = "Single Player";
+			sourceTree = "<group>";
+		};
+		BA5C4E331AD61000007FBF73 /* Custom Segue */ = {
+			isa = PBXGroup;
+			children = (
+				BAE961C01AD567ED001A911E /* DissolveSegue.m */,
+				BAE961C11AD567ED001A911E /* DissolveSegue.h */,
+			);
+			name = "Custom Segue";
+			sourceTree = "<group>";
+		};
 		BAA58C7A1AD2DBC000C8A2AA /* Button */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +326,10 @@
 		CCA90BD21ACC3AF0006E93B3 /* TheWordGame */ = {
 			isa = PBXGroup;
 			children = (
+				BA5C4E301AD60F80007FBF73 /* Landing Page */,
+				BA5C4E311AD60FB2007FBF73 /* Game Modes */,
+				BA5C4E321AD60FD3007FBF73 /* Single Player */,
+				BA5C4E331AD61000007FBF73 /* Custom Segue */,
 				CC77B23B1AD0779F00BABE6B /* Dictionary.txt */,
 				CCA90BD71ACC3AF0006E93B3 /* AppDelegate.h */,
 				CCA90BD81ACC3AF0006E93B3 /* AppDelegate.m */,
@@ -295,22 +337,12 @@
 				CCA90BE31ACC3AF0006E93B3 /* Images.xcassets */,
 				CCA90BDA1ACC3AF0006E93B3 /* TheWordGame.xcdatamodeld */,
 				CCA90BD31ACC3AF0006E93B3 /* Supporting Files */,
-				CC77B23D1AD077F800BABE6B /* SinglePlayerFreePlayViewController.h */,
-				CC77B23E1AD077F800BABE6B /* SinglePlayerFreePlayViewController.m */,
 				BA56B8AC1AD0FBCF0023F1C5 /* UITestViewController.h */,
 				BA56B8AD1AD0FBCF0023F1C5 /* UITestViewController.m */,
 				CCFEA6F71AD1C87F00149316 /* LSSGame.h */,
 				CCFEA6F81AD1C87F00149316 /* LSSGame.m */,
 				CCFEA6FA1AD1D24500149316 /* LSSDictionary.h */,
 				CCFEA6FB1AD1D24500149316 /* LSSDictionary.m */,
-				BAA58CA01AD2EB8F00C8A2AA /* LandingPageViewController.h */,
-				BAA58CA11AD2EB8F00C8A2AA /* LandingPageViewController.m */,
-				BAA58C991AD2DC7500C8A2AA /* GameModesViewController.h */,
-				BAA58C9A1AD2DC7600C8A2AA /* GameModesViewController.m */,
-				18DC136A1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.h */,
-				18DC136B1AD4133200CB1CEA /* SinglePlayerTimeTrialViewController.m */,
-				BAE961C01AD567ED001A911E /* DissolveSegue.m */,
-				BAE961C11AD567ED001A911E /* DissolveSegue.h */,
 				184D37661AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.h */,
 				184D37671AD5DF07008D4A95 /* MultiplayerPassAndPlayPlayerInputViewController.m */,
 			);
