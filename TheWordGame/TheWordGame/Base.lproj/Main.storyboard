@@ -745,7 +745,7 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNB-Zg-xCa">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -796,6 +796,7 @@
                         <outlet property="player7Label" destination="FQ7-fD-v6J" id="M8v-qD-c6Z"/>
                         <outlet property="player8Label" destination="TmN-e0-Sku" id="O7v-FG-YZK"/>
                         <outlet property="playerNameInput" destination="IcV-GY-TPd" id="nKc-6J-Mop"/>
+                        <outlet property="sameNameLabel" destination="JNB-Zg-xCa" id="NhV-IC-Nr1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80L-o5-mmX" userLabel="First Responder" sceneMemberID="firstResponder"/>

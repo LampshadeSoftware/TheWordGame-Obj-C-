@@ -22,5 +22,6 @@
 
 @property (strong) NSMutableArray *PPplayerNames;
 
+@property (weak, nonatomic) IBOutlet UILabel *sameNameLabel;
 
 @end

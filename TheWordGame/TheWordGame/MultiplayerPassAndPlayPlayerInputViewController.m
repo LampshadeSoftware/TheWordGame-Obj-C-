@@ -37,9 +37,9 @@
     _player7Label.text = _PPplayerNames[[_PPplayerNames count] -7];
     _player8Label.text = _PPplayerNames[[_PPplayerNames count] -8];
     
-    //if (<#condition#>) {
-      //  <#statements#>
-    //}
+    if ((_playerNameInput.text = _PPplayerNames[[_PPplayerNames count] -2])) {
+        _sameNameLabel.text = @"Please enter a new name.";
+    }
     
     
     return YES;
