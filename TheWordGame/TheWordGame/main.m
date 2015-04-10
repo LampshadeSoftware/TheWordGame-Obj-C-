@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "LSSDictionary.h"
+#import "LSSGame.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        [LSSDictionary initialize];
+        [LSSGame initializeSaves];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

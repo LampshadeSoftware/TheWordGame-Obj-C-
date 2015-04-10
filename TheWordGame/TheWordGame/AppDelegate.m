@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LSSDictionary.h"
-#import "LSSGame.h"
+
 
 @interface AppDelegate ()
 
@@ -19,8 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [LSSDictionary initialize];
-    [LSSGame initializeSaves];
     return YES;
 }
 
