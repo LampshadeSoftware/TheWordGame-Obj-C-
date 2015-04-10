@@ -39,7 +39,6 @@
     _inputTextBox.returnKeyType = UIReturnKeyDone;
     [_inputTextBox becomeFirstResponder];
     _inputTextBox.delegate = self;
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -69,8 +68,6 @@
     return YES;
 }
 - (IBAction)generateNewWord:(id)sender {
-    _currentWord.text = @"";
-    
     _currentGame = [[LSSGame alloc] init];
     [self viewDidLoad];
 }

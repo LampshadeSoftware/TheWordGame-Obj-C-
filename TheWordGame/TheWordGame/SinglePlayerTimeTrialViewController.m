@@ -67,7 +67,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+- (BOOL) textFieldShouldReturn:(UITextField *)textField {
     if([_currentGame isValidPlay:_inputTextBox.text onWord:_currentGame.currentWord]) {
         _invalidWordLog.text = @"";
         _currentWord.text = _inputTextBox.text;
