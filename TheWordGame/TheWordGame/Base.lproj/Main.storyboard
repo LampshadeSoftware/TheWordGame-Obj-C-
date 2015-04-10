@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Zw0-Mb-1rR">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -156,7 +157,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Qbd-Gw-kov"/>
             </objects>
-            <point key="canvasLocation" x="1819.5" y="1032.75"/>
+            <point key="canvasLocation" x="2383.5" y="1020.75"/>
         </scene>
         <!--Instructions Launch-->
         <scene sceneID="jk3-GU-gVv">
@@ -288,7 +289,7 @@
                         <viewControllerLayoutGuide type="bottom" id="JkS-Yf-GT7"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gf7-uz-dtU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="419" placeholderIntrinsicHeight="65" image="BottomBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="XMW-nq-AyD">
@@ -339,9 +340,6 @@
                                     <color key="titleColor" red="1" green="0.99023718000000005" blue="0.98608641090000004" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="167" y="686" width="80" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="rze-Ew-6qL" kind="presentation" id="kCg-jr-WXH"/>
                                 </connections>
@@ -549,17 +547,17 @@
                                 <exclude reference="3Un-AH-Q2z"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="JEp-aw-mQS"/>
+                                <exclude reference="wa5-nF-CjV"/>
+                                <exclude reference="UMM-vx-5QK"/>
+                                <exclude reference="ABi-eC-0aj"/>
+                                <exclude reference="19N-dk-n2O"/>
+                                <exclude reference="ed2-nF-p5Y"/>
                                 <exclude reference="41s-iS-HAh"/>
                                 <exclude reference="YCE-Lb-isP"/>
                                 <exclude reference="iMH-2I-DN1"/>
                                 <exclude reference="tED-lk-orE"/>
-                                <exclude reference="ed2-nF-p5Y"/>
-                                <exclude reference="ABi-eC-0aj"/>
                                 <exclude reference="apy-9k-HhH"/>
-                                <exclude reference="19N-dk-n2O"/>
-                                <exclude reference="UMM-vx-5QK"/>
-                                <exclude reference="JEp-aw-mQS"/>
-                                <exclude reference="wa5-nF-CjV"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -576,17 +574,17 @@
                                 <include reference="3Un-AH-Q2z"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="JEp-aw-mQS"/>
+                                <include reference="wa5-nF-CjV"/>
+                                <include reference="UMM-vx-5QK"/>
+                                <include reference="ABi-eC-0aj"/>
+                                <include reference="19N-dk-n2O"/>
+                                <include reference="ed2-nF-p5Y"/>
                                 <exclude reference="41s-iS-HAh"/>
                                 <include reference="YCE-Lb-isP"/>
                                 <exclude reference="iMH-2I-DN1"/>
                                 <include reference="tED-lk-orE"/>
-                                <include reference="ed2-nF-p5Y"/>
-                                <include reference="ABi-eC-0aj"/>
                                 <include reference="apy-9k-HhH"/>
-                                <include reference="19N-dk-n2O"/>
-                                <include reference="UMM-vx-5QK"/>
-                                <include reference="JEp-aw-mQS"/>
-                                <include reference="wa5-nF-CjV"/>
                             </mask>
                         </variation>
                     </view>
@@ -628,94 +626,121 @@
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="17" y="21" width="50" height="50"/>
+                                                <rect key="frame" x="8" y="8" width="50" height="50"/>
                                             </variation>
                                             <connections>
                                                 <segue destination="Zw0-Mb-1rR" kind="presentation" modalTransitionStyle="crossDissolve" id="5NM-2t-3M3"/>
-                                            </connections>
-                                        </button>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="RUZ-nA-bch">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="64" y="149" width="193" height="87"/>
-                                            </variation>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="YtQ-p1-Z3Q">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="64" y="244" width="193" height="87"/>
-                                            </variation>
-                                        </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3d-Ru-yPD">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Challenge">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="263" width="150" height="50"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="kaJ-yk-JQt"/>
-                                                <action selector="startLevels:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="bWs-od-7kZ"/>
-                                                <segue destination="39c-kg-961" kind="presentation" id="zh9-3a-UNh"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpA-g1-yT8">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Pass n' Play">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="168" width="150" height="50"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="startFreeplay:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="8mo-tu-taB"/>
-                                                <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="UoX-sE-rxP"/>
-                                                <segue destination="8hP-bA-Nib" kind="presentation" id="oDL-aT-NCk"/>
                                             </connections>
                                         </button>
                                     </subviews>
                                     <variation key="default">
                                         <mask key="subviews">
                                             <exclude reference="8hK-CM-ZFn"/>
-                                            <exclude reference="RUZ-nA-bch"/>
-                                            <exclude reference="YtQ-p1-Z3Q"/>
-                                            <exclude reference="V3d-Ru-yPD"/>
-                                            <exclude reference="jpA-g1-yT8"/>
                                         </mask>
                                     </variation>
                                     <variation key="heightClass=regular-widthClass=compact">
                                         <mask key="subviews">
                                             <include reference="8hK-CM-ZFn"/>
-                                            <include reference="RUZ-nA-bch"/>
-                                            <include reference="YtQ-p1-Z3Q"/>
-                                            <include reference="V3d-Ru-yPD"/>
-                                            <include reference="jpA-g1-yT8"/>
                                         </mask>
                                     </variation>
                                 </view>
                                 <blurEffect style="light"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 </variation>
                             </visualEffectView>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="207" placeholderIntrinsicHeight="222" translatesAutoresizingMaskIntoConstraints="NO" id="bQy-xX-E3I" userLabel="Buttons">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="RUZ-nA-bch">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="7" y="114" width="193" height="87"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="YtQ-p1-Z3Q">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="7" y="21" width="193" height="87"/>
+                                        </variation>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpA-g1-yT8">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Pass n' Play">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="28" y="40" width="150" height="50"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="startFreeplay:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="8mo-tu-taB"/>
+                                            <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="UoX-sE-rxP"/>
+                                            <segue destination="8hP-bA-Nib" kind="presentation" id="oDL-aT-NCk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3d-Ru-yPD">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Challenge">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="28" y="133" width="150" height="50"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="kaJ-yk-JQt"/>
+                                            <action selector="startLevels:" destination="6bU-fq-oAZ" eventType="touchUpInside" id="bWs-od-7kZ"/>
+                                            <segue destination="39c-kg-961" kind="presentation" id="zh9-3a-UNh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="RUZ-nA-bch"/>
+                                        <exclude reference="YtQ-p1-Z3Q"/>
+                                        <exclude reference="jpA-g1-yT8"/>
+                                        <exclude reference="V3d-Ru-yPD"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="RUZ-nA-bch"/>
+                                        <include reference="YtQ-p1-Z3Q"/>
+                                        <include reference="jpA-g1-yT8"/>
+                                        <include reference="V3d-Ru-yPD"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="bQy-xX-E3I" secondAttribute="centerX" id="7b7-c9-7Xe"/>
+                            <constraint firstAttribute="centerY" secondItem="bQy-xX-E3I" secondAttribute="centerY" id="jFA-Cg-anQ"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="7nI-dW-QnF"/>
+                                <exclude reference="bQy-xX-E3I"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="7b7-c9-7Xe"/>
+                                <exclude reference="jFA-Cg-anQ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="7nI-dW-QnF"/>
+                                <include reference="bQy-xX-E3I"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="7b7-c9-7Xe"/>
+                                <include reference="jFA-Cg-anQ"/>
                             </mask>
                         </variation>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="freeplay" destination="RUZ-nA-bch" id="ITZ-JQ-Qd0"/>
                         <outlet property="levels" destination="YtQ-p1-Z3Q" id="TVE-ru-3rC"/>
@@ -724,7 +749,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S9p-fK-XX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="up" id="BvQ-tJ-t6L"/>
             </objects>
-            <point key="canvasLocation" x="1168.5" y="535.5"/>
+            <point key="canvasLocation" x="1168.5" y="438"/>
         </scene>
         <!--ChoosePlayers-->
         <scene sceneID="tEp-iz-ASQ">
@@ -878,7 +903,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80L-o5-mmX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1819.5" y="535.5"/>
+            <point key="canvasLocation" x="2383.5" y="523.5"/>
         </scene>
         <!--SinglePlayerGameModes-->
         <scene sceneID="nKd-Q5-MaG">
@@ -894,128 +919,145 @@
                         <subviews>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QTl-Y7-8hA">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="iVX-K4-nUA">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="iVX-K4-nUA" userLabel="Buttons">
                                     <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUc-W1-mgy">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
-                                            <state key="normal" title="X">
-                                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="17" y="21" width="50" height="50"/>
-                                            </variation>
-                                            <connections>
-                                                <segue destination="Zw0-Mb-1rR" kind="presentation" modalTransitionStyle="crossDissolve" id="lgx-5E-mSQ"/>
-                                            </connections>
-                                        </button>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="hu0-C0-Vfl">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="64" y="101" width="193" height="87"/>
-                                            </variation>
-                                        </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZe-qa-Emq">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Freeplay">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="120" width="150" height="50"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="wj7-gm-4zp"/>
-                                                <segue destination="vXZ-lx-hvc" kind="presentation" identifier="freeplay" id="N8l-pP-Ero"/>
-                                            </connections>
-                                        </button>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="MO4-ic-hWF">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="64" y="196" width="193" height="87"/>
-                                            </variation>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="CWn-os-Tta">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="64" y="291" width="193" height="87"/>
-                                            </variation>
-                                        </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sc1-tn-yNw">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Levels">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="310" width="150" height="50"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="startLevels:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="jCg-WK-7Gh"/>
-                                            </connections>
-                                        </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtT-tH-IUU">
-                                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
-                                            <state key="normal" title="Time Trial">
-                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                            </state>
-                                            <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                                <rect key="frame" x="85" y="215" width="150" height="50"/>
-                                            </variation>
-                                            <connections>
-                                                <action selector="startTimeTrial:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="01m-nj-nWw"/>
-                                                <segue destination="0d3-tv-gFr" kind="presentation" id="Uah-dA-L1v"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                    <variation key="default">
-                                        <mask key="subviews">
-                                            <exclude reference="vUc-W1-mgy"/>
-                                            <exclude reference="hu0-C0-Vfl"/>
-                                            <exclude reference="HZe-qa-Emq"/>
-                                            <exclude reference="MO4-ic-hWF"/>
-                                            <exclude reference="CWn-os-Tta"/>
-                                            <exclude reference="sc1-tn-yNw"/>
-                                            <exclude reference="TtT-tH-IUU"/>
-                                        </mask>
-                                    </variation>
-                                    <variation key="heightClass=regular-widthClass=compact">
-                                        <mask key="subviews">
-                                            <include reference="vUc-W1-mgy"/>
-                                            <include reference="hu0-C0-Vfl"/>
-                                            <include reference="HZe-qa-Emq"/>
-                                            <include reference="MO4-ic-hWF"/>
-                                            <include reference="CWn-os-Tta"/>
-                                            <include reference="sc1-tn-yNw"/>
-                                            <include reference="TtT-tH-IUU"/>
-                                        </mask>
-                                    </variation>
                                 </view>
                                 <blurEffect style="light"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 </variation>
                             </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUc-W1-mgy">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="8" y="8" width="50" height="50"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Zw0-Mb-1rR" kind="presentation" modalTransitionStyle="crossDissolve" id="lgx-5E-mSQ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="242" placeholderIntrinsicHeight="285" translatesAutoresizingMaskIntoConstraints="NO" id="MiC-eF-KWy">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="CWn-os-Tta">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="25" y="190" width="193" height="87"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="MO4-ic-hWF">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="24" y="95" width="193" height="87"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button1.png" translatesAutoresizingMaskIntoConstraints="NO" id="hu0-C0-Vfl">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="24" y="0.0" width="193" height="87"/>
+                                        </variation>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sc1-tn-yNw">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Levels">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="45" y="209" width="150" height="50"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="startLevels:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="jCg-WK-7Gh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtT-tH-IUU">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Time Trial">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="45" y="114" width="150" height="50"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="startTimeTrial:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="01m-nj-nWw"/>
+                                            <segue destination="0d3-tv-gFr" kind="presentation" id="Uah-dA-L1v"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HZe-qa-Emq">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                        <state key="normal" title="Freeplay">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="46" y="19" width="150" height="50"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="startFreeplay:" destination="Rp3-nL-0yv" eventType="touchUpInside" id="wj7-gm-4zp"/>
+                                            <segue destination="vXZ-lx-hvc" kind="presentation" identifier="freeplay" id="N8l-pP-Ero"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="CWn-os-Tta"/>
+                                        <exclude reference="MO4-ic-hWF"/>
+                                        <exclude reference="hu0-C0-Vfl"/>
+                                        <exclude reference="sc1-tn-yNw"/>
+                                        <exclude reference="TtT-tH-IUU"/>
+                                        <exclude reference="HZe-qa-Emq"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="CWn-os-Tta"/>
+                                        <include reference="MO4-ic-hWF"/>
+                                        <include reference="hu0-C0-Vfl"/>
+                                        <include reference="sc1-tn-yNw"/>
+                                        <include reference="TtT-tH-IUU"/>
+                                        <include reference="HZe-qa-Emq"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="MiC-eF-KWy" secondAttribute="centerX" id="OEh-Al-NSu"/>
+                            <constraint firstAttribute="centerY" secondItem="MiC-eF-KWy" secondAttribute="centerY" id="bOZ-LV-FXo"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="QTl-Y7-8hA"/>
+                                <exclude reference="vUc-W1-mgy"/>
+                                <exclude reference="MiC-eF-KWy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="OEh-Al-NSu"/>
+                                <exclude reference="bOZ-LV-FXo"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="QTl-Y7-8hA"/>
+                                <include reference="vUc-W1-mgy"/>
+                                <include reference="MiC-eF-KWy"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="OEh-Al-NSu"/>
+                                <include reference="bOZ-LV-FXo"/>
                             </mask>
                         </variation>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="freeplay" destination="hu0-C0-Vfl" id="lQj-BK-6xs"/>
                         <outlet property="levels" destination="CWn-os-Tta" id="5hs-Hr-Y2t"/>
@@ -1024,7 +1066,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lBT-ch-wKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1168.5" y="1032.75"/>
+            <point key="canvasLocation" x="1168.5" y="1070.25"/>
         </scene>
         <!--TimeTrial-->
         <scene sceneID="fXl-hx-2fD">
@@ -1173,7 +1215,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JlN-5S-u2e" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="nOh-0C-QEW"/>
             </objects>
-            <point key="canvasLocation" x="1819.5" y="1506.75"/>
+            <point key="canvasLocation" x="2383.5" y="1494.75"/>
         </scene>
         <!--SinglePlayerTTScoreBoard-->
         <scene sceneID="Ldd-WU-UrL">
@@ -1192,7 +1234,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dk4-hh-fX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2449.5" y="1506.75"/>
+            <point key="canvasLocation" x="3013.5" y="1494.75"/>
         </scene>
         <!--Challenge-->
         <scene sceneID="uh1-v1-hBg">
@@ -1317,7 +1359,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="08H-up-p6D" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Ppd-jP-KxY"/>
             </objects>
-            <point key="canvasLocation" x="1819.5" y="53.25"/>
+            <point key="canvasLocation" x="2383.5" y="41.25"/>
         </scene>
         <!--Freeplay-->
         <scene sceneID="MEx-72-HDp">
@@ -1466,7 +1508,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bkh-AR-e7i" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="PRy-Il-u0c"/>
             </objects>
-            <point key="canvasLocation" x="2407.5" y="535.5"/>
+            <point key="canvasLocation" x="2971.5" y="523.5"/>
         </scene>
     </scenes>
     <resources>
@@ -1484,7 +1526,7 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ejA-Og-l7x"/>
+        <segue reference="lgx-5E-mSQ"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
