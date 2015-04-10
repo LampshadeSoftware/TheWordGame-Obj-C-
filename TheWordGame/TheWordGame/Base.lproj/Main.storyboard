@@ -300,8 +300,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IBs-vi-dip" userLabel="Blue Line">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" red="0.40898146320000001" green="0.79960762669999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="-3" y="65" width="420" height="2"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                 </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lNx-Ce-bf9" userLabel="NavBar">
@@ -497,8 +497,7 @@
                                         <exclude reference="Akd-8M-kWt"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="74" y="200" width="267" height="165"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="subviews">
                                         <include reference="7cN-wY-WHT"/>
                                         <include reference="gaX-ww-3V7"/>
@@ -528,7 +527,12 @@
                             <constraint firstAttribute="centerX" secondItem="3Un-AH-Q2z" secondAttribute="centerX" id="YCE-Lb-isP"/>
                             <constraint firstAttribute="centerX" secondItem="YhM-28-5Kd" secondAttribute="centerX" id="apy-9k-HhH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="qbM-AJ-6Yw" secondAttribute="trailing" constant="53" id="ed2-nF-p5Y"/>
-                            <constraint firstItem="3Un-AH-Q2z" firstAttribute="top" secondItem="IBs-vi-dip" secondAttribute="bottom" constant="133" id="iMH-2I-DN1"/>
+                            <constraint firstItem="3Un-AH-Q2z" firstAttribute="top" secondItem="IBs-vi-dip" secondAttribute="bottom" constant="133" id="iMH-2I-DN1">
+                                <variation key="heightClass=regular-widthClass=compact" constant="160"/>
+                            </constraint>
+                            <constraint firstItem="3Un-AH-Q2z" firstAttribute="top" secondItem="e1o-cV-C4G" secondAttribute="bottom" constant="100" id="tED-lk-orE">
+                                <variation key="heightClass=regular-widthClass=compact" constant="120"/>
+                            </constraint>
                             <constraint firstItem="JkS-Yf-GT7" firstAttribute="top" secondItem="XMW-nq-AyD" secondAttribute="bottom" id="wa5-nF-CjV"/>
                         </constraints>
                         <variation key="default">
@@ -548,6 +552,7 @@
                                 <exclude reference="41s-iS-HAh"/>
                                 <exclude reference="YCE-Lb-isP"/>
                                 <exclude reference="iMH-2I-DN1"/>
+                                <exclude reference="tED-lk-orE"/>
                                 <exclude reference="ed2-nF-p5Y"/>
                                 <exclude reference="ABi-eC-0aj"/>
                                 <exclude reference="apy-9k-HhH"/>
@@ -573,7 +578,8 @@
                             <mask key="constraints">
                                 <exclude reference="41s-iS-HAh"/>
                                 <include reference="YCE-Lb-isP"/>
-                                <include reference="iMH-2I-DN1"/>
+                                <exclude reference="iMH-2I-DN1"/>
+                                <include reference="tED-lk-orE"/>
                                 <include reference="ed2-nF-p5Y"/>
                                 <include reference="ABi-eC-0aj"/>
                                 <include reference="apy-9k-HhH"/>
@@ -1478,7 +1484,7 @@
         <image name="sp1.png" width="370" height="370"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xPY-D4-61d"/>
+        <segue reference="ejA-Og-l7x"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.24074515754161463" green="0.61257424597614829" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
