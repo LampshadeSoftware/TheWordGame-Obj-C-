@@ -14,13 +14,23 @@
 
 @implementation MultiplayerPassAndPlayPlayerInputViewController
 
+NSArray *playerLabels;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     _playerNameInput.returnKeyType = UIReturnKeyDone;
     [_playerNameInput becomeFirstResponder];
     _playerNameInput.delegate = self;
-    
-    
+    playerLabels = [NSArray arrayWithObjects:_player1Label,
+                    _player2Label,
+                    _player3Label,
+                    _player4Label,
+                    _player5Label,
+                    _player6Label,
+                    _player7Label,
+                    _player8Label
+                    ,nil];
+    _PPplayerNames = [[NSMutableArray alloc] init];
 }
 
 - (BOOL) textFieldShouldReturn:(UITextField *)textField {
@@ -28,14 +38,10 @@
     
     [_PPplayerNames addObject:_playerNameInput.text];
     
-    _player1Label.text = _PPplayerNames[1];
-    _player2Label.text = _PPplayerNames[2];
-    _player3Label.text = _PPplayerNames[3];
-    _player4Label.text = _PPplayerNames[4];
-    _player5Label.text = _PPplayerNames[5];
-    _player6Label.text = _PPplayerNames[6];
-    _player7Label.text = _PPplayerNames[7];
-    _player8Label.text = _PPplayerNames[8];
+    for(int i=0; i<[_PPplayerNames count]; i++) {
+        UILabel *tmp = playerLabels[i];
+        tmp.text = _PPplayerNames[i];
+    }
     
     return YES;
 }
